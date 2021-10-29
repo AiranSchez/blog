@@ -145,15 +145,15 @@ theme = "FeelIt"
     license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
   [params.section]
-    paginate = 10
+    paginate = 100
     # date format (month and day)
-    dateFormat = "01-02"
+    dateFormat = "02-01"
     rss = 10
 
   [params.list]
     paginate = 10
     # date format (month and day)
-    dateFormat = "01-02"
+    dateFormat = "02-01"
     rss = 10
 
   [params.about]
