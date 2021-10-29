@@ -5,6 +5,8 @@ date: 2020-05-05 11:00:00+00:00
 slug: /TDD
 description: Resumen y opiniones acerca del libro de Carlos Blé Jurado, Diseño ágil con TDD
 featuredImage: /assets/books-in-black-wooden-book-shelf-159711.jpg
+tags: ['Comunidad', 'Aprendizaje', 'LeanMind', 'TDD', 'Libros', 'Blog']
+
 ---
 Antes de empezar con el artículo, he de aclarar que durante mis estudios en el ciclo superior hemos tocado muy brevemente la implantación de **test en C#** con **Visual Studio**. Dichos test fueron realizados sobre un código ya existente, por eso mismo tenía la percepción de que los test se realizaban de una forma, pero este libro me ha enseñado que hay muchas más formas que desconocía por completo.
 

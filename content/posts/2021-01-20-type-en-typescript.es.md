@@ -5,6 +5,8 @@ slug: /TS /TypeScript
 date: 2020-07-15 13:40:00+00:00
 description: Explicación del type en TypeScript
 featuredImage: /assets/ts-1.png
+tags: ['React', 'TypeScript', 'Aprendizaje', 'Guía', 'Blog']
+
 ---
 Estoy con un proyecto personal que mezcla **React + TypeScript** y se me plantearon algunas dudas acerca de los tipos de datos type ¿Cómo funcionan y cuándo son necesarios? ¿Cuándo debo usarlos y cuándo no?
 

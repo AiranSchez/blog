@@ -5,6 +5,8 @@ slug: /Mob&Pair
 date: 2021-03-18 14:21:00+00:00
 description: Opinión de pair y mob programming como metodologías de trabajo
 featuredImage: /assets/751331-637471889771844499-16x9.jpg
+tags: ['Comunidad', 'Aprendizaje', 'Mob/Pair', 'Testing', 'Blog']
+
 ---
 En mi corto recorrido por el mundo laboral he podido experimentar de primera mano trabajar en Pair programming y en ocasiones en Mob. Lo primero que se te pasa por la mente es **pensar que el trabajo saldría más rápido** si cada programador hiciese su tarea individualmente. Sin embargo dependes del trabajo de los demás para saber cómo funciona el software que están desarrollando entre todos.
 

@@ -5,6 +5,8 @@ slug: /React /TS
 date: 2020-05-14 13:32:00+00:00
 description: "Descripción de ejercicio conjunto sobre TS con React "
 featuredImage: /assets/1_nnoyq9qfitsvnlh7rcrpfq.png
+tags: ['Comunidad', 'Aprendizaje', 'Kata', 'Coding-dojo', 'Blog']
+
 ---
 Se nos planteó hacer una Kata diferente a los que ya hemos hecho. Esta Kata consistía en hacer en grupo una aplicación con **React + TypeScript** paso a paso para que todos entendamos las virtudes de usar un framework como React y todas las posibilidades que nos ofrece. Lo primero que hicimos fue crear el proyecto de manera simple:
 

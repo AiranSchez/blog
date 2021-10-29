@@ -5,6 +5,8 @@ slug: /Kata
 date: 2020-05-12 13:11:00+00:00
 description: "Descripcción de la Kata realizada "
 featuredImage: /assets/architecture-3362794_1920.jpg
+tags: ['Comunidad', 'Aprendizaje', 'Kata', 'Coding-dojo', 'TDD', 'Java', 'Blog']
+
 ---
 El pasado día 11 de Mayo los compañeros de Lean Mind nos ofrecieron reunimos mediante videollamada para realizar un ejercicio conjunto denominado ***Kata*** el cual consiste en abordar un problema paso a paso implementando la metodología **TDD**, de la cual ya hablé en mi anterior post. Estas reuniones con frecuencia las suelen llamar ***Coding dojo***, término más que adecuado ya que es un entrenamiento para aprender metodologías desconocidas, practicar las que tenemos flojas e incluso aprender a salir de nuestra zona de confort y comunicarnos con gente que no conocemos.
 

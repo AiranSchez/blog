@@ -5,6 +5,8 @@ slug: /test
 date: 2020-06-16 13:24:00+00:00
 description: Ejemplos de casos de uso de React Testing Library
 featuredImage: /assets/cover-3.png
+tags: ['Comunidad', 'Aprendizaje', 'Guía', 'Blog', 'Testing', 'Library', 'React']
+
 ---
 Esta librería de test está pensada sobretodo para comprobar el comportamiento de ciertos elementos en tu web. No es un framework de testing, es una herramienta para suplementar un framework de testing (Ellos mismos recomiendan usar Jest pero funciona con cualquier framework).
 

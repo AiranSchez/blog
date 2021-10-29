@@ -5,6 +5,7 @@ slug: /comunidad /LeanMind
 date: 2020-07-06 13:38:00+00:00
 description: Bienvenida a la comunidad de LeanMind
 featuredImage: /assets/como-montar-una-academia.jpg
+tags: ['Comunidad', 'Aprendizaje', 'LeanMind', 'Kata', 'Coding-dojo', 'Guía', 'Blog']
 ---
 Todos hemos querido en algún momento de nuestra carrera estar en contacto con gente que sepa mucho para poder tenerlos como guías en el camino ¿Verdad? Bueno, me alegra comunicarte que lo has encontrado.
 

@@ -5,6 +5,8 @@ date: 2020-07-01 13:37:00+00:00
 slug: /CSRF /XSS /CORS
 description: Descripción de cada uno de los términos CSRF, XSS y CORS
 featuredImage: /assets/website-security.jpg
+tags: ['CSRF', 'CORS', 'XSS', 'Aprendizaje', 'Seguridad', 'Blog']
+
 ---
 Si no te suenan estos términos estás de suerte porque no eres el único. Hace unas semanas tuve la suerte de preguntarme “¿Qué es eso?” debido a que lo estamos teniendo en cuenta en un proyecto en el que estamos trabajando. Gracias a que me lo pregunté surgieron muchas dudas que no tardé en anotar para realizar una guía de conceptos sobre estos términos de seguridad.
 

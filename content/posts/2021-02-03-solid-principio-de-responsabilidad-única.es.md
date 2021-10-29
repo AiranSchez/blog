@@ -6,6 +6,8 @@ date: 2021-02-03 15:27:00+00:00
 description: Descripción sobre el primero de los principios SOLID denominado
   Principio de responsabilidad única (Single responsibility)
 featuredImage: /assets/solid-principles.png
+tags: ['Aprendizaje', 'SOLID', 'TypeScript', 'Guía', 'Blog']
+
 ---
 Me he propuesto en este año empezar a aprender fundamentos importantes de la programación y, como no podía ser de otra forma, he decidido empezar con los famosos principios SOLID. ¿Qué significan estas siglas?\
 \

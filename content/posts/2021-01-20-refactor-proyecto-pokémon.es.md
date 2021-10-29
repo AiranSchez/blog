@@ -5,6 +5,8 @@ slug: /refactor /petproject
 date: 2020-08-05 13:45:00+00:00
 description: Refactorización de un proyecto basado en hacer una pokedex
 featuredImage: /assets/1_wil81xxe3a5aubujdlmapw.png
+tags: ['Refactor', 'React', 'TypeScript', 'Proyecto', 'Aprendizaje', 'Blog']
+
 ---
 Previamente en el blog he hablado acerca del proyecto personal en el que estoy trabajando. Por si no lo has leído te recomiendo pasarte por [aquí](https://airanschez.wordpress.com/2020/07/15/type-en-typescript/) y echarle un vistazo primero.
 

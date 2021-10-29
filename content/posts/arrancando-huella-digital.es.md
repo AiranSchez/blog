@@ -6,6 +6,8 @@ slug: /OpenSource /HuellaDigital
 description: Instrucciones para empezar con el proyecto Huella Digital
 featuredImage: /assets/teamwork-2499638_1920.jpg
 draft: false
+tags: ['Comunidad', 'Aprendizaje', 'LeanMind', 'Guía', 'Blog', 'Docker', 'IntelliJ', 'OpenSource']
+
 ---
 Durante estas últimas semanas he empezado a formar parte de un proyecto open source llamado Huella Digital que consiste en hacer una plataforma web que facilite el acceso a recursos para voluntarios que se encuentran en la lucha contra el COVID-19.
 

@@ -5,6 +5,8 @@ slug: /mongo /loopback /docker
 date: 2021-03-29 15:35:00+00:00
 description: API hecha con loopback4 y mongodb dockerizado
 featuredImage: /assets/loopback-4-logo-sample.png
+tags: ['Loopback', 'MongoDB', 'Aprendizaje', 'Guía', 'JavaScript', 'TypeScript', 'Docker', 'Backend','Blog']
+
 ---
 
 
