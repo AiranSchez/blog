@@ -64,22 +64,22 @@ theme = "FeelIt"
       url = "/tags/"
       title = ""
       weight = 2
-    [[languages.es.menu.main]]
-      identifier = "categories"
-      pre = ""
-      post = ""
-      name = "Categorías"
-      url = "/categories/"
-      title = ""
-      weight = 3
-    [[languages.es.menu.main]]
-      identifier = "sobre mí"
-      pre = ""
-      post = ""
-      name = "Sobre mí"
-      url = "/about/"
-      title = ""
-      weight = 4
+    # [[languages.es.menu.main]]
+    #   identifier = "categories"
+    #   pre = ""
+    #   post = ""
+    #   name = "Categorías"
+    #   url = "/categories/"
+    #   title = ""
+    #   weight = 3
+    # [[languages.es.menu.main]]
+    #   identifier = "sobre mí"
+    #   pre = ""
+    #   post = ""
+    #   name = "Sobre mí"
+    #   url = "/about/"
+    #   title = ""
+    #   weight = 4
 
 [params]
   version = "1.0.X"
@@ -88,7 +88,7 @@ theme = "FeelIt"
   defaultTheme = "auto"
   gitRepo = "https://github.com/AiranSchez/blog"
   fingerprint = ""
-  dateFormat = "2006-01-02"
+  dateFormat = "02-01-2006"
   # website images for Open Graph and Twitter Cards
   images = ["/logo.png"]
   SourceMap = true
@@ -537,7 +537,7 @@ theme = "FeelIt"
 
   # Cookie consent config
   [params.cookieconsent]
-    enable = true
+    enable = false
     # text strings used for Cookie consent banner
     [params.cookieconsent.content]
       message = ""
