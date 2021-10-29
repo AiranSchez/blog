@@ -99,7 +99,7 @@ theme = "FeelIt"
 
   [params.app]
     title = "AiranSchez"
-    noFavicon = false
+    noFavicon = true
     svgFavicon = ""
     themeColor = "#ffffff"
     iconColor = "#5bbad5"
