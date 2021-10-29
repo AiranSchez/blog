@@ -401,7 +401,7 @@ theme = "FeelIt"
       # Disqus comment config
       [params.page.comment.disqus]
         #
-        enable = true
+        enable = false
         # Disqus shortname to use Disqus in posts
         shortname = "Airan"
       # Vssue comment config (https://github.com/meteorlxy/vssue)
