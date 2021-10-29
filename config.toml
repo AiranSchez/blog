@@ -4,32 +4,82 @@ languageCode = "es"
 title = "Airan Sánchez"
 theme = "FeelIt"
 
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    pre = ""
-    post = ""
-    name = "Blog"
-    url = "/Blog/"
-    # title will be shown when you hover on this menu link
-    title = "Sección de artículos"
+[languages]
+  [languages.en]
     weight = 1
-  [[menu.main]]
-    identifier = "tags"
-    pre = ""
-    post = ""
-    name = "Etiquetas"
-    url = "/Etiquetas/"
-    title = ""
+    title = "Airan Dev"
+    languageCode = "en"
+    languageName = "English"
+    [[languages.en.menu.main]]
+      identifier = "posts"
+      pre = ""
+      post = ""
+      name = "Posts"
+      url = "/posts/"
+      title = ""
+      weight = 1
+    [[languages.en.menu.main]]
+      identifier = "tags"
+      pre = ""
+      post = ""
+      name = "Tags"
+      url = "/tags/"
+      title = ""
+      weight = 2
+    [[languages.en.menu.main]]
+      identifier = "categories"
+      pre = ""
+      post = ""
+      name = "Categories"
+      url = "/categories/"
+      title = ""
+      weight = 3
+    [[languages.en.menu.main]]
+      identifier = "about"
+      pre = ""
+      post = ""
+      name = "About"
+      url = "/about/"
+      title = ""
+      weight = 4
+
+  [languages.es]
     weight = 2
-  [[menu.main]]
-    identifier = "categories"
-    pre = ""
-    post = ""
-    name = "Categories"
-    url = "/categories/"
-    title = ""
-    weight = 3
+    title = "Airan Dev"    # language code, CN only here
+    languageCode = "es"
+    languageName = "Español"
+    [[languages.es.menu.main]]
+      identifier = "posts"
+      pre = ""
+      post = ""
+      name = "Blog"
+      url = "/posts/"
+      title = ""
+      weight = 1
+    [[languages.es.menu.main]]
+      identifier = "tags"
+      pre = ""
+      post = ""
+      name = "Etiquetas"
+      url = "/tags/"
+      title = ""
+      weight = 2
+    [[languages.es.menu.main]]
+      identifier = "categories"
+      pre = ""
+      post = ""
+      name = "Categorías"
+      url = "/categories/"
+      title = ""
+      weight = 3
+    [[languages.es.menu.main]]
+      identifier = "sobre mí"
+      pre = ""
+      post = ""
+      name = "Sobre mí"
+      url = "/about/"
+      title = ""
+      weight = 4
 
 [params]
   version = "1.0.X"
@@ -94,37 +144,24 @@ theme = "FeelIt"
     icp = ""
     license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
-  # Section (all posts) page config
   [params.section]
-    # special amount of posts in each section page
-    paginate = 20
+    paginate = 10
     # date format (month and day)
     dateFormat = "01-02"
-    # amount of RSS pages
     rss = 10
 
-  # List (category or tag) page config
   [params.list]
-    # special amount of posts in each list page
-    paginate = 20
+    paginate = 10
     # date format (month and day)
     dateFormat = "01-02"
-    # amount of RSS pages
     rss = 10
 
-  #
   [params.about]
-    # whether to enable profile on about page
-    # depends on .Site.Params.home.profile.enable
     enable = true
-    # whether to enable param layout
     param = true
     # title for param layout
-    paramTitle = "Personal Information"
-    # general description of your site
-    # can be write with markdown style
-    description = "[FeelIt](https://github.com/khusika/FeelIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [Khusika](https://khusika.com). It is based on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt), [LeaveIt Theme](https://github.com/liuzc/LeaveIt), and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt)."
-    # description of your status
+    paramTitle = "Información personal"
+    description = "*hola*"
     [[params.about.status]]
       faIcon = "fas fa-building"
       title = "Company"
@@ -158,7 +195,7 @@ theme = "FeelIt"
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page
-      avatarURL = "/images/avatar.png"
+      avatarURL = "/themes/Feelit/images/avatar.png"
       # title shown in home page (HTML format is supported)
       title = ""
       # subtitle shown in home page
@@ -598,9 +635,4 @@ theme = "FeelIt"
 
 # Options to make hugo output files
 [outputs]
-  #
   home = ["HTML", "RSS", "JSON"]
-  page = ["HTML", "MarkDown"]
-  section = ["HTML", "RSS"]
-  taxonomy = ["HTML", "RSS"]
-  taxonomyTerm = ["HTML"]
