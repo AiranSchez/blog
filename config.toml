@@ -193,13 +193,13 @@ theme = "FeelIt"
     [params.home.profile]
       enable = true
       # Gravatar Email for preferred avatar in home page
-      gravatarEmail = ""
+      gravatarEmail = "airan@leanmind.es"
       # URL of avatar shown in home page
-      avatarURL = "/themes/Feelit/images/avatar.png"
+      avatarURL = "/static/assets/avatar.png"
       # title shown in home page (HTML format is supported)
-      title = ""
+      title = "Airan Sánchez Brito"
       # subtitle shown in home page
-      subtitle = "This is My New Hugo Site"
+      subtitle = "Software Dev"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
@@ -210,7 +210,7 @@ theme = "FeelIt"
     [params.home.posts]
       enable = true
       # special amount of posts in each home posts page
-      paginate = 6
+      paginate = 10
       # display image-preview
       imagePreview = true
       # replaced with hiddenFromHomePage in params.page
@@ -229,74 +229,74 @@ theme = "FeelIt"
 
   # Social config about the author
   [params.social]
-    GitHub = "xxxx"
-    Linkedin = ""
-    Twitter = "xxxx"
-    Instagram = "xxxx"
-    Facebook = "xxxx"
-    Telegram = "xxxx"
-    Medium = ""
-    Gitlab = ""
-    Youtubelegacy = ""
-    Youtubecustom = ""
-    Youtubechannel = ""
-    Tumblr = ""
-    Quora = ""
-    Keybase = ""
-    Pinterest = ""
-    Reddit = ""
-    Codepen = ""
-    FreeCodeCamp = ""
-    Bitbucket = ""
-    Stackoverflow = ""
-    Weibo = ""
-    Odnoklassniki = ""
-    VK = ""
-    Flickr = ""
-    Xing = ""
-    Snapchat = ""
-    Soundcloud = ""
-    Spotify = ""
-    Bandcamp = ""
-    Paypal = ""
-    Fivehundredpx = ""
-    Mix = ""
-    Goodreads = ""
-    Lastfm = ""
-    Foursquare = ""
-    Hackernews = ""
-    Kickstarter = ""
-    Patreon = ""
-    Steam = ""
-    Twitch = ""
-    Strava = ""
-    Skype = ""
-    Whatsapp = ""
-    Zhihu = ""
-    Douban = ""
-    Angellist = ""
-    Slidershare = ""
-    Jsfiddle = ""
-    Deviantart = ""
-    Behance = ""
-    Dribbble = ""
-    Wordpress = ""
-    Vine = ""
-    Googlescholar = ""
-    Researchgate = ""
-    Mastodon = ""
-    Thingiverse = ""
-    Devto = ""
-    Gitea = ""
-    XMPP = ""
-    Matrix = ""
-    Bilibili = ""
-    Email = "xxxx@xxxx.com"
-    Resume = "" #goo.gl id 
+    GitHub = "AiranSchez"
+    Linkedin = "airán-sánchez-brito-415910145"
+    Twitter = "AiranDev"
+    # Instagram = "xxxx"
+    # Facebook = "xxxx"
+    Telegram = "AiranSanchez"
+    # Medium = ""
+    # Gitlab = ""
+    # Youtubelegacy = ""
+    # Youtubecustom = ""
+    # Youtubechannel = ""
+    # Tumblr = ""
+    # Quora = ""
+    # Keybase = ""
+    # Pinterest = ""
+    # Reddit = ""
+    # Codepen = ""
+    # FreeCodeCamp = ""
+    # Bitbucket = ""
+    # Stackoverflow = ""
+    # Weibo = ""
+    # Odnoklassniki = ""
+    # VK = ""
+    # Flickr = ""
+    # Xing = ""
+    # Snapchat = ""
+    # Soundcloud = ""
+    # Spotify = ""
+    # Bandcamp = ""
+    # Paypal = ""
+    # Fivehundredpx = ""
+    # Mix = ""
+    # Goodreads = ""
+    # Lastfm = ""
+    # Foursquare = ""
+    # Hackernews = ""
+    # Kickstarter = ""
+    # Patreon = ""
+    # Steam = ""
+    # Twitch = ""
+    # Strava = ""
+    # Skype = ""
+    # Whatsapp = ""
+    # Zhihu = ""
+    # Douban = ""
+    # Angellist = ""
+    # Slidershare = ""
+    # Jsfiddle = ""
+    # Deviantart = ""
+    # Behance = ""
+    # Dribbble = ""
+    # Wordpress = ""
+    # Vine = ""
+    # Googlescholar = ""
+    # Researchgate = ""
+    # Mastodon = ""
+    # Thingiverse = ""
+    # Devto = ""
+    # Gitea = ""
+    # XMPP = ""
+    # Matrix = ""
+    # Bilibili = ""
+    Email = "airan@leanmind.es"
+    # Resume = "" #goo.gl id 
 
-    xda = "" 
+    # xda = ""
 
-    RSS = true #
+    # RSS = true #
 
   # Page config
   [params.page]
@@ -327,7 +327,7 @@ theme = "FeelIt"
       # whether to enable the table of the contents
       enable = true
       # whether to keep the static table of the contents in front of the post
-      keepStatic = true
+      keepStatic = false
       # whether to make the table of the contents in the sidebar automatically collapsed
       auto = true
     # KaTeX mathematical formulas
@@ -348,7 +348,7 @@ theme = "FeelIt"
       # whether to show the copy button of the code block
       copy = true
       # the maximum number of lines of displayed code by default
-      maxShownLines = 10
+      maxShownLines = 20
     # Mapbox GL JS config
     [params.page.mapbox]
       # access token of Mapbox GL JS
@@ -369,9 +369,9 @@ theme = "FeelIt"
     [params.page.share]
       enable = true
       Twitter = true
-      Facebook = true
-      Linkedin = false
-      Whatsapp = true
+      Facebook = false
+      Linkedin = true
+      Whatsapp = false
       Pinterest = false
       Tumblr = false
       HackerNews = false
@@ -379,19 +379,19 @@ theme = "FeelIt"
       VK = false
       Buffer = false
       Xing = false
-      Line = true
+      Line = false
       Instapaper = false
       Pocket = false
       Digg = false
       Stumbleupon = false
       Flipboard = false
-      Weibo = true
+      Weibo = false
       Renren = false
-      Myspace = true
-      Blogger = true
+      Myspace = false
+      Blogger = false
       Baidu = false
       Odnoklassniki = false
-      Evernote = true
+      Evernote = false
       Skype = false
       Trello = false
       Mix = false
@@ -401,9 +401,9 @@ theme = "FeelIt"
       # Disqus comment config
       [params.page.comment.disqus]
         #
-        enable = false
+        enable = true
         # Disqus shortname to use Disqus in posts
-        shortname = ""
+        shortname = "Airan"
       # Vssue comment config (https://github.com/meteorlxy/vssue)
       [params.page.comment.vssue]
         #
@@ -591,8 +591,8 @@ theme = "FeelIt"
 
 # Author config
 [author]
-  name = "xxxx"
-  email = ""
+  name = "Airan"
+  email = "airan@leanmind.es"
   link = ""
 
 # Sitemap config
