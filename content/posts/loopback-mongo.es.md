@@ -8,7 +8,7 @@ featuredImage: /assets/loopback-4-logo-sample.png
 tags: ['Loopback', 'MongoDB', 'Aprendizaje', 'Guía', 'JavaScript', 'TypeScript', 'Docker', 'Backend','Blog']
 
 ---
-
+## Introducción 
 
 El otro día me dio por curiosear un poco acerca de [Loopback](https://loopback.io/), un framework para nodejs y TypeScript que te permite crear APIs de una forma rápida sin preocuparte de mucho. Está creado por IBM y tras alguna que otra recomendación me aventuré a probar y este fue el resultado: 
 

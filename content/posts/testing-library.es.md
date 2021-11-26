@@ -8,11 +8,13 @@ featuredImage: /assets/cover-3.png
 tags: ['Comunidad', 'Aprendizaje', 'Guía', 'Blog', 'Testing', 'Library', 'React']
 
 ---
+
+## ¿Qué es Testing library?
 Esta librería de test está pensada sobretodo para comprobar el comportamiento de ciertos elementos en tu web. No es un framework de testing, es una herramienta para suplementar un framework de testing (Ellos mismos recomiendan usar Jest pero funciona con cualquier framework).
 
 Para ello nos proporciona diferentes comandos que podríamos dividir en DOM testing library y React testing library (Nos centraremos en la primera ya que la segunda está construida sobre la primera y simplemente añade unas funcionalidades extra para trabajar de manera más cómoda con React):
 
-**DOM testing library**
+## DOM testing library
 
 Esta sección es común en todos los frameworks ya que hace referencia al código HTML que forma nuestra página. Con ella podemos testear de muchas maneras el comportamiento esperado de ciertas etiquetas o eventos. Según la documentación oficial, es una solución muy ligera que te permite testear nodos del DOM ya que funciona de una manera muy similar a cuando un usuario navega por los diferentes elementos de la web. En esta entrada me voy a centrar sobre todo en las Queries y en el FireEvent.
 
@@ -32,13 +34,15 @@ Vemos como de base tiene estas dependencias instaladas
 
 `npm install --save-dev @testing-library/dom`
 
-**FireEvent**
+## FireEvent
 
 De cierto modo, FireEvent simplemente permite simular el comportamiento de un evento en JS como hacer click en un botón, pulsar una tecla o pasar el ratón por encima de un elemento.
 
 Dado un botón simple en React, podemos hacer un test simple para ver si se le puede hacer click:
 
-* **Click** -> Simula un click en el elemento que le indiquemos
+### Click
+
+Simula un click en el elemento que le indiquemos
 
 ```javascript
 it("captures clicks", (done) => {
@@ -69,7 +73,8 @@ it("check if the button has been called", () => {
 
 Como puedes ver, hay muchas maneras de realizar un test en función de lo que te interese testear. En estos casos probamos botones porque son muy sencillos de entender, pero también podemos hacerlo con enlaces o con elementos simples de tus componentes. Lo importante es renderizar tu componente, buscar por texto, por rol,…etc. y disparar el evento que quieras (simulando el comportamiento de un usuario en la web)
 
-* **Change** -> simula un cambio en el elemento que le digamos, por ejemplo escribir una palabra o pulsar una tecla
+### Change
+simula un cambio en el elemento que le digamos, por ejemplo escribir una palabra o pulsar una tecla
 
 ```javascript
 test("calls change handler for an input", () => {
@@ -96,15 +101,16 @@ Poco a poco fireEvent está siendo sustituido por userEvent, pero de eso hablar�
 
 - - -
 
-**Queries**
+## Queries
 
-*¿Cuál debería usar?*
+### ¿Cuál debería usar?
 
 Existe una lista oficial de prioridad sobre qué debería utilizar para cada elemento de la web. Aquí se diferencia porque hay algunas queries que son mejores para formularios, otras para etiquetas planas,…
 
 1. Queries accesibles a todo el mundo
 
-* **getByRole** -> Está pensado sobre todo para acceder a cualquier elemento dentro del [árbol de accesibilidad](https://developer.mozilla.org/en-US/docs/Glossary/AOM) del DOM. Ésta etiqueta debería ser tu primera opción casi siempre que quieras buscar algo ya que tu web debería cumplir los roles [ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques#Roles).
+### getByRole  
+Está pensado sobre todo para acceder a cualquier elemento dentro del [árbol de accesibilidad](https://developer.mozilla.org/en-US/docs/Glossary/AOM) del DOM. Ésta etiqueta debería ser tu primera opción casi siempre que quieras buscar algo ya que tu web debería cumplir los roles [ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques#Roles).
 
 ```javascript
 it("check if button is disabled", () => {
@@ -114,7 +120,8 @@ it("check if button is disabled", () => {
 });
 ```
 
-* **getByLabelText** -> Especialmente útil para formularios
+### getByLabelText 
+Especialmente útil para formularios
 
 ```javascript
 it("should display the label", () => {
@@ -141,7 +148,8 @@ it('disabled the button submit when have any part of the form is wrong', () => {
 });
 ```
 
-* **getByPlaceholderText** -> No deberías utilizar este antes que getByLabelText, pero si no te queda otro remedio está la opción de buscar por el placeholder.
+### getByPlaceholderText
+No deberías utilizar este antes que getByLabelText, pero si no te queda otro remedio está la opción de buscar por el placeholder.
 
 ```javascript
 it("render the placeholder input", () => {
@@ -154,7 +162,8 @@ it("render the placeholder input", () => {
 });
 ```
 
-* **getByText** -> Súper útil e interesante para usarlos en elementos no interactivos como divs y spans
+### getByText
+Súper útil e interesante para usarlos en elementos no interactivos como divs y spans
 
 ```javascript
 // Asumiendo que nuestro componente contiene algo así: <span>Hello</span>
@@ -167,7 +176,9 @@ it("check if the text is what we expect",() => {
 });
 ```
 
-* **getByDisplayValue** -> Otra etiqueta útil para formularios. Viene bien sobre todo para comprobar si un valor está bien introducido o no.
+### getByDisplayValue 
+
+Otra etiqueta útil para formularios. Viene bien sobre todo para comprobar si un valor está bien introducido o no.
 
 ```javascript
 it("check the value displayed", () => {
@@ -182,9 +193,10 @@ it("check the value displayed", () => {
 });
 ```
 
-2. Queries semánticas
+## Queries semánticas
 
-* **getByAltText** -> Si ninguna de las anteriores te convence, puedes buscar aquellos elementos que contengan los atributos alt, como las imagenes, area o input.
+### getByAltText
+Si ninguna de las anteriores te convence, puedes buscar aquellos elementos que contengan los atributos alt, como las imagenes, area o input.
 
 ```javascript
 it("check if the element has alt tag", () => {
@@ -194,7 +206,8 @@ it("check if the element has alt tag", () => {
 });
 ```
 
-* **getByTitle** -> También se puede buscar por el title de la etiqueta aunque no es visible para los usuarios, por lo que ya vemos como nos vamos acercando a aquello que no deberíamos utilizar a menudo.
+### getByTitle
+También se puede buscar por el title de la etiqueta aunque no es visible para los usuarios, por lo que ya vemos como nos vamos acercando a aquello que no deberíamos utilizar a menudo.
 
 ```javascript
 
@@ -212,9 +225,9 @@ it("check if title exists", () => {
 });
 ```
 
-3. Test IDs
+### getByTestId
 
-* **getByTestId** -> Úsalo como último remedio, no modifiques tus componentes para añadirles IDs innecesariamente para que pasen el test.
+Úsalo como último remedio, no modifiques tus componentes para añadirles IDs innecesariamente para que pasen el test.
 
 ```javascript
 it("check if the element is in the document", () => {
@@ -229,7 +242,7 @@ it("check if the element is in the document", () => {
 
 - - -
 
-**Conclusiones**
+## Conclusiones 
 
 Hay mil maneras que he descubierto de hacer test mientras realizaba la entrada al blog. Los ejemplos que he puesto son simples pero la cosa se puede complicar mucho añadiendo más expects y más lógica interna con fireEvent y demás herramientas que nos proporciona React-Testing-Library.
 

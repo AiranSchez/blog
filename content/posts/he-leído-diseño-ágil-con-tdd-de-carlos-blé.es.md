@@ -8,9 +8,11 @@ featuredImage: /assets/books-in-black-wooden-book-shelf-159711.jpg
 tags: ['Comunidad', 'Aprendizaje', 'LeanMind', 'TDD', 'Libros', 'Blog']
 
 ---
+## Introducción
+
 Antes de empezar con el artículo, he de aclarar que durante mis estudios en el ciclo superior hemos tocado muy brevemente la implantación de **test en C#** con **Visual Studio**. Dichos test fueron realizados sobre un código ya existente, por eso mismo tenía la percepción de que los test se realizaban de una forma, pero este libro me ha enseñado que hay muchas más formas que desconocía por completo.
 
-## **¿QUÉ ES TDD?**
+## ¿QUÉ ES TDD?
 
 Por lo que me cuenta el libro, **TDD** me da a entender que la mayoría de programadores suelen empezar a desarrollar código sin los test y a posteriori los crean (A primera vista una persona que no haya desarrollado muchos supone que se deben hacer cuando está el código completado y buscas establecer una manera automática de comprobar si cualquier cambio al refactorizar que se haga va a estar bien o mal). Sin embargo, parece ser que mi interpretación era errónea ya que según el libro **hay que hacer los test al principio y con el mínimo código posible para hacer que el test funcione**. Una vez lo tengas y empieces a hacer varios test te vas a dar cuenta de muchas cosas y las puedes colocar de manera más organizada para que sean reutilizables, es el momento entonces de refactorizar el código de nuestros test. De esta manera nos damos cuenta que **TDD es un constante ciclo de escribir test-probar-refactorizar** (En el libro se referencia el término como rojo-verde-refactor).
 
@@ -22,7 +24,7 @@ Me gusta que se le haya dado el enfoque de que refactorizar es algo bueno pero e
 >
 > Página 37
 
-## **¿Cuándo usar TDD?**
+## ¿Cuándo usar TDD?
 
 TDD aplicado en un desarrollo ya avanzado es una tarea contraproducente. Por lo que entiendo del libro, TDD más que una herramienta es una metodología basada en **test-first** (TDD y test-first no son lo mismo, TDD va más allá de escribir el test al buscar ese refactor a posteriori)
 
@@ -32,7 +34,7 @@ TDD nos invita a dividir el problema en subproblemas y ordenarlos según su comp
 
 Incontables veces me habré encontrado con esta situación y son pocas las veces que se valora esa predisposición a borrar horas de trabajo de tu vida y empezar casi de 0. **TDD también es actitud**.
 
-## **Un par de conclusiones** **y… ¿Qué he aprendido?**
+## Un par de conclusiones y… ¿Qué he aprendido?
 
 Otra de las cosas que el libro me ha enseñado es que no por leer un libro o hacer un proyecto con TDD voy a ser un experto. Esto lleva mucho tiempo, esfuerzo y voluntad para aprender los hábitos.
 

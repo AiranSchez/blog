@@ -9,6 +9,7 @@ featuredImage: /assets/solid-principles.png
 tags: ['Aprendizaje', 'SOLID', 'TypeScript', 'Guía', 'Blog']
 
 ---
+## Introducción 
 Me he propuesto en este año empezar a aprender fundamentos importantes de la programación y, como no podía ser de otra forma, he decidido empezar con los famosos principios SOLID. ¿Qué significan estas siglas?\
 \
 
@@ -20,7 +21,11 @@ Me he propuesto en este año empezar a aprender fundamentos importantes de la pr
 
 Poco a poco iré explicando con ejemplos cada uno de los principios, pero por ahora vamos a comenzar con uno muy sencillo que es el **principio de responsabilidad única** (Single responsibility).
 
+## Principio de responsabilidad única
+
 Éste principio nos indica que **una clase debe hacer una única cosa**. Generalmente solemos ver clases que tienen 10 o más métodos, las cuales no cumplen este principio ya que están muy ligadas a futuros problemas si se quiere cambiar algo o simplemente que esa clase está haciendo más cosas de las que debería. 
+
+### Ejemplo
 
 Pongamos el ejemplo de un ordenador: 
 

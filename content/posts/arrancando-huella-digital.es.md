@@ -9,11 +9,13 @@ draft: false
 tags: ['Comunidad', 'Aprendizaje', 'LeanMind', 'Guía', 'Blog', 'Docker', 'IntelliJ', 'OpenSource']
 
 ---
+## Introducción 
+
 Durante estas últimas semanas he empezado a formar parte de un proyecto open source llamado Huella Digital que consiste en hacer una plataforma web que facilite el acceso a recursos para voluntarios que se encuentran en la lucha contra el COVID-19.
 
 De lo que me gustaría hablar en este primer post es de cómo afronté el inicio de este proyecto, ya que inicialmente andaba un poco perdido y sin saber qué hacer. Pero gracias a mis compañeros de trabajo ([David](https://ddiaalv.wordpress.com/) y Agustín) logramos entre todos realizar una guía para desplegar en local el proyecto y empezar a trabajar.
 
-**¿Qué necesito para empezar?**
+## ¿Qué necesito para empezar?
 
 Como todo proyecto grande, es necesario contar con algunas tecnologías en tu ordenador para que todo se ejecute debidamente. Para ello necesitaremos lo siguiente:
 
@@ -31,7 +33,7 @@ Ahora debes decidir si quieres desplegar el proyecto usando Visual Studio Code o
 
 - - -
 
-**VISUAL STUDIO CODE**
+## VISUAL STUDIO CODE
 
 Aquí tenemos que ampliar un poco más la parte de requisitos y añadir unas cuantas extensiones que nos vendrán de lujo:
 
@@ -42,12 +44,13 @@ Aquí tenemos que ampliar un poco más la parte de requisitos y añadir unas cua
 
 - - -
 
-**IntelliJ**
+## IntelliJ
 
 Debido a que IntelliJ es algo más potente que Visual Code, no hará falta que nos instalemos ninguna extensión, únicamente para que el proyecto arranque tenemos que tener instalados los paquetes que nos permiten ejecutar los comandos requeridos para levantar el proyecto.
 
 - - -
-
+ 
+## Instalación 
 Hasta aquí lo ligero y fácil de instalar, ahora lo importante:
 
 * Instalar JDK → <https://www.oracle.com/java/technologies/javase-downloads.html>
@@ -105,7 +108,7 @@ Lo que nos importa realmente es la pestaña Spring-Boot Dashboard, que nos indic
 
 ![](https://airanschez.files.wordpress.com/2020/06/untitled-11.png?w=234)
 
-**¿Qué he aprendido?**
+## ¿Qué he aprendido?
 
 Aunque se pueda resumir en 5 minutos de lectura, nos llevó bastante tiempo darnos cuenta de los errores que nos daba al tratar de ejecutar los comandos sin tener instalado en el sistema Maven. Además nos peleamos mucho con levantar el back porque a uno le funcionaba todo bien un día y al resto no y viceversa. Esto de ver los errores de unos e intentar corregirlos en grupo es algo que aporta bastante al desarrollo personal bajo mi punto de vista.
 

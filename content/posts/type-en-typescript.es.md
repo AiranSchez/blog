@@ -8,6 +8,9 @@ featuredImage: /assets/ts-1.png
 tags: ['React', 'TypeScript', 'Aprendizaje', 'Guía', 'Blog']
 
 ---
+
+## Introducción
+
 Estoy con un proyecto personal que mezcla **React + TypeScript** y se me plantearon algunas dudas acerca de los tipos de datos type ¿Cómo funcionan y cuándo son necesarios? ¿Cuándo debo usarlos y cuándo no?
 
 El proyecto es hacer una pokedex haciendo uso de la API pública [PokeAPI](https://pokeapi.co/). Hasta ahora dispongo de lo siguiente:
@@ -20,6 +23,8 @@ El proyecto es hacer una pokedex haciendo uso de la API pública [PokeAPI](https
 Para entender un poco mejor su funcionamiento adjunto GIF:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JUNC9fK_KHk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Types
 
 Muy simple, ahora vamos con lo que nos interesa que es el tema de los Types. **La solución fácil** en TypeScript para arreglar los tipos es poner “**any**” pero eso solo estaría retrasando **posibles errores** futuros en tu app. Por ello me puse a investigar y di con la creación de tipos propios.
 
@@ -160,6 +165,6 @@ export const ContentDetail: React.FC<ContentDetailProps> = ({ pokemon }) => {
 };
 ```
 
-**¿Qué he aprendido?**
+## ¿Qué he aprendido?
 
 En general a tipar haciendo uso de las interfaces y una buena práctica que es extraer el tipo a un fichero aparte. La verdad es que está muy bien tenerlo todo separado por si en algún futuro a ese tipo se le añaden más cosas en la API podríamos cambiarlo en nuestra APP en un único fichero.

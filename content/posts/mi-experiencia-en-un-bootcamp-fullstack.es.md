@@ -8,6 +8,8 @@ featuredImage: /assets/1_pkijwopgflnqogwe9lzttw-1-.jpeg
 tags: ['Bootcamp', 'Aprendizaje', 'Proyectos', 'Blog']
 
 ---
+## Introducción
+
 ¿Dónde he estado metido estos últimos meses?\
 ¿Por qué has abandonado el blog?\
 ¿Qué has aprendido?
@@ -16,9 +18,9 @@ Estas son preguntas normales que alguien que entre a ver las entradas del blog s
 
 Tras las muchas recomendaciones me aventuré en este curso (intenso) de 3 meses de duración con el propósito de aprender tantas tecnologías como pueda recordar mi mente.
 
-# **Creación de los repos y los cimientos**
+## Creación de los repos y los cimientos
 
-### **¿Cuál es nuestro proyecto?**
+### ¿Cuál es nuestro proyecto?
 
 *Una aplicación que permita almacenar los fichajes de los trabajadores de una empresa, ver sus vacaciones, resumen de sus horas diarias y mensuales. Por otro lado las empresas podrán ver todos los datos de sus trabajadores, gestionarlos, establecer días festivos…*
 
@@ -42,15 +44,15 @@ Perfecto, ya tenemos toda la estructura organizada y lista para desplegarla en�
 
 Fuera bromas, no importó mucho ya que al trabajar en grupos pudimos dividir equitativamente el precio del droplet y nos salió súper barato (Unos 4-5€ por persona).
 
-# **¿Qué hay en el droplet?**
+### ¿Qué hay en el droplet?
 
 Pues le instalamos **Docker** para poder ejecutar las imágenes guardadas en DockerHub y **Nginx** en el para servir los ficheros finales de la web que verá el usuario. Con Docker montamos 3 contenedores: front, back y database.
 
-### **Elecciones de tecnologías e inconvenientes**
+### Elecciones de tecnologías e inconvenientes
 
 Uno de nuestros objetivos durante el curso era aprender de aquello que desconocíamos y nos queríamos poner en manos de tecnologías desconocidas para salir de nuestra zona de confort. Nuestra ideología es la de aprovechar las oportunidades que se nos aparecen y eso hicimos.
 
-* **FrontEnd**
+#### FrontEnd
 
 Como framework nos daban a elegir entre **React y Vue**. Como ya habrás podido observar si eres lector de este blog, he trabajado con React y da la casualidad que mis otros compañeros de equipo también. Por tanto aquí casi no hubo duda y **nos decantamos por usar Vue** (Como dato curioso salió Vue3 durante el curso y nos pareció una opción tentadora pero nos recomendaron que lo hagamos con vue2 por la cantidad de documentación que ésta tiene y porque Vue3 es muy reciente y puede tener aún sus fallitos)
 
@@ -64,7 +66,7 @@ Vue tiene una ventaja y es que en el mismo fichero SFC (Single File Component) t
 
 Teniendo en cuenta esta separación, **con TailwindCSS te ves forzado a mezclar Template con Style**, cosa que no me termina de convencer del todo. Habrá que seguir probando 
 
-* **BackEnd**
+#### BackEnd
 
 Las 2 otras alternativas que teníamos para back eran **NodeJS y Go**. Aquí hubo un poco más de debate acerca de qué lenguaje utilizar. **NodeJS nos parecía mucho más asequible y fácil** de utilizar y entender. Sin embargo **Go era completamente desconocido**. Contábamos además con la ayuda de un profesor que actualmente trabaja con este lenguaje de manera habitual, por lo que exprimirlo a dudas era nuestra intención desde el principio 
 
@@ -76,11 +78,11 @@ Nos pareció más bonito Gin Gonic y nos llamó la atención por varios motivos:
 * Fácil implementación y uso
 * Tiene un buen logo, original y es gracioso = +10 puntos
 
-# **Problemas encontrados**
+## Problemas encontrados
 
 Demasiados para contarlos todos en un post, pero a modo de resumen incluiría los más importantes:
 
-* **Problema con el autoimport de la base de datos**
+### Problema con el autoimport de la base de datos
 
 **GORM** (Un ORM que utilizamos) te da varias alternativas y te puede crear directamente las tablas de tu base de datos auto importándolas, sin embargo **nos daba problemas a la hora de hacer las consultas** y optamos por crear nuestros propios modelos de las tablas separando por ficheros cada una de ellas y configurando cada uno de los campos que debe bindear con el json de la request y response.
 
@@ -94,11 +96,11 @@ Otro de los problemas fue que queríamos devolver el resultado de una consulta c
 
 Trabajar con fechas puede llegar a dar más de un dolor de cabeza. Por falta de tiempo **decidimos delegar cierta responsabilidad al front** y que se encargue de mostrar las fechas de manera correcta. Desde el back se registra la hora de entrada y de salida en formato timestamp y desde el front utilizamos una librería llamada DayJS para mostrar de manera entendible esa información.
 
-### ***¿Por qué DayJS y no MomentJS?***
+### ¿Por qué DayJS y no MomentJS?
 
 Nos hicieron esta misma pregunta cuando expusimos el proyecto y la respuesta es simple: **MomentJS** en su documentación **no recomiendan que utilices su librería** para proyectos nuevos ya que tiene ciertas limitaciones que por lo visto no pueden modificar porque se cargarían miles de proyectos que hoy en día están funcionando por todo internet. Sin embargo, **nos dan alternativas** y entre ellas está DayJS la cual es bastante sencillita de implementar y con muchas opciones interesantes.
 
-# **Estructura del código**
+## Estructura del código
 
 ![](https://airanschez.files.wordpress.com/2021/01/captura-de-pantalla-2021-01-11-120827.png?w=263)
 
@@ -110,7 +112,7 @@ En el backend tras mucho debate terminamos estructurándolo todo como un backend
 
 El front es un poco más extenso pero a modo de resumen organizamos cada componente en su carpeta la cual contenía tests y stories. Establecimos una capa intermedia entre **components** y **utils** (La encargada de hacer las llamadas a la API) la cual denominamos **domain**. Dentro de esta creamos diferentes servicios para tener segmentada cada llamada y que sea más sencillo abordarla y que nos quede más legible al tenerlas separadas.
 
-# **Conclusiones**
+## Conclusiones
 
 Si has llegado hasta aquí y aún te quedan ganas de ver el producto final, puedes echarle un vistazo desde [aquí](https://www.flipday.es/). Recomiendo utilizar cuenta de correo y contraseña inventada ya que se trata de una app básica que no pretende hacer uso de tus datos. Así pues, para no dejar rastro de tu información personal, usa una cuenta de un animal 🙊🙉🙈
 

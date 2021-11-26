@@ -8,7 +8,11 @@ featuredImage: /assets/751331-637471889771844499-16x9.jpg
 tags: ['Comunidad', 'Aprendizaje', 'Mob/Pair', 'Testing', 'Blog']
 
 ---
+## Mob Programming
+
 En mi corto recorrido por el mundo laboral he podido experimentar de primera mano trabajar en Pair programming y en ocasiones en Mob. Lo primero que se te pasa por la mente es **pensar que el trabajo saldría más rápido** si cada programador hiciese su tarea individualmente. Sin embargo dependes del trabajo de los demás para saber cómo funciona el software que están desarrollando entre todos.
+
+## Beneficios
 
 El juntar a varios miembros del equipo **trae más beneficios que inconvenientes**, dejo a continuación algunas de las más relevantes para mí:
 
@@ -27,5 +31,7 @@ De la mano al Pair/Mob va el **testing**, término muy importante que no todo el
 Una cosa que comenta Carlos en los episodios y creo que es de vital importancia es que si tomas el rol de navigator, deja que el driver **termine de sacar la idea de su cabeza** y, a poder ser, **evita interrumpir su flujo de pensamiento**. Ya luego cuando haya una pausa le comentas la idea o la sugerencia que se te vino a la mente (anótala para que no se te olvide). 
 
 Si se da el caso en Mob programming, es mejor debatir primero la idea y no ir soltándolas de golpe porque el driver se va a saturar y llegará el punto en el que no sabrá qué escribir ni qué idea era la que tenía que implementar.
+
+## Conclusión
 
 A modo de conclusión y por no soltar más la chapa, hay muchos más beneficios que inconvenientes a la hora de practicar Pair/Mob. Usar estas metodologías no nos libra de tener que realizar trabajo individual, pero sí nos **facilita mucho más el aprendizaje y optimiza muchos aspectos tanto individuales como profesionales**.

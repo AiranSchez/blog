@@ -8,6 +8,7 @@ featuredImage: /assets/1_vumfscsppzmna48uu0cina.png
 tags: ['Python', 'Aprendizaje', 'Pandas', 'Numpy', 'Blog']
 
 ---
+## Introducción
 Hace poco me interesé en aprender Python y siguiendo un tutorial he terminado con unos cuantos recursos que considero importantes tenerlos de cara al futuro:
 
 ## Variables

@@ -8,11 +8,13 @@ featuredImage: /assets/website-security.jpg
 tags: ['CSRF', 'CORS', 'XSS', 'Aprendizaje', 'Seguridad', 'Blog']
 
 ---
+## Introducción
+
 Si no te suenan estos términos estás de suerte porque no eres el único. Hace unas semanas tuve la suerte de preguntarme “¿Qué es eso?” debido a que lo estamos teniendo en cuenta en un proyecto en el que estamos trabajando. Gracias a que me lo pregunté surgieron muchas dudas que no tardé en anotar para realizar una guía de conceptos sobre estos términos de seguridad.
 
 Para comenzar vamos a definir lo que son y cómo funcionan
 
-**CSRF**
+## CSRF
 
 Son las siglas de **Cross Site Request Forgery** (Falsificación de solicitud de sitios cruzados) y también lo podemos encontrar como XSRF. **Es un ataque que provoca al navegador a mandar una petición a una web vulnerable**.
 
@@ -35,7 +37,7 @@ Algunas recomendaciones para evitar este tipo de ataques son:
 * Usar el **modo incógnito**
 * Usar **diferentes navegadores** para uso general y cosas importantes
 
-**CORS**
+## CORS
 
 Siglas de **Cross Origin Resource Sharing** ( Intercambio de Recursos de Origen Cruzado ). Hay una **política de seguridad que prohíbe** cargar contenido en una web desde un dominio externo y, por tanto, debe estar todo en el mismo servidor. Es en reglas generales una **brecha de seguridad** que si no se controla puede provocar ataques maliciosos.
 
@@ -51,7 +53,7 @@ La imagen define bastante bien lo que permitiría hacer el CORS ya que un **clie
 
 Si el ejemplo de la imagen fuera en lugar de un GET un PUT, habría conflicto y no se podría enviar la información al dominio externo.
 
-**XSS**
+## XSS
 
 Seguramente hayas escuchado que te pueden secuestra la sesión desde el navegador y robarte información personal ¿Verdad? Pues eso en esencia es el **Cross Site Scripting** (Comandos de Sitios Cruzados). Seguro que también te suena Inyección SQL ya que son prácticamente lo mismo salvo que en éste no buscas atacar la base de datos directamente.
 
@@ -63,7 +65,7 @@ Lo más común es que te inyecten un código en el buscador de una web o en un f
 
 La principal diferencia entre el persistente y el reflejado es que éste último **no queda nada almacenado en el servidor**.
 
-**¿Cómo saber si un sitio web tiene esta vulnerabilidad?**
+## ¿Cómo saber si un sitio web tiene esta vulnerabilidad?
 
 Si en una web con un buscador o un formulario escribimos el siguiente script y aparece un pop-up con el mensaje, tu sitio web es vulnerable a este tipo de ataques.
 
@@ -71,7 +73,7 @@ Si en una web con un buscador o un formulario escribimos el siguiente script y a
 * Usando **extensiones como NoScript** que te bloquean este tipo de acciones inintencionadas.
 * **Mantén actualizados tus plugins** y tus navegadores
 
-**¿Diferencias entre XSS y CSRF?**
+## ¿Diferencias entre XSS y CSRF?
 
 Partiendo que hay un malo maloso que te quiere engañar para sacarte el dinero e irse de viaje:
 

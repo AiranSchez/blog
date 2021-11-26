@@ -8,12 +8,16 @@ featuredImage: /assets/1_nnoyq9qfitsvnlh7rcrpfq.png
 tags: ['Comunidad', 'Aprendizaje', 'Kata', 'Coding-dojo', 'Blog']
 
 ---
+## Introducción
+
 Se nos planteó hacer una Kata diferente a los que ya hemos hecho. Esta Kata consistía en hacer en grupo una aplicación con **React + TypeScript** paso a paso para que todos entendamos las virtudes de usar un framework como React y todas las posibilidades que nos ofrece. Lo primero que hicimos fue crear el proyecto de manera simple:
 
 `npm create-react-app blackjack_powah --template typescript `
 
 Lo importante aquí es la librería EmotionJS, la cual nos permitirá pintar componentes de una manera diferente. Como ejemplo se utiliza un componente **HelloWorld** el cual tendrá dentro otro componente llamado **Greetings.**
 
+## Componentes
+### HelloWorld
 [![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/12b269be-03f0-48c1-9aa3-dddc6f070c0d/Untitled.png](https://airanschez.files.wordpress.com/2020/05/untitled.png?w=395)](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/12b269be-03f0-48c1-9aa3-dddc6f070c0d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200513T225142Z&X-Amz-Expires=86400&X-Amz-Signature=288fee090dc70002403a96d3befb6bab40a00f3c847d44c332d62097b4882035&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 App.tsx
@@ -28,6 +32,8 @@ Esto nos muestra por pantalla un saludo normal con el nombre que recibe por las 
 
 Guay, pero ahora vamos a encapsular el saludo en un nuevo componente al que denominaremos **Greeting**
 
+### Greeting
+
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c7ced6b6-2659-46b3-ac98-4f3048f0a1c3/Untitled.png](https://airanschez.files.wordpress.com/2020/05/untitled-2.png?w=720)
 
 Greeting.tsx
@@ -40,6 +46,7 @@ Helloworld.tsx
 
 Importamos el componente y lo llamamos con sus props correspondientes. Esto va a hacer lo mismo que antes pero está más separado. ¿Entonces por qué lo haces? porque me va genial para explicar cómo implementar EmotionJS y darle estilos directamente a un componente:
 
+### Style
 Tras haber instalado la librería, nos hacemos un componente sencillo para ponerle color a la frase
 
 ![](https://airanschez.files.wordpress.com/2020/05/untitled-8.png?w=411)
@@ -58,13 +65,13 @@ De esta forma me evito pasarle al componente Greeting un nombre que ya recibí d
 
 Diagrama para explicar las diferentes formas que tenemos de hacerlo
 
-**STORYBOOK**
+## STORYBOOK
 
 Esta parte está super interesante. Un Storybook te permite ejecutar tu proyecto con un asistente en el navegador que te muestra un desglose de todos los componentes. En pura esencia es lo que me dio a entender lo que era el Atomic Design.
 
 ![](https://airanschez.files.wordpress.com/2020/05/untitled-6-1.png?w=1024)
 
-Atomic design
+### Atomic design
 
 Componentes → Átomos del proyecto
 

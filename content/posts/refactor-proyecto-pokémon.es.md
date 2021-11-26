@@ -8,11 +8,13 @@ featuredImage: /assets/1_wil81xxe3a5aubujdlmapw.png
 tags: ['Refactor', 'React', 'TypeScript', 'Proyecto', 'Aprendizaje', 'Blog']
 
 ---
+## Introducción 
+
 Previamente en el blog he hablado acerca del proyecto personal en el que estoy trabajando. Por si no lo has leído te recomiendo pasarte por [aquí](https://airanschez.wordpress.com/2020/07/15/type-en-typescript/) y echarle un vistazo primero.
 
 Desde ese momento hasta ahora han habido muchos cambios y nuevos aprendizajes tales como cambiar el uso de types a interfaces o meter una capa de dominio a mi proyecto para simplificar los componentes.
 
-### **Types – Interfaces**
+## **Types – Interfaces**
 
 Tenía entendido que era buena alternativa usar un type para crearte tu propio tipo, sin embargo, hay mejores alternativas y un uso más concreto para esta característica de TypeScript.**Preferentemente debemos utilizar interfaces** para las diferentes estructuras que componen nuestra app y hacer uso del type cuando lo que intentemos hacer no se pueda en una interfaz.
 
@@ -36,7 +38,7 @@ export interface PokemonTypes {...}
 export interface GenerationsInterface {...}
 ```
 
-### **Capa de dominio**
+## **Capa de dominio**
 
 Digamos que mi APP tenía toda la lógica metida en los componentes y únicamente separaba la gestión de las llamadas http con axios desde una clase externa llamada Client con sus diferentes métodos. Esto provocaba que a medida que le añadía funcionalidades se iban haciendo componentes muy grandes y eso provoca a la larga que sean complicados de mantener.
 
@@ -50,6 +52,7 @@ Por eso mismo, añadí a mi estructura de proyecto una **capa de dominio** tal q
 
 Esto lo realicé por varios motivos, uno de ellos es el que comenté antes de la lógica que provocaba. El segundo sería por la **necesidad de refactorizar código** por la lentitud de las respuestas de la API por la forma que tenía hecho todo.
 
+### Antes
 Forma antigua:
 
 ```typescript
@@ -79,6 +82,7 @@ const apiCall = (offset: string) => {
 
 Una forma un poco tosca que a pesar de estar refactorizada de antes da la impresión de que hace muchas cosas y al estar trabajando con promesas y llamadas sobre los resultados de las llamadas da lugar a mucha lentitud.
 
+### Después
 Forma nueva:
 
 ```typescript
@@ -111,5 +115,7 @@ También se pueden refactorizar los métodos para obtener todos los tipos de pok
 ![](/assets/anotacion-2020-08-05-122833.png)
 
 ![](/assets/anotacion-2020-08-05-122921.png)
+
+## Resultado final
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Manl3mWJsS8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
