@@ -72,14 +72,14 @@ theme = "FeelIt"
     #   url = "/categories/"
     #   title = ""
     #   weight = 3
-    # [[languages.es.menu.main]]
-    #   identifier = "sobre mí"
-    #   pre = ""
-    #   post = ""
-    #   name = "Sobre mí"
-    #   url = "/about/"
-    #   title = ""
-    #   weight = 4
+    [[languages.es.menu.main]]
+      identifier = "Sobre mí"
+      pre = ""
+      post = ""
+      name = "Sobre mí"
+      url = "/about/"
+      title = ""
+      weight = 4
 
 [params]
   version = "1.0.X"
@@ -161,29 +161,29 @@ theme = "FeelIt"
     param = true
     # title for param layout
     paramTitle = "Información personal"
-    description = "*hola*"
+    description = "TypeScript, HTML5, CSS3, SQL, C#, Vue, React, Testing Library, Jest, JUnit, Docker, MongoDB, Pandas, Git"
     [[params.about.status]]
       faIcon = "fas fa-building"
       title = "Company"
-      desc = "FeelIt"
+      desc = "Lean Mind"
     [[params.about.status]]
       faIcon = "fas fa-briefcase fa-fw"
       title = "Occupation"
-      desc = "Freelancer"
+      desc = "Software developer"
     [[params.about.status]]
       title = "Location"
       faIcon = "fas fa-map-marker-alt"
-      desc = "Earth"
+      desc = "Tenerife, Canary Islands"
     # description of your parameter
     [[params.about.parameter]]
-      language = "UI/UX"
+      language = "Javascript"
       level = "80"
     [[params.about.parameter]]
-      language = "HTML"
-      level = "70"
+      language = "Java"
+      level = "50"
     [[params.about.parameter]]
-      language = "Go"
-      level = "60"
+      language = "Python"
+      level = "40"
 
   # Home page config
   [params.home]
