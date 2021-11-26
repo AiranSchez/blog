@@ -57,7 +57,7 @@ df_vacio = pandas.DataFrame(columns = ['Nombre', 'Cantidad', 'es_FB', 'Año']) #
 df_vacio = df_vacio.append({'Nombre': 'Facebook', 'Cantidad': 2449, 'es_FB': True, 'Año': 2006},ignore_index=True)
 ```
 
-![Dataframe](/assets/captura-de-pantalla-2021-05-04-132459.png)
+![Dataframe](/assets/captura-de-pantalla-2021-05-04-132459.png " ")
 
 ## Numpy
 
@@ -155,7 +155,7 @@ pandas.read_csv('finanzas.csv')
 dataframe
 ```
 
-![DataFrame leído de csv](/assets/este.png)
+![DataFrame leído de csv](/assets/este.png " ")
 
 ```python
 import pandas 
@@ -164,4 +164,4 @@ dataframe = pandas.read_csv('finanzas.csv', header = None, names = ['Concepto', 
 dataframe.iloc[2]
 ```
 
-![DataFrame filtrado](/assets/ahora-este.png)
+![DataFrame filtrado](/assets/ahora-este.png " ")

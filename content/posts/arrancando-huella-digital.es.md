@@ -60,27 +60,27 @@ Hasta aquí lo ligero y fácil de instalar, ahora lo importante:
 
 Hay que descomprimir la carpeta que nos hemos descargado de maven, copiarla, **crear una carpeta en Archivos de programa llamada maven** y pegar dentro lo que hemos descomprimido:
 
-![](https://airanschez.files.wordpress.com/2020/06/untitled-17.png?w=442)
+![tutorial-parte1](https://airanschez.files.wordpress.com/2020/06/untitled-17.png?w=442 " " " ")
 
 Escribe en el buscador de windows “Editar las variables de entorno del sistema”. Ahora en la parte inferior derecha vamos a variables de entorno:
 
-![](https://airanschez.files.wordpress.com/2020/06/untitled-16.png?w=410)
+![tutorial-2](https://airanschez.files.wordpress.com/2020/06/untitled-16.png?w=410 " ")
 
 Tendremos que añadir 2 variables como las que vemos a continuación:
 
-![](https://airanschez.files.wordpress.com/2020/06/untitled-15.png?w=617)
+![tutorial-3](https://airanschez.files.wordpress.com/2020/06/untitled-15.png?w=617 " ")
 
 Simplemente para crearlas le damos a “Nueva” y rellenamos con los siguientes datos:
 
-![](https://airanschez.files.wordpress.com/2020/06/untitled-9.png?w=671)
+![tutorial-4](https://airanschez.files.wordpress.com/2020/06/untitled-9.png?w=671 " ")
 
-![](https://airanschez.files.wordpress.com/2020/06/untitled-14.png?w=672)
+![tutorial-5](https://airanschez.files.wordpress.com/2020/06/untitled-14.png?w=672 " ")
 
 En el campo valor de la variable podemos navegar por el explorador de archivos dándole al botón “Examinar directorio” y tenemos que seleccionar la ubicación del jdk.
 
 Ahora importante (Y CON MUCHO CUIDADO) hay que modificar la variable path así:
 
-![](https://airanschez.files.wordpress.com/2020/06/untitled-13.png?w=528)
+![tutorial-6](https://airanschez.files.wordpress.com/2020/06/untitled-13.png?w=528 " ")
 
 Con esto en principio podremos realizar en IntelliJ los comandos básicos para ejecutar el proyecto:
 
@@ -98,15 +98,15 @@ Y si utilizamos Postman o cualquier otra herramienta de peticiones nos funcionar
 
 (IMPORTANTE ENVIAR JSON Y NO TEXT EN LA PETICION POST)
 
-![](https://airanschez.files.wordpress.com/2020/06/untitled-10.png?w=775)
+![tutorial-7](https://airanschez.files.wordpress.com/2020/06/untitled-10.png?w=775 " ")
 
 Si has optado por hacerlo al final con Visual Code la interfaz tendría que haberte cambiado a algo así:
 
-![](https://airanschez.files.wordpress.com/2020/06/untitled-12.png?w=425)
+![tutorial-8](https://airanschez.files.wordpress.com/2020/06/untitled-12.png?w=425 " ")
 
 Lo que nos importa realmente es la pestaña Spring-Boot Dashboard, que nos indicará cuando está funcionando el back. Se vería así al realizar los comandos nombrados anteriormente:
 
-![](https://airanschez.files.wordpress.com/2020/06/untitled-11.png?w=234)
+![tutorial-9](https://airanschez.files.wordpress.com/2020/06/untitled-11.png?w=234 " ")
 
 ## ¿Qué he aprendido?
 

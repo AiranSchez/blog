@@ -14,7 +14,7 @@ Previamente en el blog he hablado acerca del proyecto personal en el que estoy t
 
 Desde ese momento hasta ahora han habido muchos cambios y nuevos aprendizajes tales como cambiar el uso de types a interfaces o meter una capa de dominio a mi proyecto para simplificar los componentes.
 
-## **Types – Interfaces**
+## Types – Interfaces
 
 Tenía entendido que era buena alternativa usar un type para crearte tu propio tipo, sin embargo, hay mejores alternativas y un uso más concreto para esta característica de TypeScript.**Preferentemente debemos utilizar interfaces** para las diferentes estructuras que componen nuestra app y hacer uso del type cuando lo que intentemos hacer no se pueda en una interfaz.
 
@@ -38,17 +38,17 @@ export interface PokemonTypes {...}
 export interface GenerationsInterface {...}
 ```
 
-## **Capa de dominio**
+## Capa de dominio
 
 Digamos que mi APP tenía toda la lógica metida en los componentes y únicamente separaba la gestión de las llamadas http con axios desde una clase externa llamada Client con sus diferentes métodos. Esto provocaba que a medida que le añadía funcionalidades se iban haciendo componentes muy grandes y eso provoca a la larga que sean complicados de mantener.
 
 Por eso mismo, añadí a mi estructura de proyecto una **capa de dominio** tal que así:
 
-![](https://airanschez.files.wordpress.com/2020/08/anotacion-2020-08-05-114641.png?w=260)
+![](https://airanschez.files.wordpress.com/2020/08/anotacion-2020-08-05-114641.png?w=260 " ")
 
 ¿Qué hace esta capa de dominio? **Extraer toda esa lógica y simplificarla** lo máximo posible para que desde el componente podamos invocar el servicio y obtener esa información en una única línea. Además de eso podríamos decir que dejamos a los componentes “tontos”, permitiendo pasarles únicamente aquello que se desea mostrar en la web.
 
-![](https://airanschez.files.wordpress.com/2020/08/dibu.png?w=786)
+![](https://airanschez.files.wordpress.com/2020/08/dibu.png?w=786 " ")
 
 Esto lo realicé por varios motivos, uno de ellos es el que comenté antes de la lógica que provocaba. El segundo sería por la **necesidad de refactorizar código** por la lentitud de las respuestas de la API por la forma que tenía hecho todo.
 
@@ -104,17 +104,17 @@ export const getPokemonByGeneration = async (generation: GenerationsProps): Prom
 
 Este método está directamente aplicado en la capa de dominio, concretamente en el servicio Pokémon. De esta manera nuestro componente que antes ocupaba 20 líneas ahora nos ocupa 1:
 
-![](https://airanschez.files.wordpress.com/2020/08/anotacion-2020-08-05-122527.png?w=931)
+![](https://airanschez.files.wordpress.com/2020/08/anotacion-2020-08-05-122527.png?w=931 " ")
 
 El useEffect no es necesario para la implementación, únicamente el método getPokemonByGeneration
 
 También se pueden refactorizar los métodos para obtener todos los tipos de pokemons y generaciones:
 
-![](/assets/anotacion-2020-08-05-122812-1-.png)
+![](/assets/anotacion-2020-08-05-122812-1-.png " ")
 
-![](/assets/anotacion-2020-08-05-122833.png)
+![](/assets/anotacion-2020-08-05-122833.png " ")
 
-![](/assets/anotacion-2020-08-05-122921.png)
+![](/assets/anotacion-2020-08-05-122921.png " ")
 
 ## Resultado final
 

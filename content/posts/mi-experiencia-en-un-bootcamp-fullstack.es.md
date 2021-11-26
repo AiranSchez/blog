@@ -28,7 +28,7 @@ Sabiendo todo esto, comenzamos nuestro desarrollo con una planificación en **2 
 
 *“Antes de conocer la **estructura multirepo** había visto que casi todo el mundo separaba el front del back con diferentes carpetas pero en el mismo repositorio. Esto nos permitió ver mas allá de las clásicas estructuras y darle esa complejidad necesaria para entender cómo funciona todo a unos niveles superiores. La única desventaja que le veo es que al principio cuesta un poco más ponerlo todo en marcha, sin embargo, **a la larga beneficia** porque ahorra tiempo y conflictos entre equipos.”*
 
-![](https://airanschez.files.wordpress.com/2020/12/image-2.png?w=1024)
+![](https://airanschez.files.wordpress.com/2020/12/image-2.png?w=1024 " ")
 
 Una vez tuvimos creados los diferentes repositorios teníamos que empezar a utilizar una tecnología desconocida para mi: **GitHub Actions**. ¿Qué es GitHub Actions? Pues una herramienta para el **CI/CD** al igual que otras igual de conocidas como Jenkins o Travis. Quizás no se le suele dar una gran importancia en los proyectos, pero he de decir que ha sido de increíble ayuda a la hora de **desplegar cada una de las funcionalidades** que íbamos desarrollando.
 
@@ -38,7 +38,7 @@ La idea era que cuando tengamos una funcionalidad creada, comprobemos que los te
 
 Más adelante se nos planteó una mejora a la estructura de las Actions. Subir el código a un repo en dockerhub para no tener que hacer demasiados cambios en el servidor, sino que directamente te descargas las nuevas actualizaciones de los repos.
 
-![](https://airanschez.files.wordpress.com/2020/12/screenshot-2020-11-20-at-18.08.59.png?w=1002)
+![](https://airanschez.files.wordpress.com/2020/12/screenshot-2020-11-20-at-18.08.59.png?w=1002 " ")
 
 Perfecto, ya tenemos toda la estructura organizada y lista para desplegarla en… ¿Dónde? Generalmente en las mismas webs donde compras un dominio te ofrecen un alojamiento web, sin embargo en este curso nuestros profesores tenían un plan magnífico: Solicitar la mochila de estudiante de GitHub, la cual incluye dinerillo para gastar en **Digital Ocean** y poder crearnos nuestros **droplets** donde alojar las webs y configurarlas nosotros a nuestro gusto. Suena genial, plan sin fisuras… Hasta que encontramos una gotera. Nos denegaron la mochila a todos (╯‵□′)╯︵┻━┻
 
@@ -102,13 +102,13 @@ Nos hicieron esta misma pregunta cuando expusimos el proyecto y la respuesta es 
 
 ## Estructura del código
 
-![](https://airanschez.files.wordpress.com/2021/01/captura-de-pantalla-2021-01-11-120827.png?w=263)
+![](https://airanschez.files.wordpress.com/2021/01/captura-de-pantalla-2021-01-11-120827.png?w=263 " ")
 
 Estructura backend
 
 En el backend tras mucho debate terminamos estructurándolo todo como un backend de Java. El fichero main.go donde servimos la api con el setup al puerto 8080. De ahí se toman las rutas de la carpeta **routes** que redireccionan a la carpeta **controllers**. Después la carpeta de **dominio** se encarga de establecer las llamadas a **infrastructure** que hace las consultas a la base de datos. La carpeta **models** establece la estructura de las diferentes entidades de nuestra app.
 
-![](https://airanschez.files.wordpress.com/2021/01/captura-de-pantalla-2021-01-11-121419.png?w=270)
+![](https://airanschez.files.wordpress.com/2021/01/captura-de-pantalla-2021-01-11-121419.png?w=270 " ")
 
 El front es un poco más extenso pero a modo de resumen organizamos cada componente en su carpeta la cual contenía tests y stories. Establecimos una capa intermedia entre **components** y **utils** (La encargada de hacer las llamadas a la API) la cual denominamos **domain**. Dentro de esta creamos diferentes servicios para tener segmentada cada llamada y que sea más sencillo abordarla y que nos quede más legible al tenerlas separadas.
 

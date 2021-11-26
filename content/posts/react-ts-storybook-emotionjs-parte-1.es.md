@@ -18,13 +18,13 @@ Lo importante aquí es la librería EmotionJS, la cual nos permitirá pintar com
 
 ## Componentes
 ### HelloWorld
-[![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/12b269be-03f0-48c1-9aa3-dddc6f070c0d/Untitled.png](https://airanschez.files.wordpress.com/2020/05/untitled.png?w=395)](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/12b269be-03f0-48c1-9aa3-dddc6f070c0d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200513T225142Z&X-Amz-Expires=86400&X-Amz-Signature=288fee090dc70002403a96d3befb6bab40a00f3c847d44c332d62097b4882035&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+[![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/12b269be-03f0-48c1-9aa3-dddc6f070c0d/Untitled.png](https://airanschez.files.wordpress.com/2020/05/untitled.png?w=395)](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/12b269be-03f0-48c1-9aa3-dddc6f070c0d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200513T225142Z&X-Amz-Expires=86400&X-Amz-Signature=288fee090dc70002403a96d3befb6bab40a00f3c847d44c332d62097b4882035&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22 " ")
 
 App.tsx
 
 Y HelloWorld contiene un saludo normal:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0c3e2d18-72e4-4d07-8abc-bcaf9af5c81a/Untitled.png](https://airanschez.files.wordpress.com/2020/05/untitled-1.png?w=681)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0c3e2d18-72e4-4d07-8abc-bcaf9af5c81a/Untitled.png](https://airanschez.files.wordpress.com/2020/05/untitled-1.png?w=681 " ")
 
 HelloWorld.tsx
 
@@ -34,13 +34,13 @@ Guay, pero ahora vamos a encapsular el saludo en un nuevo componente al que deno
 
 ### Greeting
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c7ced6b6-2659-46b3-ac98-4f3048f0a1c3/Untitled.png](https://airanschez.files.wordpress.com/2020/05/untitled-2.png?w=720)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c7ced6b6-2659-46b3-ac98-4f3048f0a1c3/Untitled.png](https://airanschez.files.wordpress.com/2020/05/untitled-2.png?w=720 " ")
 
 Greeting.tsx
 
 Componente simple que solo contiene un saludo (el indicador “?” tras una variable indica que es opcional su uso, si no le llega nada por las props no lo usará). ¿Hasta aquí guay? Perfecto, ahora como hemos extraído contenido del HelloWorld.tsx a otro componente, habrá que hacer una llamada a ese componente desde HelloWorld.tsx :
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d04a6559-57df-4cba-95f8-6c20591da699/Untitled.png](https://airanschez.files.wordpress.com/2020/05/untitled-3.png?w=671)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d04a6559-57df-4cba-95f8-6c20591da699/Untitled.png](https://airanschez.files.wordpress.com/2020/05/untitled-3.png?w=671 " ")
 
 Helloworld.tsx
 
@@ -49,19 +49,19 @@ Importamos el componente y lo llamamos con sus props correspondientes. Esto va a
 ### Style
 Tras haber instalado la librería, nos hacemos un componente sencillo para ponerle color a la frase
 
-![](https://airanschez.files.wordpress.com/2020/05/untitled-8.png?w=411)
+![](https://airanschez.files.wordpress.com/2020/05/untitled-8.png?w=411 " ")
 
 style.ts
 
 A diferencia del componente Greeting que vimos anteriormente, este no recibe nada de props ni es un componente funcional, solamente tiene estilo. Ahora me permitirá pintar de color “lightcoral” cualquier frase que esté dentro de ese componente:
 
-![](https://airanschez.files.wordpress.com/2020/05/untitled-5-1.png?w=758)
+![](https://airanschez.files.wordpress.com/2020/05/untitled-5-1.png?w=758 " ")
 
 HellloWorld.tsx
 
 De esta forma me evito pasarle al componente Greeting un nombre que ya recibí desde App.tsx dando vueltas al dato y así me aseguro que pase lo que le pase por props va a darle estilo a todo lo que tenga escrito dentro del componente
 
-![](https://airanschez.files.wordpress.com/2020/05/untitled_document-1.png?w=1024)
+![](https://airanschez.files.wordpress.com/2020/05/untitled_document-1.png?w=1024 " ")
 
 Diagrama para explicar las diferentes formas que tenemos de hacerlo
 
@@ -69,7 +69,7 @@ Diagrama para explicar las diferentes formas que tenemos de hacerlo
 
 Esta parte está super interesante. Un Storybook te permite ejecutar tu proyecto con un asistente en el navegador que te muestra un desglose de todos los componentes. En pura esencia es lo que me dio a entender lo que era el Atomic Design.
 
-![](https://airanschez.files.wordpress.com/2020/05/untitled-6-1.png?w=1024)
+![](https://airanschez.files.wordpress.com/2020/05/untitled-6-1.png?w=1024 " ")
 
 ### Atomic design
 
@@ -85,7 +85,7 @@ Pages → Toda tu web en general
 
 Pues Storybook lo instalamos súper fácil:
 
-![](https://airanschez.files.wordpress.com/2020/05/untitled-7-1.png?w=295)
+![](https://airanschez.files.wordpress.com/2020/05/untitled-7-1.png?w=295 " ")
 
 Estructura del proyecto tras intalar Storybook
 
@@ -95,19 +95,19 @@ Debido a la estructura de carpetas que tenemos en nuestro directorio, es conveni
 
 ¿De qué nos sirve crear un storie? Es la forma que tiene la extensión de entender cómo funciona tu proyecto desde el elemento más pequeño. Por lo pronto solo hemos podido realizar un par de stories pero se asemeja mucho al funcionamiento de un test. Me explico: en un test compruebas la funcionalidad esperada de un componente concreto sabiendo cómo va a comportarse. Un storie “simula” el componente para que podamos ver cómo se comportaría en la web. Al crear el fichero lo llamaremos \[NombreComponente].stories.tsx de tal forma que:
 
-![](https://airanschez.files.wordpress.com/2020/05/anotacin_2020-05-13_233939-1.png?w=702)
+![](https://airanschez.files.wordpress.com/2020/05/anotacin_2020-05-13_233939-1.png?w=702 " ")
 
 Greeting.stories.tsx
 
 Y ya nuestro Storybook nos lo pillará sin problema alguno:
 
-![](https://airanschez.files.wordpress.com/2020/05/anotacic3b3n-2020-05-14-000412.png)
+![](https://airanschez.files.wordpress.com/2020/05/anotacic3b3n-2020-05-14-000412.png " ")
 
-![](https://airanschez.files.wordpress.com/2020/05/image-1.png?w=438)
+![](https://airanschez.files.wordpress.com/2020/05/image-1.png?w=438 " ")
 
-![](https://airanschez.files.wordpress.com/2020/05/anotacic3b3n-2020-05-14-000412.png)
+![](https://airanschez.files.wordpress.com/2020/05/anotacic3b3n-2020-05-14-000412.png " ")
 
-![](https://airanschez.files.wordpress.com/2020/05/image-1.png?w=438)
+![](https://airanschez.files.wordpress.com/2020/05/image-1.png?w=438 " ")
 
 [](<>)[](<>)
 

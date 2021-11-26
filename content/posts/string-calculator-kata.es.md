@@ -14,7 +14,7 @@ El pasado día 11 de Mayo los compañeros de Lean Mind nos ofrecieron reunimos m
 
 Como bien comentaba en el post anterior, asistí a uno de los anteriores coding dojos en las oficinas de Lean Mind el 24 de Enero A.C. (Antes del Coronavirus), y la verdad es que fue un descubrimiento bastante enriquecedor del cual aprendí mucho.
 
-[![](https://airanschez.files.wordpress.com/2020/05/codingdojoleanmind.jpg?w=1024)](https://leanmind.es/es/blog/property-based-testing/)
+[![](https://airanschez.files.wordpress.com/2020/05/codingdojoleanmind.jpg?w=1024)](https://leanmind.es/es/blog/property-based-testing/ " ")
 
 ## ¿En qué consiste String Calculator?
 
@@ -28,11 +28,11 @@ Para comenzar con el kata, hicimos un to-do list con unas pocas entradas posible
 \
 Para cada caso realizamos un test en cuestión siguiendo la metodología TDD de rojo-verde-refactor. Generalmente los test no tienen complejidad y son todos muy similares aunque con la variante de las entradas-salidas.
 
-![Primer caso](/assets/anotacic3b3n-2020-05-12-171736.png)
+![Primer caso](/assets/anotacic3b3n-2020-05-12-171736.png " ")
 
-![Segundo caso](/assets/anotacic3b3n-2020-05-12-171749.png)
+![Segundo caso](/assets/anotacic3b3n-2020-05-12-171749.png " ")
 
-![Tercer caso](/assets/anotacic3b3n-2020-05-12-171802-1.png)
+![Tercer caso](/assets/anotacic3b3n-2020-05-12-171802-1.png " ")
 
 Tras crear los tests y ver que nos fallan, toca poner el **mínimo codigo para que funcione**n (Muy importante que sea lo más simple posible, cosa que debido a la inexperiencia me salté muchas veces queriendo ir a por el algoritmo más optimo). Gracias a mi primer compañero de Kata Borja, aprendí que debo bajar una marcha cuando estoy haciendo TDD y pensar las cosas paso a paso sin querer construir la casa por el tejado.
 

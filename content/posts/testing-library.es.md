@@ -20,15 +20,15 @@ Esta sección es común en todos los frameworks ya que hace referencia al códig
 
 Vamos a crearnos un proyecto en React para testear las diferentes queries que nos proporciona la librería.
 
-![](https://airanschez.files.wordpress.com/2020/06/image.png?w=737)
+![](https://airanschez.files.wordpress.com/2020/06/image.png?w=737 " ")
 
 Creamos el proyecto
 
-![](https://airanschez.files.wordpress.com/2020/06/image-1.png?w=1001)
+![](https://airanschez.files.wordpress.com/2020/06/image-1.png?w=1001 " ")
 
 Accedemos a la carpeta y lo arrancamos para ver si todo funciona bien
 
-![](https://airanschez.files.wordpress.com/2020/06/image-2.png?w=418)
+![](https://airanschez.files.wordpress.com/2020/06/image-2.png?w=418 " ")
 
 Vemos como de base tiene estas dependencias instaladas
 
@@ -242,7 +242,7 @@ it("check if the element is in the document", () => {
 
 - - -
 
-## Conclusiones 
+## " " Conclusiones 
 
 Hay mil maneras que he descubierto de hacer test mientras realizaba la entrada al blog. Los ejemplos que he puesto son simples pero la cosa se puede complicar mucho añadiendo más expects y más lógica interna con fireEvent y demás herramientas que nos proporciona React-Testing-Library.
 
