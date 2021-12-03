@@ -5,6 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: static/assets
+  label: Images
+  create: all
+  match: "**/*"
+- type: directory
   path: content/about
   label: About
   create: all
@@ -14,7 +19,7 @@ sections:
   label: Posts
   create: all
   match: "**/*"
-  new_doc_ext: ".es.md"
+  new_doc_ext: es.md
 - type: directory
   path: content
   label: Pages
