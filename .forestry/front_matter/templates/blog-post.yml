@@ -25,3 +25,4 @@ fields:
   label: tags
 pages:
 - content/posts/Pandas.es.md
+- content/posts/pandas_testing.es.md
