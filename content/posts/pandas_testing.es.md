@@ -1,36 +1,35 @@
 +++
 date = 2021-12-10T00:00:00Z
 description = "Pequeña introducción a snapshot testing y a cómo testear pandas con pytest"
-draft = true
-featuredImage = ""
-slug = "/pandas /testing "
+featuredImage = "/assets/x3610482-1280x640-jpg-pagespeed-ic-mdnf4d5jg.jpeg"
+slug = "/pandas /testing /pytest"
 tags = ["python", "pytest", "testing", "pandas"]
 template = "blog post"
-title = ""
+title = "Utilidades para testing con pandas y pytest"
 
 +++
 ## Introducción
 
-En mi corta experiencia en el desarrollo de software he aprendido que la mejor información es aquella que puedes leer sin mucho esfuerzo y entenderla.
-
-Por ello me he decidido a hacer una mini introducción a lo que hacemos casi a diario en Clarity.AI con el stack tecnológico que manejamos (Python, Pandas y pytest)
+Algunas personas me han estado comentando que no saben qué hacemos en **Clarity.AI** y que nunca han tocado 1 línea de **python**. Por ello me he decidido a hacer una mini introducción a lo que hacemos casi a diario en Clarity.AI con el stack tecnológico que manejamos (**Python**, **Pandas** y **pytest**)
 
 ### Pandas y snapshot testing
 
-Pandas es una librería de python con la que podemos crear estructuras de datos (Dataframes) y realizar todo tipo de operaciones que se nos ocurran.
+Pandas es una librería de python con la que podemos crear **estructuras de datos** (Dataframes) y realizar todo tipo de operaciones que se nos ocurran. Por ejemplo: 
 
     animales = ['perro','gato','cocodrilo']
     acciones = ['ladra','juzga','muerde']
     
-    dataframe = pd.Dataframe({"habitantes": animales, "acciones": acciones })
+    dataframe = pd.DataFrame({"animal": animales, "accion": acciones })
 
-Con esto ya tenemos definida una estructura de columnas y filas con las que podemos hacer de todo.
+![tabla de datos sobre animales y sus acciones](/assets/2021-12-17_13-48.png "DataFrame de ejemplo")
 
-Generalmente a la hora de trabajar con miles de datos es posible que quieras comprobar en más de una ocasión si hay algunos valores que de la noche a la mañana te han cambiado porque el proveedor de datos ha tocado lo que no tenía que tocar o no notifica. Para ello existen varias estrategias y una de ellas es el snapshot testing.
+Con esto ya tenemos definida una estructura de columnas y filas con las que podemos hacer cálculos, estadísticas y mucha otras operaciones.
 
-Snapshot testing consiste en comparar los resultados de procesos que previenen regesiones al comparar valores "buenos" guardados con los resultados actuales. 
+Generalmente a la hora de trabajar con **miles de datos** es posible que quieras comprobar en más de una ocasión si hay algunos **valores que de la noche a la mañana te han cambiado** porque el proveedor de datos ha tocado ese fichero o ha habido algún cambio en el código sin darnos cuenta que provoca un fallo. Para ello existen varias estrategias y una de ellas es el **snapshot testing**.
 
-Para ver un ejemplo partimos de un método muy muy básico y simple que sustituye en la columna values los valores que tu le pases por parámetros en un diccionario
+Snapshot testing consiste en **comparar los resultados** de procesos correctos, es decir, con valores "buenos" con los resultados actuales de tu función. Para imaginarnos un poco mejor lo anterior, pensemos en un proveedor de datos que nos da 1 fichero con 1 millón de filas y a mi me interesan aquellas que contengan algún valor positivo. Hago una función para filtrar valores y obtengo 500k filas. Sé que esas filas serán siempre las mismas salvo que modifiquen el fichero, en cuyo caso el resultado podría verse alterado y terminar con 600K filas. Con snapshot testing podremos ver al momento que existe un error al compararlo con el fichero "válido" de 500K filas.
+
+Otro ejemplo pero con código podría ser que partimos de un método muy muy básico y simple que sustituye en la columna **values** los valores que tu le pases por parámetros en un diccionario
 
     Class Transform: 
     ...
@@ -38,7 +37,7 @@ Para ver un ejemplo partimos de un método muy muy básico y simple que sustituy
        	return dataframe.replace(values_to_replace)	
     ...
 
-Y a continuación definimos el test que va a seguir el esquema tradicional de given-when-then:
+Y a continuación definimos el test que va a seguir el esquema tradicional de **given-when-then**:
 
      class TestUtils: 
     	def test_replace_values_in_columns(self):
@@ -57,7 +56,7 @@ Y a continuación definimos el test que va a seguir el esquema tradicional de gi
         
        		assert_frame_equal(result_df, expected_df)
 
-Esto que acabamos de ver NO ES SNAPSHOT TESTING, para transformarlo debemos sustituir las variables dataframe y expected_dataframe por métodos de lectura de un fichero externo. De esta forma sabremos que siempre para 1 conjunto de datos la transformación que se le haga va a ser la misma. 
+Esto que acabamos de ver **no es snapshot testing** sino un test normal con unos valores de ejemplo. Para transformarlo debemos sustituir las variables **dataframe** y **expected_dataframe** por métodos de lectura de un fichero externo (que previamente habremos preparado con una cantidad datos reales y otra con la transformación resultante). De esta forma sabremos que siempre para 1 conjunto de datos la transformación que se le haga va a ser la misma. 
 
     class TestUtils: 
     	def test_replace_values_in_columns(self):
@@ -73,9 +72,9 @@ Si tenemos un proceso automático que pilla información de un proveedor de dato
 
 ### Parametrize
 
-Otra de las pequeñas maravillas que nos ofrece pytest es la opción de parametrizar un test de forma que nos ahorramos duplicar el test para diferentes casos.
+Otra de las pequeñas maravillas con las que trabajamos es la opción de parametrizar un test de forma que **nos ahorramos duplicar el test para diferentes casos**.
 
-parametrize lo definimos justo encima de nuestro test y la manera en la que lo conectamos es añadiendo como parámetros del test las variables que definamos en el parametrize: 
+Parametrize lo definimos justo encima de nuestro test y la manera en la que lo conectamos es añadiendo como parámetros del test las variables que definamos en el parametrize: 
 
     @pytest.mark.parametrize("filename, expected", [
             ("tests/resources/update_securities.csv", "tests/resources/expected_update_securities.csv"),
@@ -96,7 +95,7 @@ De la misma manera de pueden definir variables que cumplan por ejemplo una expre
 
 ### Patch y fixture
 
-Las fixtures se utilizan para proporcionar datos que pueden acceder todos los tests
+Las **fixtures** se utilizan para **proporcionar datos** que pueden acceder todos los tests
 
     @pytest.fixture
     def config_key(self):
@@ -112,7 +111,9 @@ Las fixtures se utilizan para proporcionar datos que pueden acceder todos los te
         config.set(f"{config_key}.op1", "regex", regex)
         return config
 
-Patch es lo que utiliza pytest para mockear lo que nosotros queramos y vayamos a utilizar dentro del test: 
+En cualquier punto de nuestra clase de tests podremos referenciar **config_key** _y_ **config_regex** para obtener datos sin escribirlos con cada nuevo test
+
+Por otro lado, **Patch** es lo que utiliza pytest para **mockear** lo que nosotros queramos y vayamos a utilizar dentro del test: 
 
      @mock.patch("Tasks.ftp.Client")
      def test_run_type_regex(self, mock_client, config_regex, config_key):
@@ -123,6 +124,6 @@ Patch es lo que utiliza pytest para mockear lo que nosotros queramos y vayamos a
     
     	task._download_regex.assert_called_once()
 
-De esta manera podemos indicarle al test que la clase Client queda mockeada y la podemos referenciar dentro del test con el nombre que le demos por parámetros, en este caso mock_client. 
+De esta manera podemos indicarle al test que **la clase Client queda mockeada** y la podemos referenciar dentro del test **con el nombre que le demos por parámetros**, en este caso **mock_client**. 
 
-Así podemos obviar dentro de Client la función download_regex e incluso decirle que nos devuelva los valores que queramos (en este caso no aplica).
+Así podemos obviar dentro de Client la función _**download_regex** e incluso decirle que nos devuelva los valores que queramos (en este caso no aplica).
