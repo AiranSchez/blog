@@ -13,9 +13,9 @@ Este artículo es muy similar al que Ulises escribió en su momento sobre [como 
 
 ### Problemas (Winter is coming)
 
-Actualmente en Clarity.AI disponemos de una herramienta llamada [Apache Airflow](https://airflow.apache.org/) para gestionar la automatización de procesos. A estos, se les puede asignar mediante un crontab la frecuencia con la que se van a ejecutar y con ello dejar que hagan por su cuenta el trabajo especificado mediante código en Python.
+Actualmente disponemos de una herramienta llamada [Apache Airflow](https://airflow.apache.org/) para gestionar la automatización de procesos. A estos, se les puede asignar mediante un crontab la frecuencia con la que se van a ejecutar y con ello dejar que hagan por su cuenta el trabajo especificado mediante código en Python.
 
-Uno de los muchos procesos que tenemos es el de extracción de datos de proveedores y su posterior tratamiento para que sean adaptados al dominio de Clarity. Este proceso normalmente tenía una **duración media de 5 horas** lo cual era mas o menos pasable por varios motivos:
+Uno de los muchos procesos que tenemos es el de extracción de datos de proveedores y su posterior tratamiento para que sean adaptados al dominio. Este proceso normalmente tenía una **duración media de 5 horas** lo cual era mas o menos pasable por varios motivos:
 
 - Es un proceso automático que lo dejamos ejecutando normalmente de madrugada y a primera hora de la mañana ya lo tenemos ejecutado
 - Maneja un volumen de datos elevado y todas las operaciones que ejecutamos llevan tiempo
