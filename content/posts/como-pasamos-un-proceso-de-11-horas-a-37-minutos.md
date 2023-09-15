@@ -23,13 +23,13 @@ Uno de los muchos procesos que tenemos es el de extracción de datos de proveedo
 
 Aquí dejo una captura para que comprueben que es algo que de vez en cuando tiene sus fallos pero que se solucionan con alguna revisión y suele ser algo estable:
 
-![proceso11horas-1](/static/assets/proceso11horas-1.png)
+![proceso11horas-1](/static/assets/proceso11horas-1.png " ")
 
 ### Y llegó el invierno
 
 Por un motivo u otro, se añadieron a la cola de procesado unos pocos millones más de datos y eso terminó por incrementar en exceso los tiempos de ejecución. Concretamente se pasó de 5 horas a 11:
 
-![proceso11horas-2](/static/assets/proceso11horas-2.png)
+![proceso11horas-2](/static/assets/proceso11horas-2.png " ")
 
 Esto ya se estaba yendo de nuestras manos y no era sostenible que un proceso durase casi medio día y que se lanza 2 veces en 24 horas... Hagan sus cuentas.
 
@@ -98,7 +98,7 @@ Como bien se había dicho, el proceso coge 3 datasets y los junta en 1 para proc
 
 Esto en código no tiene mucho sentido ponerlo pero los resultados hablan por sí solos:
 
-![proceso11horas-3](/static/assets/proceso11horas-3.jpeg)
+![proceso11horas-3](/static/assets/proceso11horas-3.jpeg " ")
 
 Y por si fuese de interés, este planteamiento lo extendimos a los procesos que preceden. Les dejo una tabla con las mejoras de tiempo:
 
@@ -119,4 +119,4 @@ Y por si fuese de interés, este planteamiento lo extendimos a los procesos que 
 Al final del día no solo hemos ahorrado tiempo de ejecución, sino también recursos de los Pods de Kubernetes que ejecutan esto y máquinas de AWS. Lo cual se traduce en menos dinero gastado (chúpate esa Jeff Bezos :stuck_out_tongue_winking_eye:)
 
 Y como bien se suele decir: Una imagen vale más que mil palabras, por lo que les dejo una foto final de como la tormenta se calmó:
-![proceso11horas-4](/static/assets/proceso11horas-4.png)
+![proceso11horas-4](/static/assets/proceso11horas-4.png " ")
