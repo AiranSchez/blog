@@ -23,7 +23,7 @@ Uno de los muchos procesos que tenemos es el de extracción de datos de proveedo
 
 Aquí dejo una captura para que comprueben que es algo que de vez en cuando tiene sus fallos pero que se solucionan con alguna revisión y suele ser algo estable:
 
-![proceso11horas-1](/assets/proceso11horas-1.png =637x345)
+![proceso11horas-1](/assets/proceso11horas-1.png " ")
 
 ### Y llegó el invierno
 
