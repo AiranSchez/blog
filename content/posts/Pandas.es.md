@@ -1,14 +1,19 @@
+---
+_template: blog_post
+---
+
 +++
-date = 2021-12-03T00:00:00Z
+date = 2021-12-03T00:00:00.000Z
 description = "Breve introducción a la librería Pandas"
 draft = true
 featuredImage = "/assets/1200px-pandas_logo-svg_.png"
 slug = "/pandas /python"
-tags = ["Python", "Pandas", "Blog", "Aprendizaje"]
+tags = [ "Python", "Pandas", "Blog", "Aprendizaje" ]
 template = "blog post"
 title = ""
-
+_template = "blog_post"
 +++
+
 ## Introducción
 
 * Explicar qué hacemos en Clarity

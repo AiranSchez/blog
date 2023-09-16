@@ -1,13 +1,18 @@
+---
+_template: blog_post
+---
+
 +++
-date = 2021-12-10T00:00:00Z
+date = 2021-12-10T00:00:00.000Z
 description = "Pequeña introducción a snapshot testing y a cómo testear pandas con pytest"
 featuredImage = "/assets/x3610482-1280x640-jpg-pagespeed-ic-mdnf4d5jg.jpeg"
 slug = "/pandas /testing /pytest"
-tags = ["python", "pytest", "testing", "pandas"]
+tags = [ "python", "pytest", "testing", "pandas" ]
 template = "blog post"
 title = "Utilidades para testing con pandas y pytest"
-
+_template = "blog_post"
 +++
+
 ## Introducción
 
 Algunas personas me han estado comentando que no saben qué hacemos en **Clarity.AI** y que nunca han tocado 1 línea de **python**. Por ello me he decidido a hacer una mini introducción a lo que hacemos casi a diario en Clarity.AI con el stack tecnológico que manejamos (**Python**, **Pandas** y **pytest**)
