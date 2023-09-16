@@ -2,11 +2,17 @@
 template: blog-post
 title: Como pasamos un proceso de 11 horas a 37 minutos
 slug: /como-pasamos-un-proceso-de-11-horas-a-37-minutos
-date: 2023-01-20 00:00:00+00:00
+date: 2023-01-20T00:00:00.000Z
 description: optimización de un proceso en data engineering
 featuredImage: /assets/Optimizacion.webp
-tags: ['BigData', 'Aprendizaje', 'LeanMind', 'DataEngineering', 'Blog']
+tags:
+  - BigData
+  - Aprendizaje
+  - LeanMind
+  - DataEngineering
+  - Blog
 ---
+
 ## Introducción
 
 Este artículo es muy similar al que Ulises escribió en su momento sobre [como pasó un proceso de 5 horas a 5 minutos](https://ulisesantana.dev/blog/2022/como-pase-un-proceso-en-nodejs-de-5-horas-a-5-minutos/) pero en un contexto diferente ya que no se trata de optimizar el código en NodeJS sino que hablamos de Python aplicado a Ingeniería de datos y en este caso ha sido **pasar un proceso de 11 horas a 37 min**. Pero mejor dejadme que os pongo en contexto:
@@ -17,9 +23,9 @@ Actualmente disponemos de una herramienta llamada [Apache Airflow](https://airfl
 
 Uno de los muchos procesos que tenemos es el de extracción de datos de proveedores y su posterior tratamiento para que sean adaptados al dominio. Este proceso normalmente tenía una **duración media de 5 horas** lo cual era mas o menos pasable por varios motivos:
 
-- Es un proceso automático que lo dejamos ejecutando normalmente de madrugada y a primera hora de la mañana ya lo tenemos ejecutado
-- Maneja un volumen de datos elevado y todas las operaciones que ejecutamos llevan tiempo
-- No es necesario tenerlo al momento por lo que no es crítico para ningún otro equipo
+* Es un proceso automático que lo dejamos ejecutando normalmente de madrugada y a primera hora de la mañana ya lo tenemos ejecutado
+* Maneja un volumen de datos elevado y todas las operaciones que ejecutamos llevan tiempo
+* No es necesario tenerlo al momento por lo que no es crítico para ningún otro equipo
 
 Aquí dejo una captura para que comprueben que es algo que de vez en cuando tiene sus fallos pero que se solucionan con alguna revisión y suele ser algo estable:
 
@@ -68,7 +74,7 @@ result_dataframe = processed_dataset.repartition(partition_size=self._partition_
 
 ## ¿Por qué fijarle un tamaño a las particiones y no un número fijo de ficheros y que haga Dask todo el trabajo?
 
-Me alegra que te hagas esa pregunta. Dask puede ser un poco dolor de cabeza. Existen 2 formas de particionar: `npartitions` y `partition_size`. npartitions fija un número de particiones, ni más ni menos de las que tu le indicas. Por otro lado partition_size fija el tamaño máximo de cada partición y además provoca que el Dask Dataframe se procese, lo cual a priori es negativo porque consume más recursos y tarda más. Pero no estábamos teniendo en cuenta que el procesado se iba a realizar sí o sí, porque para guardarlo se transforma a Pandas (no lo había dicho antes pero Dask está construido sobre Pandas).
+Me alegra que te hagas esa pregunta. Dask puede ser un poco dolor de cabeza. Existen 2 formas de particionar: `npartitions` y `partition_size`. npartitions fija un número de particiones, ni más ni menos de las que tu le indicas. Por otro lado partition\_size fija el tamaño máximo de cada partición y además provoca que el Dask Dataframe se procese, lo cual a priori es negativo porque consume más recursos y tarda más. Pero no estábamos teniendo en cuenta que el procesado se iba a realizar sí o sí, porque para guardarlo se transforma a Pandas (no lo había dicho antes pero Dask está construido sobre Pandas).
 
 > TLDR; La repartición estaba funcionando regular y nos leímos mucha documentación para utilizar la opción que mejor nos venía
 
@@ -82,7 +88,7 @@ Hasta que dimos con una línea de código
 dataframe.set_index(provider_priority_column)
 ```
 
-¿Qué hace el set_index? -> Ordena el dataframe en base al parámetro que le indicas. En este caso como queremos filtrar datos en base a proveedores, pues queremos ordenarlos en base a unos numeritos. Por ejemplo:
+¿Qué hace el set\_index? -> Ordena el dataframe en base al parámetro que le indicas. En este caso como queremos filtrar datos en base a proveedores, pues queremos ordenarlos en base a unos numeritos. Por ejemplo:
 
 ```json
 {"proveedor_chachi": 0, "proveedor_guay": 1, "proveedor_no_tan_chachi": 2}
@@ -94,7 +100,7 @@ Seguro que si has llegado hasta aquí, esperarás una solución ultra compleja, 
 
 ## Solución
 
-Como bien se había dicho, el proceso coge 3 datasets y los junta en 1 para procesar los datos en base a una **priority_rank_list**. Pues se nos ocurrió concatenar (es una operación casi instantánea y que consume muy poco) en base a la lista de prioridad. Así nos olvidamos de ordenar el resultado porque ya nos vendrá ordenado y supondrá mucha menos carga de trabajo. Tan sencillo como eso.
+Como bien se había dicho, el proceso coge 3 datasets y los junta en 1 para procesar los datos en base a una **priority\_rank\_list**. Pues se nos ocurrió concatenar (es una operación casi instantánea y que consume muy poco) en base a la lista de prioridad. Así nos olvidamos de ordenar el resultado porque ya nos vendrá ordenado y supondrá mucha menos carga de trabajo. Tan sencillo como eso.
 
 Esto en código no tiene mucho sentido ponerlo pero los resultados hablan por sí solos:
 
@@ -116,7 +122,7 @@ Y por si fuese de interés, este planteamiento lo extendimos a los procesos que 
 | Proveedor B | ~20 min   | ~45min    | ~1-2h     | 3h5min       |
 | Proveedor C | ~10 min   | ~7min     | ~1-2h     | 2h17min      |
 
-Al final del día no solo hemos ahorrado tiempo de ejecución, sino también recursos de los Pods de Kubernetes que ejecutan esto y máquinas de AWS. Lo cual se traduce en menos dinero gastado (chúpate esa Jeff Bezos :stuck_out_tongue_winking_eye:)
+Al final del día no solo hemos ahorrado tiempo de ejecución, sino también recursos de los Pods de Kubernetes que ejecutan esto y máquinas de AWS. Lo cual se traduce en menos dinero gastado
 
 Y como bien se suele decir: Una imagen vale más que mil palabras, por lo que les dejo una foto final de como la tormenta se calmó:
 ![proceso11horas-4](/assets/proceso11horas-4.png " ")
