@@ -2,276 +2,276 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Airan Dev</title>
-    <link>https://www.airanschez.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Airan Dev</description>
     <generator>Hugo</generator>
     <language>es</language>
     <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.airanschez.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aprendizaje</title>
-      <link>https://www.airanschez.com/tags/aprendizaje/</link>
+      <link>http://localhost:1313/tags/aprendizaje/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/aprendizaje/</guid>
+      <guid>http://localhost:1313/tags/aprendizaje/</guid>
       <description></description>
     </item>
     <item>
       <title>BigData</title>
-      <link>https://www.airanschez.com/tags/bigdata/</link>
+      <link>http://localhost:1313/tags/bigdata/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/bigdata/</guid>
+      <guid>http://localhost:1313/tags/bigdata/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>https://www.airanschez.com/tags/blog/</link>
+      <link>http://localhost:1313/tags/blog/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/blog/</guid>
+      <guid>http://localhost:1313/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>DataEngineering</title>
-      <link>https://www.airanschez.com/tags/dataengineering/</link>
+      <link>http://localhost:1313/tags/dataengineering/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/dataengineering/</guid>
+      <guid>http://localhost:1313/tags/dataengineering/</guid>
       <description></description>
     </item>
     <item>
       <title>LeanMind</title>
-      <link>https://www.airanschez.com/tags/leanmind/</link>
+      <link>http://localhost:1313/tags/leanmind/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/leanmind/</guid>
+      <guid>http://localhost:1313/tags/leanmind/</guid>
       <description></description>
     </item>
     <item>
       <title>Numpy</title>
-      <link>https://www.airanschez.com/tags/numpy/</link>
+      <link>http://localhost:1313/tags/numpy/</link>
       <pubDate>Tue, 04 May 2021 13:26:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/numpy/</guid>
+      <guid>http://localhost:1313/tags/numpy/</guid>
       <description></description>
     </item>
     <item>
       <title>Pandas</title>
-      <link>https://www.airanschez.com/tags/pandas/</link>
+      <link>http://localhost:1313/tags/pandas/</link>
       <pubDate>Tue, 04 May 2021 13:26:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/pandas/</guid>
+      <guid>http://localhost:1313/tags/pandas/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>https://www.airanschez.com/tags/python/</link>
+      <link>http://localhost:1313/tags/python/</link>
       <pubDate>Tue, 04 May 2021 13:26:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/python/</guid>
+      <guid>http://localhost:1313/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Backend</title>
-      <link>https://www.airanschez.com/tags/backend/</link>
+      <link>http://localhost:1313/tags/backend/</link>
       <pubDate>Mon, 29 Mar 2021 15:35:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/backend/</guid>
+      <guid>http://localhost:1313/tags/backend/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker</title>
-      <link>https://www.airanschez.com/tags/docker/</link>
+      <link>http://localhost:1313/tags/docker/</link>
       <pubDate>Mon, 29 Mar 2021 15:35:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/docker/</guid>
+      <guid>http://localhost:1313/tags/docker/</guid>
       <description></description>
     </item>
     <item>
       <title>Guía</title>
-      <link>https://www.airanschez.com/tags/gu%C3%ADa/</link>
+      <link>http://localhost:1313/tags/gu%C3%ADa/</link>
       <pubDate>Mon, 29 Mar 2021 15:35:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/gu%C3%ADa/</guid>
+      <guid>http://localhost:1313/tags/gu%C3%ADa/</guid>
       <description></description>
     </item>
     <item>
       <title>JavaScript</title>
-      <link>https://www.airanschez.com/tags/javascript/</link>
+      <link>http://localhost:1313/tags/javascript/</link>
       <pubDate>Mon, 29 Mar 2021 15:35:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/javascript/</guid>
+      <guid>http://localhost:1313/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>Loopback</title>
-      <link>https://www.airanschez.com/tags/loopback/</link>
+      <link>http://localhost:1313/tags/loopback/</link>
       <pubDate>Mon, 29 Mar 2021 15:35:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/loopback/</guid>
+      <guid>http://localhost:1313/tags/loopback/</guid>
       <description></description>
     </item>
     <item>
       <title>MongoDB</title>
-      <link>https://www.airanschez.com/tags/mongodb/</link>
+      <link>http://localhost:1313/tags/mongodb/</link>
       <pubDate>Mon, 29 Mar 2021 15:35:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/mongodb/</guid>
+      <guid>http://localhost:1313/tags/mongodb/</guid>
       <description></description>
     </item>
     <item>
       <title>TypeScript</title>
-      <link>https://www.airanschez.com/tags/typescript/</link>
+      <link>http://localhost:1313/tags/typescript/</link>
       <pubDate>Mon, 29 Mar 2021 15:35:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/typescript/</guid>
+      <guid>http://localhost:1313/tags/typescript/</guid>
       <description></description>
     </item>
     <item>
       <title>Comunidad</title>
-      <link>https://www.airanschez.com/tags/comunidad/</link>
+      <link>http://localhost:1313/tags/comunidad/</link>
       <pubDate>Thu, 18 Mar 2021 14:21:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/comunidad/</guid>
+      <guid>http://localhost:1313/tags/comunidad/</guid>
       <description></description>
     </item>
     <item>
       <title>Mob/Pair</title>
-      <link>https://www.airanschez.com/tags/mob/pair/</link>
+      <link>http://localhost:1313/tags/mob/pair/</link>
       <pubDate>Thu, 18 Mar 2021 14:21:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/mob/pair/</guid>
+      <guid>http://localhost:1313/tags/mob/pair/</guid>
       <description></description>
     </item>
     <item>
       <title>Testing</title>
-      <link>https://www.airanschez.com/tags/testing/</link>
+      <link>http://localhost:1313/tags/testing/</link>
       <pubDate>Thu, 18 Mar 2021 14:21:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/testing/</guid>
+      <guid>http://localhost:1313/tags/testing/</guid>
       <description></description>
     </item>
     <item>
       <title>Bootcamp</title>
-      <link>https://www.airanschez.com/tags/bootcamp/</link>
+      <link>http://localhost:1313/tags/bootcamp/</link>
       <pubDate>Thu, 31 Dec 2020 13:52:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/bootcamp/</guid>
+      <guid>http://localhost:1313/tags/bootcamp/</guid>
       <description></description>
     </item>
     <item>
       <title>Proyectos</title>
-      <link>https://www.airanschez.com/tags/proyectos/</link>
+      <link>http://localhost:1313/tags/proyectos/</link>
       <pubDate>Thu, 31 Dec 2020 13:52:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/proyectos/</guid>
+      <guid>http://localhost:1313/tags/proyectos/</guid>
       <description></description>
     </item>
     <item>
       <title>Ubuntu</title>
-      <link>https://www.airanschez.com/tags/ubuntu/</link>
+      <link>http://localhost:1313/tags/ubuntu/</link>
       <pubDate>Tue, 22 Sep 2020 13:50:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/ubuntu/</guid>
+      <guid>http://localhost:1313/tags/ubuntu/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows</title>
-      <link>https://www.airanschez.com/tags/windows/</link>
+      <link>http://localhost:1313/tags/windows/</link>
       <pubDate>Tue, 22 Sep 2020 13:50:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/windows/</guid>
+      <guid>http://localhost:1313/tags/windows/</guid>
       <description></description>
     </item>
     <item>
       <title>WSL</title>
-      <link>https://www.airanschez.com/tags/wsl/</link>
+      <link>http://localhost:1313/tags/wsl/</link>
       <pubDate>Tue, 22 Sep 2020 13:50:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/wsl/</guid>
+      <guid>http://localhost:1313/tags/wsl/</guid>
       <description></description>
     </item>
     <item>
       <title>Proyecto</title>
-      <link>https://www.airanschez.com/tags/proyecto/</link>
+      <link>http://localhost:1313/tags/proyecto/</link>
       <pubDate>Wed, 05 Aug 2020 13:45:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/proyecto/</guid>
+      <guid>http://localhost:1313/tags/proyecto/</guid>
       <description></description>
     </item>
     <item>
       <title>React</title>
-      <link>https://www.airanschez.com/tags/react/</link>
+      <link>http://localhost:1313/tags/react/</link>
       <pubDate>Wed, 05 Aug 2020 13:45:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/react/</guid>
+      <guid>http://localhost:1313/tags/react/</guid>
       <description></description>
     </item>
     <item>
       <title>Refactor</title>
-      <link>https://www.airanschez.com/tags/refactor/</link>
+      <link>http://localhost:1313/tags/refactor/</link>
       <pubDate>Wed, 05 Aug 2020 13:45:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/refactor/</guid>
+      <guid>http://localhost:1313/tags/refactor/</guid>
       <description></description>
     </item>
     <item>
       <title>Coding-Dojo</title>
-      <link>https://www.airanschez.com/tags/coding-dojo/</link>
+      <link>http://localhost:1313/tags/coding-dojo/</link>
       <pubDate>Mon, 06 Jul 2020 13:38:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/coding-dojo/</guid>
+      <guid>http://localhost:1313/tags/coding-dojo/</guid>
       <description></description>
     </item>
     <item>
       <title>Kata</title>
-      <link>https://www.airanschez.com/tags/kata/</link>
+      <link>http://localhost:1313/tags/kata/</link>
       <pubDate>Mon, 06 Jul 2020 13:38:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/kata/</guid>
+      <guid>http://localhost:1313/tags/kata/</guid>
       <description></description>
     </item>
     <item>
       <title>CORS</title>
-      <link>https://www.airanschez.com/tags/cors/</link>
+      <link>http://localhost:1313/tags/cors/</link>
       <pubDate>Wed, 01 Jul 2020 13:37:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/cors/</guid>
+      <guid>http://localhost:1313/tags/cors/</guid>
       <description></description>
     </item>
     <item>
       <title>CSRF</title>
-      <link>https://www.airanschez.com/tags/csrf/</link>
+      <link>http://localhost:1313/tags/csrf/</link>
       <pubDate>Wed, 01 Jul 2020 13:37:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/csrf/</guid>
+      <guid>http://localhost:1313/tags/csrf/</guid>
       <description></description>
     </item>
     <item>
       <title>Seguridad</title>
-      <link>https://www.airanschez.com/tags/seguridad/</link>
+      <link>http://localhost:1313/tags/seguridad/</link>
       <pubDate>Wed, 01 Jul 2020 13:37:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/seguridad/</guid>
+      <guid>http://localhost:1313/tags/seguridad/</guid>
       <description></description>
     </item>
     <item>
       <title>XSS</title>
-      <link>https://www.airanschez.com/tags/xss/</link>
+      <link>http://localhost:1313/tags/xss/</link>
       <pubDate>Wed, 01 Jul 2020 13:37:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/xss/</guid>
+      <guid>http://localhost:1313/tags/xss/</guid>
       <description></description>
     </item>
     <item>
       <title>Library</title>
-      <link>https://www.airanschez.com/tags/library/</link>
+      <link>http://localhost:1313/tags/library/</link>
       <pubDate>Tue, 16 Jun 2020 13:24:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/library/</guid>
+      <guid>http://localhost:1313/tags/library/</guid>
       <description></description>
     </item>
     <item>
       <title>IntelliJ</title>
-      <link>https://www.airanschez.com/tags/intellij/</link>
+      <link>http://localhost:1313/tags/intellij/</link>
       <pubDate>Sat, 06 Jun 2020 13:22:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/intellij/</guid>
+      <guid>http://localhost:1313/tags/intellij/</guid>
       <description></description>
     </item>
     <item>
       <title>OpenSource</title>
-      <link>https://www.airanschez.com/tags/opensource/</link>
+      <link>http://localhost:1313/tags/opensource/</link>
       <pubDate>Sat, 06 Jun 2020 13:22:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/opensource/</guid>
+      <guid>http://localhost:1313/tags/opensource/</guid>
       <description></description>
     </item>
     <item>
       <title>Java</title>
-      <link>https://www.airanschez.com/tags/java/</link>
+      <link>http://localhost:1313/tags/java/</link>
       <pubDate>Tue, 12 May 2020 13:11:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/java/</guid>
+      <guid>http://localhost:1313/tags/java/</guid>
       <description></description>
     </item>
     <item>
       <title>TDD</title>
-      <link>https://www.airanschez.com/tags/tdd/</link>
+      <link>http://localhost:1313/tags/tdd/</link>
       <pubDate>Tue, 12 May 2020 13:11:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/tdd/</guid>
+      <guid>http://localhost:1313/tags/tdd/</guid>
       <description></description>
     </item>
     <item>
       <title>Libros</title>
-      <link>https://www.airanschez.com/tags/libros/</link>
+      <link>http://localhost:1313/tags/libros/</link>
       <pubDate>Tue, 05 May 2020 11:00:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/tags/libros/</guid>
+      <guid>http://localhost:1313/tags/libros/</guid>
       <description></description>
     </item>
   </channel>

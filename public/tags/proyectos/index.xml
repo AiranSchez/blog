@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Proyectos on Airan Dev</title>
-    <link>https://www.airanschez.com/tags/proyectos/</link>
+    <link>http://localhost:1313/tags/proyectos/</link>
     <description>Recent content in Proyectos on Airan Dev</description>
     <generator>Hugo</generator>
     <language>es</language>
     <lastBuildDate>Thu, 31 Dec 2020 13:52:00 +0000</lastBuildDate>
-    <atom:link href="https://www.airanschez.com/tags/proyectos/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/proyectos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mi experiencia en un bootcamp FullStack</title>
-      <link>https://www.airanschez.com/mi-experiencia-en-un-bootcamp-fullstack/</link>
+      <link>http://localhost:1313/mi-experiencia-en-un-bootcamp-fullstack/</link>
       <pubDate>Thu, 31 Dec 2020 13:52:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/mi-experiencia-en-un-bootcamp-fullstack/</guid>
+      <guid>http://localhost:1313/mi-experiencia-en-un-bootcamp-fullstack/</guid>
       <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;¿Dónde he estado metido estos últimos meses?&lt;br&gt;&#xA;¿Por qué has abandonado el blog?&lt;br&gt;&#xA;¿Qué has aprendido?&lt;/p&gt;&#xA;&lt;p&gt;Estas son preguntas normales que alguien que entre a ver las entradas del blog se plantee. No, no he abandonado mis ganas de aprender, sino que por el contrario he estado aprendiendo y trabajando en equipo para un proyecto en un bootcamp desde finales de septiembre hasta ahora.&lt;/p&gt;&#xA;&lt;p&gt;Tras las muchas recomendaciones me aventuré en este curso (intenso) de 3 meses de duración con el propósito de aprender tantas tecnologías como pueda recordar mi mente.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TDD on Airan Dev</title>
-    <link>https://www.airanschez.com/tags/tdd/</link>
+    <link>http://localhost:1313/tags/tdd/</link>
     <description>Recent content in TDD on Airan Dev</description>
     <generator>Hugo</generator>
     <language>es</language>
     <lastBuildDate>Tue, 12 May 2020 13:11:00 +0000</lastBuildDate>
-    <atom:link href="https://www.airanschez.com/tags/tdd/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/tdd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>String Calculator Kata</title>
-      <link>https://www.airanschez.com/string-calculator-kata/</link>
+      <link>http://localhost:1313/string-calculator-kata/</link>
       <pubDate>Tue, 12 May 2020 13:11:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/string-calculator-kata/</guid>
+      <guid>http://localhost:1313/string-calculator-kata/</guid>
       <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;El pasado día 11 de Mayo los compañeros de Lean Mind nos ofrecieron reunimos mediante videollamada para realizar un ejercicio conjunto denominado &lt;em&gt;&lt;strong&gt;Kata&lt;/strong&gt;&lt;/em&gt; el cual consiste en abordar un problema paso a paso implementando la metodología &lt;strong&gt;TDD&lt;/strong&gt;, de la cual ya hablé en mi anterior post. Estas reuniones con frecuencia las suelen llamar &lt;em&gt;&lt;strong&gt;Coding dojo&lt;/strong&gt;&lt;/em&gt;, término más que adecuado ya que es un entrenamiento para aprender metodologías desconocidas, practicar las que tenemos flojas e incluso aprender a salir de nuestra zona de confort y comunicarnos con gente que no conocemos.&lt;/p&gt;</description>
     </item>
     <item>
       <title>He leído Diseño ágil con TDD de Carlos Blé</title>
-      <link>https://www.airanschez.com/he-le%C3%ADdo-dise%C3%B1o-%C3%A1gil-con-tdd-de-carlos-bl%C3%A9/</link>
+      <link>http://localhost:1313/he-le%C3%ADdo-dise%C3%B1o-%C3%A1gil-con-tdd-de-carlos-bl%C3%A9/</link>
       <pubDate>Tue, 05 May 2020 11:00:00 +0000</pubDate>
-      <guid>https://www.airanschez.com/he-le%C3%ADdo-dise%C3%B1o-%C3%A1gil-con-tdd-de-carlos-bl%C3%A9/</guid>
+      <guid>http://localhost:1313/he-le%C3%ADdo-dise%C3%B1o-%C3%A1gil-con-tdd-de-carlos-bl%C3%A9/</guid>
       <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Antes de empezar con el artículo, he de aclarar que durante mis estudios en el ciclo superior hemos tocado muy brevemente la implantación de &lt;strong&gt;test en C#&lt;/strong&gt; con &lt;strong&gt;Visual Studio&lt;/strong&gt;. Dichos test fueron realizados sobre un código ya existente, por eso mismo tenía la percepción de que los test se realizaban de una forma, pero este libro me ha enseñado que hay muchas más formas que desconocía por completo.&lt;/p&gt;</description>
     </item>
   </channel>
