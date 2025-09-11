@@ -2,25 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Testing on Airan Dev</title>
-    <link>http://localhost:1313/tags/testing/</link>
+    <link>https://www.airanschez.tech/tags/testing/</link>
     <description>Recent content in Testing on Airan Dev</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 18 Mar 2021 14:21:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>airan@leanmind.es (Airan)</managingEditor>
+    <webMaster>airan@leanmind.es (Airan)</webMaster>
+    <lastBuildDate>Thu, 18 Mar 2021 14:21:00 +0000</lastBuildDate><atom:link href="https://www.airanschez.tech/tags/testing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mob and Pair programming</title>
-      <link>http://localhost:1313/mob-and-pair-programming/</link>
+      <link>https://www.airanschez.tech/mob-and-pair-programming/</link>
       <pubDate>Thu, 18 Mar 2021 14:21:00 +0000</pubDate>
-      <guid>http://localhost:1313/mob-and-pair-programming/</guid>
-      <description>&lt;h2 id=&#34;mob-programming&#34;&gt;Mob Programming&lt;/h2&gt;&#xA;&lt;p&gt;En mi corto recorrido por el mundo laboral he podido experimentar de primera mano trabajar en Pair programming y en ocasiones en Mob. Lo primero que se te pasa por la mente es &lt;strong&gt;pensar que el trabajo saldría más rápido&lt;/strong&gt; si cada programador hiciese su tarea individualmente. Sin embargo dependes del trabajo de los demás para saber cómo funciona el software que están desarrollando entre todos.&lt;/p&gt;&#xA;&lt;h2 id=&#34;beneficios&#34;&gt;Beneficios&lt;/h2&gt;&#xA;&lt;p&gt;El juntar a varios miembros del equipo &lt;strong&gt;trae más beneficios que inconvenientes&lt;/strong&gt;, dejo a continuación algunas de las más relevantes para mí:&lt;/p&gt;</description>
+      <author>airan@leanmind.es (Airan)</author>
+      <guid>https://www.airanschez.tech/mob-and-pair-programming/</guid>
+      <description>Mob Programming En mi corto recorrido por el mundo laboral he podido experimentar de primera mano trabajar en Pair programming y en ocasiones en Mob. Lo primero que se te pasa por la mente es pensar que el trabajo saldría más rápido si cada programador hiciese su tarea individualmente. Sin embargo dependes del trabajo de los demás para saber cómo funciona el software que están desarrollando entre todos.
+Beneficios El juntar a varios miembros del equipo trae más beneficios que inconvenientes, dejo a continuación algunas de las más relevantes para mí:</description>
     </item>
+    
     <item>
       <title>Testing Library</title>
-      <link>http://localhost:1313/testing-library/</link>
+      <link>https://www.airanschez.tech/testing-library/</link>
       <pubDate>Tue, 16 Jun 2020 13:24:00 +0000</pubDate>
-      <guid>http://localhost:1313/testing-library/</guid>
-      <description>&lt;h2 id=&#34;qué-es-testing-library&#34;&gt;¿Qué es Testing library?&lt;/h2&gt;&#xA;&lt;p&gt;Esta librería de test está pensada sobretodo para comprobar el comportamiento de ciertos elementos en tu web. No es un framework de testing, es una herramienta para suplementar un framework de testing (Ellos mismos recomiendan usar Jest pero funciona con cualquier framework).&lt;/p&gt;&#xA;&lt;p&gt;Para ello nos proporciona diferentes comandos que podríamos dividir en DOM testing library y React testing library (Nos centraremos en la primera ya que la segunda está construida sobre la primera y simplemente añade unas funcionalidades extra para trabajar de manera más cómoda con React):&lt;/p&gt;</description>
+      <author>airan@leanmind.es (Airan)</author>
+      <guid>https://www.airanschez.tech/testing-library/</guid>
+      <description>¿Qué es Testing library? Esta librería de test está pensada sobretodo para comprobar el comportamiento de ciertos elementos en tu web. No es un framework de testing, es una herramienta para suplementar un framework de testing (Ellos mismos recomiendan usar Jest pero funciona con cualquier framework).
+Para ello nos proporciona diferentes comandos que podríamos dividir en DOM testing library y React testing library (Nos centraremos en la primera ya que la segunda está construida sobre la primera y simplemente añade unas funcionalidades extra para trabajar de manera más cómoda con React):</description>
     </item>
+    
   </channel>
 </rss>

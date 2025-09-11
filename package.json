@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tinacms dev -c \"hugo serve -D\"",
-    "build": "tinacms build && hugo",
+    "build": "tinacms build && npx hugo",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,5 +15,8 @@
     "@tinacms/cli": "^1.6.2",
     "hugo": "^0.0.3",
     "tinacms": "^1.5.20"
+  },
+  "devDependencies": {
+    "hugo-bin": "^0.100.0"
   }
 }

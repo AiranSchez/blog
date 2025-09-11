@@ -2,25 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docker on Airan Dev</title>
-    <link>http://localhost:1313/tags/docker/</link>
+    <link>https://www.airanschez.tech/tags/docker/</link>
     <description>Recent content in Docker on Airan Dev</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 29 Mar 2021 15:35:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>airan@leanmind.es (Airan)</managingEditor>
+    <webMaster>airan@leanmind.es (Airan)</webMaster>
+    <lastBuildDate>Mon, 29 Mar 2021 15:35:00 +0000</lastBuildDate><atom:link href="https://www.airanschez.tech/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Loopback &#43; mongo</title>
-      <link>http://localhost:1313/loopback-mongo/</link>
+      <link>https://www.airanschez.tech/loopback-mongo/</link>
       <pubDate>Mon, 29 Mar 2021 15:35:00 +0000</pubDate>
-      <guid>http://localhost:1313/loopback-mongo/</guid>
-      <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;El otro día me dio por curiosear un poco acerca de &lt;a href=&#34;https://loopback.io/&#34;&gt;Loopback&lt;/a&gt;, un framework para nodejs y TypeScript que te permite crear APIs de una forma rápida sin preocuparte de mucho. Está creado por IBM y tras alguna que otra recomendación me aventuré a probar y este fue el resultado:&lt;/p&gt;&#xA;&lt;h2 id=&#34;loopback4&#34;&gt;Loopback4&lt;/h2&gt;&#xA;&lt;p&gt;La idea principal era crear una API que se conectara a un contenedor de mongo y permita crear, leer, actualizar y eliminar usuarios de una aplicación (CRUD). Para ello, según el tutorial oficial, basta con hacer estos pocos comandos:&lt;/p&gt;</description>
+      <author>airan@leanmind.es (Airan)</author>
+      <guid>https://www.airanschez.tech/loopback-mongo/</guid>
+      <description>Introducción El otro día me dio por curiosear un poco acerca de Loopback, un framework para nodejs y TypeScript que te permite crear APIs de una forma rápida sin preocuparte de mucho. Está creado por IBM y tras alguna que otra recomendación me aventuré a probar y este fue el resultado:
+Loopback4 La idea principal era crear una API que se conectara a un contenedor de mongo y permita crear, leer, actualizar y eliminar usuarios de una aplicación (CRUD).</description>
     </item>
+    
     <item>
       <title>Arrancando el proyecto Huella Digital</title>
-      <link>http://localhost:1313/arrancando-huella-digital/</link>
+      <link>https://www.airanschez.tech/arrancando-huella-digital/</link>
       <pubDate>Sat, 06 Jun 2020 13:22:00 +0000</pubDate>
-      <guid>http://localhost:1313/arrancando-huella-digital/</guid>
-      <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Durante estas últimas semanas he empezado a formar parte de un proyecto open source llamado Huella Digital que consiste en hacer una plataforma web que facilite el acceso a recursos para voluntarios que se encuentran en la lucha contra el COVID-19.&lt;/p&gt;&#xA;&lt;p&gt;De lo que me gustaría hablar en este primer post es de cómo afronté el inicio de este proyecto, ya que inicialmente andaba un poco perdido y sin saber qué hacer. Pero gracias a mis compañeros de trabajo (&lt;a href=&#34;https://ddiaalv.wordpress.com/&#34;&gt;David&lt;/a&gt; y Agustín) logramos entre todos realizar una guía para desplegar en local el proyecto y empezar a trabajar.&lt;/p&gt;</description>
+      <author>airan@leanmind.es (Airan)</author>
+      <guid>https://www.airanschez.tech/arrancando-huella-digital/</guid>
+      <description>Introducción Durante estas últimas semanas he empezado a formar parte de un proyecto open source llamado Huella Digital que consiste en hacer una plataforma web que facilite el acceso a recursos para voluntarios que se encuentran en la lucha contra el COVID-19.
+De lo que me gustaría hablar en este primer post es de cómo afronté el inicio de este proyecto, ya que inicialmente andaba un poco perdido y sin saber qué hacer.</description>
     </item>
+    
   </channel>
 </rss>

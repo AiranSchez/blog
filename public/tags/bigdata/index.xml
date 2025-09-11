@@ -2,18 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BigData on Airan Dev</title>
-    <link>http://localhost:1313/tags/bigdata/</link>
+    <link>https://www.airanschez.tech/tags/bigdata/</link>
     <description>Recent content in BigData on Airan Dev</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/bigdata/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>airan@leanmind.es (Airan)</managingEditor>
+    <webMaster>airan@leanmind.es (Airan)</webMaster>
+    <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.airanschez.tech/tags/bigdata/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Como pasamos un proceso de 11 horas a 37 minutos</title>
-      <link>http://localhost:1313/como-pasamos-un-proceso-de-11-horas-a-37-minutos/</link>
+      <link>https://www.airanschez.tech/como-pasamos-un-proceso-de-11-horas-a-37-minutos/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/como-pasamos-un-proceso-de-11-horas-a-37-minutos/</guid>
-      <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Este artículo es muy similar al que Ulises escribió en su momento sobre &lt;a href=&#34;https://ulisesantana.dev/blog/2022/como-pase-un-proceso-en-nodejs-de-5-horas-a-5-minutos/&#34;&gt;como pasó un proceso de 5 horas a 5 minutos&lt;/a&gt; pero en un contexto diferente ya que no se trata de optimizar el código en NodeJS sino que hablamos de Python aplicado a Ingeniería de datos y en este caso ha sido &lt;strong&gt;pasar un proceso de 11 horas a 37 min&lt;/strong&gt;. Pero mejor dejadme que os pongo en contexto:&lt;/p&gt;</description>
+      <author>airan@leanmind.es (Airan)</author>
+      <guid>https://www.airanschez.tech/como-pasamos-un-proceso-de-11-horas-a-37-minutos/</guid>
+      <description>Introducción Este artículo es muy similar al que Ulises escribió en su momento sobre como pasó un proceso de 5 horas a 5 minutos pero en un contexto diferente ya que no se trata de optimizar el código en NodeJS sino que hablamos de Python aplicado a Ingeniería de datos y en este caso ha sido pasar un proceso de 11 horas a 37 min. Pero mejor dejadme que os pongo en contexto:</description>
     </item>
+    
   </channel>
 </rss>

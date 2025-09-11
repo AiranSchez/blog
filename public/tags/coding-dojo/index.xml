@@ -1,33 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Coding-Dojo on Airan Dev</title>
-    <link>http://localhost:1313/tags/coding-dojo/</link>
-    <description>Recent content in Coding-Dojo on Airan Dev</description>
-    <generator>Hugo</generator>
+    <title>Coding-dojo on Airan Dev</title>
+    <link>https://www.airanschez.tech/tags/coding-dojo/</link>
+    <description>Recent content in Coding-dojo on Airan Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 06 Jul 2020 13:38:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/coding-dojo/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>airan@leanmind.es (Airan)</managingEditor>
+    <webMaster>airan@leanmind.es (Airan)</webMaster>
+    <lastBuildDate>Mon, 06 Jul 2020 13:38:00 +0000</lastBuildDate><atom:link href="https://www.airanschez.tech/tags/coding-dojo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>🚀¡Bienvenido a la comunidad de Lean Mind! 🚀</title>
-      <link>http://localhost:1313/bienvenido-a-la-comunidad-de-lean-mind-/</link>
+      <link>https://www.airanschez.tech/bienvenido-a-la-comunidad-de-lean-mind-/</link>
       <pubDate>Mon, 06 Jul 2020 13:38:00 +0000</pubDate>
-      <guid>http://localhost:1313/bienvenido-a-la-comunidad-de-lean-mind-/</guid>
-      <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Todos hemos querido en algún momento de nuestra carrera estar en contacto con gente que sepa mucho para poder tenerlos como guías en el camino ¿Verdad? Bueno, me alegra comunicarte que lo has encontrado.&lt;/p&gt;&#xA;&lt;p&gt;Profesionales y estudiantes nos juntamos en esta comunidad para realizar actividades muy variadas que seguro te interesarán:&lt;/p&gt;&#xA;&lt;h2 id=&#34;coding-dojo&#34;&gt;Coding dojo&lt;/h2&gt;&#xA;&lt;p&gt;Actividad por excelencia en la que nos reunimos para practicar metodologías de programación para resolver un paradigma concreto. Siempre nos juntamos por parejas para comenzar a &lt;strong&gt;practicar TDD&lt;/strong&gt; con las reglas establecidas. Tras 30-40 minutos nos juntamos en grupo y debatimos el planteamiento que han tenido cada pareja. Luego cambiamos de compañero y volvemos a empezar de cero y, si es posible, con otro planteamiento diferente. ¿Cuál es el propósito? Ver &lt;strong&gt;diferentes formas&lt;/strong&gt; de hacer un mismo ejercicio y &lt;strong&gt;aprender&lt;/strong&gt; de los demás todo lo que se pueda. Da igual el nivel que tengas y la tecnología que uses con tal de que aprendas algo nuevo con cada sesión.&lt;/p&gt;</description>
+      <author>airan@leanmind.es (Airan)</author>
+      <guid>https://www.airanschez.tech/bienvenido-a-la-comunidad-de-lean-mind-/</guid>
+      <description>Introducción Todos hemos querido en algún momento de nuestra carrera estar en contacto con gente que sepa mucho para poder tenerlos como guías en el camino ¿Verdad? Bueno, me alegra comunicarte que lo has encontrado.
+Profesionales y estudiantes nos juntamos en esta comunidad para realizar actividades muy variadas que seguro te interesarán:
+Coding dojo Actividad por excelencia en la que nos reunimos para practicar metodologías de programación para resolver un paradigma concreto.</description>
     </item>
+    
     <item>
       <title>React &#43; TS &#43; StoryBook &#43; EmotionJS (Parte 1)</title>
-      <link>http://localhost:1313/react-ts-storybook-emotionjs-parte-1/</link>
+      <link>https://www.airanschez.tech/react-ts-storybook-emotionjs-parte-1/</link>
       <pubDate>Thu, 14 May 2020 13:32:00 +0000</pubDate>
-      <guid>http://localhost:1313/react-ts-storybook-emotionjs-parte-1/</guid>
-      <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Se nos planteó hacer una Kata diferente a los que ya hemos hecho. Esta Kata consistía en hacer en grupo una aplicación con &lt;strong&gt;React + TypeScript&lt;/strong&gt; paso a paso para que todos entendamos las virtudes de usar un framework como React y todas las posibilidades que nos ofrece. Lo primero que hicimos fue crear el proyecto de manera simple:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;npm create-react-app blackjack_powah --template typescript &lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Lo importante aquí es la librería EmotionJS, la cual nos permitirá pintar componentes de una manera diferente. Como ejemplo se utiliza un componente &lt;strong&gt;HelloWorld&lt;/strong&gt; el cual tendrá dentro otro componente llamado &lt;strong&gt;Greetings.&lt;/strong&gt;&lt;/p&gt;</description>
+      <author>airan@leanmind.es (Airan)</author>
+      <guid>https://www.airanschez.tech/react-ts-storybook-emotionjs-parte-1/</guid>
+      <description>Introducción Se nos planteó hacer una Kata diferente a los que ya hemos hecho. Esta Kata consistía en hacer en grupo una aplicación con React + TypeScript paso a paso para que todos entendamos las virtudes de usar un framework como React y todas las posibilidades que nos ofrece. Lo primero que hicimos fue crear el proyecto de manera simple:
+npm create-react-app blackjack_powah --template typescript Lo importante aquí es la librería EmotionJS, la cual nos permitirá pintar componentes de una manera diferente.</description>
     </item>
+    
     <item>
       <title>String Calculator Kata</title>
-      <link>http://localhost:1313/string-calculator-kata/</link>
+      <link>https://www.airanschez.tech/string-calculator-kata/</link>
       <pubDate>Tue, 12 May 2020 13:11:00 +0000</pubDate>
-      <guid>http://localhost:1313/string-calculator-kata/</guid>
-      <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;El pasado día 11 de Mayo los compañeros de Lean Mind nos ofrecieron reunimos mediante videollamada para realizar un ejercicio conjunto denominado &lt;em&gt;&lt;strong&gt;Kata&lt;/strong&gt;&lt;/em&gt; el cual consiste en abordar un problema paso a paso implementando la metodología &lt;strong&gt;TDD&lt;/strong&gt;, de la cual ya hablé en mi anterior post. Estas reuniones con frecuencia las suelen llamar &lt;em&gt;&lt;strong&gt;Coding dojo&lt;/strong&gt;&lt;/em&gt;, término más que adecuado ya que es un entrenamiento para aprender metodologías desconocidas, practicar las que tenemos flojas e incluso aprender a salir de nuestra zona de confort y comunicarnos con gente que no conocemos.&lt;/p&gt;</description>
+      <author>airan@leanmind.es (Airan)</author>
+      <guid>https://www.airanschez.tech/string-calculator-kata/</guid>
+      <description>Introducción El pasado día 11 de Mayo los compañeros de Lean Mind nos ofrecieron reunimos mediante videollamada para realizar un ejercicio conjunto denominado Kata el cual consiste en abordar un problema paso a paso implementando la metodología TDD, de la cual ya hablé en mi anterior post. Estas reuniones con frecuencia las suelen llamar Coding dojo, término más que adecuado ya que es un entrenamiento para aprender metodologías desconocidas, practicar las que tenemos flojas e incluso aprender a salir de nuestra zona de confort y comunicarnos con gente que no conocemos.</description>
     </item>
+    
   </channel>
 </rss>
