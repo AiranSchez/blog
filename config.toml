@@ -636,3 +636,5 @@ theme = "FeelIt"
 # Options to make hugo output files
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+GoogleAnalytics = ""
