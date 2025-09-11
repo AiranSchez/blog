@@ -1,15 +1,26 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Airan Dev</title>
-        <link>http://example.org/en/</link>
-        <description>Pequeño rincón de internet en el que te cuento mis experiencias en el mundo del desarrollo de software</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 22 Oct 2021 12:44:51 &#43;0100</lastBuildDate>
-            <atom:link href="http://example.org/en/index.xml" rel="self" type="application/rss+xml" />
-        <item>
-    <title>First_post</title>
-    <link>http://example.org/en/first_post/</link>
-    <pubDate>Fri, 22 Oct 2021 12:44:51 &#43;0100</pubDate><guid>http://example.org/en/first_post/</guid>
-    <description><![CDATA[aaaaaa]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Airan Dev</title>
+    <link>https://www.airanschez.tech/en/</link>
+    <description>Recent content on Airan Dev</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 06 Jul 2020 13:38:00 +0000</lastBuildDate>
+    <atom:link href="https://www.airanschez.tech/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🚀¡Welcome to Lean Mind community! 🚀</title>
+      <link>https://www.airanschez.tech/en/welcome-to-lean-mind-community/</link>
+      <pubDate>Mon, 06 Jul 2020 13:38:00 +0000</pubDate>
+      <guid>https://www.airanschez.tech/en/welcome-to-lean-mind-community/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;We have all wanted at some point in our career to be in contact with people who know a lot to follow them as mentors on our professional development, right? Well, I&amp;rsquo;m glad to report that you&amp;rsquo;ve found it.&lt;/p&gt;&#xA;&lt;p&gt;Professionals and students are gather together in this community to do different activities I&amp;rsquo;m sure you&amp;rsquo;re interested in.&lt;/p&gt;&#xA;&lt;h2 id=&#34;coding-dojo&#34;&gt;Coding dojo&lt;/h2&gt;&#xA;&lt;p&gt;Activity in which we meet to practice programming methodologies to solve a specific paradigm. We always get together in pairs to start &lt;strong&gt;practicing TDD&lt;/strong&gt; with the established rules. After 30-40 minutes we get together as a group and discuss the approach that each couple has had. Then we change partners and start over from scratch and, if possible, with a different approach. What is the purpose? To see ** different ways ** to do the same exercise and ** to learn ** from others as much as possible. It does not matter what level you have and the technology you use as long as you learn something new with each session.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About FeelIt</title>
+      <link>https://www.airanschez.tech/en/about/</link>
+      <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
+      <guid>https://www.airanschez.tech/en/about/</guid>
+      <description>&lt;h1 id=&#34;who-am-i&#34;&gt;Who am I?&lt;/h1&gt;&#xA;&lt;p&gt;I am a &lt;strong&gt;junior web developer&lt;/strong&gt;  who has always been in direct contact with new technologies. Currently I develop web applications in both Front and Back making use of popular and widespread tools in the business field. I consider myself as a hard-working, applied and enthusiastic about new technologies and always focused on results.&lt;/p&gt;&#xA;&lt;p&gt;I have a Certificate of Higher Education (HNC) in &lt;strong&gt;web application development&lt;/strong&gt; at &lt;strong&gt;CIFP César Manrique&lt;/strong&gt;, which I accessed through high school in its technological modality. But it doesn&amp;rsquo;t end there, I took a couple of turns through life in college until I found what I really enjoy. For which I have also taken courses (HTML, CSS3 and JS)&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>
