@@ -1,18 +1,22 @@
 ---
-title: "About me"
-date: 2019-08-02T11:04:49+08:00
+title: About me
+date: '2019-08-02T03:04:49.000Z'
 draft: false
-
 lightgallery: true
-
 math:
   enable: true
 ---
+
 # ¿Quién soy?
-Soy un **desarrollador web** junior que siempre ha estado en contacto directo con las nuevas tecnologías. Actualmente desarrollo aplicaciones web tanto en Front como en Back haciendo uso de herramientas populares y muy extendidas en el ámbito empresarial. Me considero trabajador, aplicado, entusiasta por las nuevas tecnologías y orientado a resultados.
 
-He estudiado un ciclo superior de **desarrollo de aplicaciones web** en el **CIFP César Manrique**, al cual accedí mediante bachillerato en su modalidad tecnológica. Pero ahí no acaba la cosa, di un par de vueltas por la vida en la universidad hasta dar con aquello que realmente me entusiasmaba. Para lo cual también he realizado cursos (HTML, CSS3 y JS)
+Hola, soy Airán 👋
 
-Tras toda la situación vivida en 2020, casi a finales de ese mismo año me apunté a un **bootcamp de desarrollo FullStack** impartido por la Escuela de Organización Industrial, en el cual aprendí tecnologías muy variadas a la par que interesantes como Golang, Tailwind, NodeJS, Nginx, Vue...
+Desde hace años me apasiona el mundo del desarrollo de software. Empecé estudiando desarrollo de aplicaciones web y más tarde hice un bootcamp FullStack que me abrió todavía más el abanico de tecnologías y formas de trabajar.
 
-Actualmente **trabajo en LeanMind** prestando mis servicios a **Clarity.ai** como Data Engineer.
+Desde entonces trabajo en LeanMind, donde he tenido la suerte de participar en proyectos muy diferentes y enriquecedores:
+
+* En Clarity.ai estuve metido de lleno en el mundo de los datos, trabajando con Python, Jupyter Notebooks, Docker, AWS y librerías de testing como pytest e Hypothesis. Fue una etapa intensa en la que aprendí a manejar grandes volúmenes de información y a cuidar mucho la calidad del código.
+* Después, en el Technology Innovation Institute (TII), colaboré en la creación de una plataforma web que permitía acceder directamente desde el navegador a una máquina virtual con librerías matemáticas ya instaladas. Todo ello con generación de reportes y almacenamiento en la nube, usando tecnologías como Next.js, MongoDB, AWS y herramientas de despliegue como ArgoCD y Jenkins.
+* Y ahora mismo estoy trabajando con Voxel (Amadeus), dentro del área de facturación y gestión de firmas de factura. Aquí el día a día pasa por desarrollar en .NET, trabajar con bases de datos SQL, y apoyarnos en librerías de testing y herramientas de CI/CD como NSubstitute, TestContainers, Jenkins y GitHub Actions.
+
+Me gusta ver mi recorrido como una aventura en la que cada proyecto me ha dado nuevas perspectivas y aprendizajes. Y, aunque la tecnología es el centro de mi trabajo, lo que más disfruto es poder construir cosas que de verdad sirvan a las personas.
