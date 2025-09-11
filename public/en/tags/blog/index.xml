@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Airan Dev</title>
+    <link>https://www.airanschez.com/en/tags/blog/</link>
+    <description>Recent content in Blog on Airan Dev</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 06 Jul 2020 13:38:00 +0000</lastBuildDate>
+    <atom:link href="https://www.airanschez.com/en/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🚀¡Welcome to Lean Mind community! 🚀</title>
+      <link>https://www.airanschez.com/en/welcome-to-lean-mind-community/</link>
+      <pubDate>Mon, 06 Jul 2020 13:38:00 +0000</pubDate>
+      <guid>https://www.airanschez.com/en/welcome-to-lean-mind-community/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;We have all wanted at some point in our career to be in contact with people who know a lot to follow them as mentors on our professional development, right? Well, I&amp;rsquo;m glad to report that you&amp;rsquo;ve found it.&lt;/p&gt;&#xA;&lt;p&gt;Professionals and students are gather together in this community to do different activities I&amp;rsquo;m sure you&amp;rsquo;re interested in.&lt;/p&gt;&#xA;&lt;h2 id=&#34;coding-dojo&#34;&gt;Coding dojo&lt;/h2&gt;&#xA;&lt;p&gt;Activity in which we meet to practice programming methodologies to solve a specific paradigm. We always get together in pairs to start &lt;strong&gt;practicing TDD&lt;/strong&gt; with the established rules. After 30-40 minutes we get together as a group and discuss the approach that each couple has had. Then we change partners and start over from scratch and, if possible, with a different approach. What is the purpose? To see ** different ways ** to do the same exercise and ** to learn ** from others as much as possible. It does not matter what level you have and the technology you use as long as you learn something new with each session.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

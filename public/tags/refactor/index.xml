@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Refactor on Airan Dev</title>
+    <link>https://www.airanschez.com/tags/refactor/</link>
+    <description>Recent content in Refactor on Airan Dev</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 05 Aug 2020 13:45:00 +0000</lastBuildDate>
+    <atom:link href="https://www.airanschez.com/tags/refactor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Refactor proyecto Pokémon</title>
+      <link>https://www.airanschez.com/refactor-proyecto-pok%C3%A9mon/</link>
+      <pubDate>Wed, 05 Aug 2020 13:45:00 +0000</pubDate>
+      <guid>https://www.airanschez.com/refactor-proyecto-pok%C3%A9mon/</guid>
+      <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Previamente en el blog he hablado acerca del proyecto personal en el que estoy trabajando. Por si no lo has leído te recomiendo pasarte por &lt;a href=&#34;https://airanschez.wordpress.com/2020/07/15/type-en-typescript/&#34;&gt;aquí&lt;/a&gt; y echarle un vistazo primero.&lt;/p&gt;&#xA;&lt;p&gt;Desde ese momento hasta ahora han habido muchos cambios y nuevos aprendizajes tales como cambiar el uso de types a interfaces o meter una capa de dominio a mi proyecto para simplificar los componentes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;types--interfaces&#34;&gt;Types – Interfaces&lt;/h2&gt;&#xA;&lt;p&gt;Tenía entendido que era buena alternativa usar un type para crearte tu propio tipo, sin embargo, hay mejores alternativas y un uso más concreto para esta característica de TypeScript.&lt;strong&gt;Preferentemente debemos utilizar interfaces&lt;/strong&gt; para las diferentes estructuras que componen nuestra app y hacer uso del type cuando lo que intentemos hacer no se pueda en una interfaz.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

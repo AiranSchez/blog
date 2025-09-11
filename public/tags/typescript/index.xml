@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TypeScript on Airan Dev</title>
+    <link>https://www.airanschez.com/tags/typescript/</link>
+    <description>Recent content in TypeScript on Airan Dev</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 29 Mar 2021 15:35:00 +0000</lastBuildDate>
+    <atom:link href="https://www.airanschez.com/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Loopback &#43; mongo</title>
+      <link>https://www.airanschez.com/loopback-mongo/</link>
+      <pubDate>Mon, 29 Mar 2021 15:35:00 +0000</pubDate>
+      <guid>https://www.airanschez.com/loopback-mongo/</guid>
+      <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;El otro día me dio por curiosear un poco acerca de &lt;a href=&#34;https://loopback.io/&#34;&gt;Loopback&lt;/a&gt;, un framework para nodejs y TypeScript que te permite crear APIs de una forma rápida sin preocuparte de mucho. Está creado por IBM y tras alguna que otra recomendación me aventuré a probar y este fue el resultado:&lt;/p&gt;&#xA;&lt;h2 id=&#34;loopback4&#34;&gt;Loopback4&lt;/h2&gt;&#xA;&lt;p&gt;La idea principal era crear una API que se conectara a un contenedor de mongo y permita crear, leer, actualizar y eliminar usuarios de una aplicación (CRUD). Para ello, según el tutorial oficial, basta con hacer estos pocos comandos:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Refactor proyecto Pokémon</title>
+      <link>https://www.airanschez.com/refactor-proyecto-pok%C3%A9mon/</link>
+      <pubDate>Wed, 05 Aug 2020 13:45:00 +0000</pubDate>
+      <guid>https://www.airanschez.com/refactor-proyecto-pok%C3%A9mon/</guid>
+      <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Previamente en el blog he hablado acerca del proyecto personal en el que estoy trabajando. Por si no lo has leído te recomiendo pasarte por &lt;a href=&#34;https://airanschez.wordpress.com/2020/07/15/type-en-typescript/&#34;&gt;aquí&lt;/a&gt; y echarle un vistazo primero.&lt;/p&gt;&#xA;&lt;p&gt;Desde ese momento hasta ahora han habido muchos cambios y nuevos aprendizajes tales como cambiar el uso de types a interfaces o meter una capa de dominio a mi proyecto para simplificar los componentes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;types--interfaces&#34;&gt;Types – Interfaces&lt;/h2&gt;&#xA;&lt;p&gt;Tenía entendido que era buena alternativa usar un type para crearte tu propio tipo, sin embargo, hay mejores alternativas y un uso más concreto para esta característica de TypeScript.&lt;strong&gt;Preferentemente debemos utilizar interfaces&lt;/strong&gt; para las diferentes estructuras que componen nuestra app y hacer uso del type cuando lo que intentemos hacer no se pueda en una interfaz.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Type en TypeScript</title>
+      <link>https://www.airanschez.com/type-en-typescript/</link>
+      <pubDate>Wed, 15 Jul 2020 13:40:00 +0000</pubDate>
+      <guid>https://www.airanschez.com/type-en-typescript/</guid>
+      <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Estoy con un proyecto personal que mezcla &lt;strong&gt;React + TypeScript&lt;/strong&gt; y se me plantearon algunas dudas acerca de los tipos de datos type ¿Cómo funcionan y cuándo son necesarios? ¿Cuándo debo usarlos y cuándo no?&lt;/p&gt;&#xA;&lt;p&gt;El proyecto es hacer una pokedex haciendo uso de la API pública &lt;a href=&#34;https://pokeapi.co/&#34;&gt;PokeAPI&lt;/a&gt;. Hasta ahora dispongo de lo siguiente:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Buscador principal&lt;/strong&gt; -&amp;gt; Se puede buscar por nombre de pokemon o por Nº de Pokedex. Si no escribimos nada nos hará una búsqueda aleatoria entre todos los registros posibles.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tabla principal&lt;/strong&gt; -&amp;gt; Muestra inicialmente los 10 primeros pokemons con algunas estadísticas simples (Posteriormente serán más)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Página de detalles&lt;/strong&gt; -&amp;gt; Muestra imagen, nombre y estadísticas base del pokemon buscado.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Diseño únicamente pensado para móvil&lt;/strong&gt;, luego le añadiré las correspondientes versiones para tablet y ordenador. Intento seguir el patrón de diseño Mobile-First.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Para entender un poco mejor su funcionamiento adjunto GIF:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Libros on Airan Dev</title>
+    <link>https://www.airanschez.com/tags/libros/</link>
+    <description>Recent content in Libros on Airan Dev</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 05 May 2020 11:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.airanschez.com/tags/libros/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>He leído Diseño ágil con TDD de Carlos Blé</title>
+      <link>https://www.airanschez.com/he-le%C3%ADdo-dise%C3%B1o-%C3%A1gil-con-tdd-de-carlos-bl%C3%A9/</link>
+      <pubDate>Tue, 05 May 2020 11:00:00 +0000</pubDate>
+      <guid>https://www.airanschez.com/he-le%C3%ADdo-dise%C3%B1o-%C3%A1gil-con-tdd-de-carlos-bl%C3%A9/</guid>
+      <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Antes de empezar con el artículo, he de aclarar que durante mis estudios en el ciclo superior hemos tocado muy brevemente la implantación de &lt;strong&gt;test en C#&lt;/strong&gt; con &lt;strong&gt;Visual Studio&lt;/strong&gt;. Dichos test fueron realizados sobre un código ya existente, por eso mismo tenía la percepción de que los test se realizaban de una forma, pero este libro me ha enseñado que hay muchas más formas que desconocía por completo.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Airan Dev</title>
+    <link>https://www.airanschez.com/en/tags/</link>
+    <description>Recent content in Tags on Airan Dev</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 06 Jul 2020 13:38:00 +0000</lastBuildDate>
+    <atom:link href="https://www.airanschez.com/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aprendizaje</title>
+      <link>https://www.airanschez.com/en/tags/aprendizaje/</link>
+      <pubDate>Mon, 06 Jul 2020 13:38:00 +0000</pubDate>
+      <guid>https://www.airanschez.com/en/tags/aprendizaje/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blog</title>
+      <link>https://www.airanschez.com/en/tags/blog/</link>
+      <pubDate>Mon, 06 Jul 2020 13:38:00 +0000</pubDate>
+      <guid>https://www.airanschez.com/en/tags/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coding-Dojo</title>
+      <link>https://www.airanschez.com/en/tags/coding-dojo/</link>
+      <pubDate>Mon, 06 Jul 2020 13:38:00 +0000</pubDate>
+      <guid>https://www.airanschez.com/en/tags/coding-dojo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Comunidad</title>
+      <link>https://www.airanschez.com/en/tags/comunidad/</link>
+      <pubDate>Mon, 06 Jul 2020 13:38:00 +0000</pubDate>
+      <guid>https://www.airanschez.com/en/tags/comunidad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Guía</title>
+      <link>https://www.airanschez.com/en/tags/gu%C3%ADa/</link>
+      <pubDate>Mon, 06 Jul 2020 13:38:00 +0000</pubDate>
+      <guid>https://www.airanschez.com/en/tags/gu%C3%ADa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kata</title>
+      <link>https://www.airanschez.com/en/tags/kata/</link>
+      <pubDate>Mon, 06 Jul 2020 13:38:00 +0000</pubDate>
+      <guid>https://www.airanschez.com/en/tags/kata/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LeanMind</title>
+      <link>https://www.airanschez.com/en/tags/leanmind/</link>
+      <pubDate>Mon, 06 Jul 2020 13:38:00 +0000</pubDate>
+      <guid>https://www.airanschez.com/en/tags/leanmind/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
