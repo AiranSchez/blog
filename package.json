@@ -15,8 +15,5 @@
     "@tinacms/cli": "^1.6.2",
     "hugo": "^0.0.3",
     "tinacms": "^1.5.20"
-  },
-  "devDependencies": {
-    "hugo-bin": "^0.100.0"
   }
 }
