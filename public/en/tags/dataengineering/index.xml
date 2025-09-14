@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DataEngineering on Airan Dev</title>
+    <link>http://localhost:1313/en/tags/dataengineering/</link>
+    <description>Recent content in DataEngineering on Airan Dev</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 14 Sep 2025 17:07:21 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/dataengineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How We Reduced an 11-Hour Process to 37 Minutes</title>
+      <link>http://localhost:1313/en/como-pasamos-un-proceso-de-11-horas-a-37-minutos/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/como-pasamos-un-proceso-de-11-horas-a-37-minutos/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This article is very similar to the one Ulises wrote about &lt;a href=&#34;https://ulisesantana.dev/blog/2022/como-pase-un-proceso-en-nodejs-de-5-horas-a-5-minutos/&#34;&gt;how he reduced a 5-hour process to 5 minutes&lt;/a&gt;, but in a different context. Here we are not optimizing NodeJS code, but Python applied to Data Engineering, and in this case we reduced a process from &lt;strong&gt;11 hours to 37 minutes&lt;/strong&gt;. But let me give you some context first:&lt;/p&gt;&#xA;&lt;h3 id=&#34;problems-winter-is-coming&#34;&gt;Problems (Winter is coming)&lt;/h3&gt;&#xA;&lt;p&gt;We currently use a tool called &lt;a href=&#34;https://airflow.apache.org/&#34;&gt;Apache Airflow&lt;/a&gt; to manage process automation. With it, you can schedule processes using a crontab so that they run automatically, executing tasks defined in Python code.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

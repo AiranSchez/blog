@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on アイラン　ソフトウェア開発者</title>
+    <link>http://localhost:1313/jp/tags/</link>
+    <description>Recent content in Tags on アイラン　ソフトウェア開発者</description>
+    <generator>Hugo</generator>
+    <language>jp</language>
+    <lastBuildDate>Sun, 14 Sep 2025 17:07:21 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/jp/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>データエンジニアリング</title>
+      <link>http://localhost:1313/jp/tags/%E3%83%87%E3%83%BC%E3%82%BF%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jp/tags/%E3%83%87%E3%83%BC%E3%82%BF%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ビッグデータ</title>
+      <link>http://localhost:1313/jp/tags/%E3%83%93%E3%83%83%E3%82%B0%E3%83%87%E3%83%BC%E3%82%BF/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jp/tags/%E3%83%93%E3%83%83%E3%82%B0%E3%83%87%E3%83%BC%E3%82%BF/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ブログ</title>
+      <link>http://localhost:1313/jp/tags/%E3%83%96%E3%83%AD%E3%82%B0/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jp/tags/%E3%83%96%E3%83%AD%E3%82%B0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>リーンマインド</title>
+      <link>http://localhost:1313/jp/tags/%E3%83%AA%E3%83%BC%E3%83%B3%E3%83%9E%E3%82%A4%E3%83%B3%E3%83%89/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jp/tags/%E3%83%AA%E3%83%BC%E3%83%B3%E3%83%9E%E3%82%A4%E3%83%B3%E3%83%89/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>学習</title>
+      <link>http://localhost:1313/jp/tags/%E5%AD%A6%E7%BF%92/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jp/tags/%E5%AD%A6%E7%BF%92/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

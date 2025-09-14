@@ -154,6 +154,48 @@ enableEmoji = true
       url = "/about/"
       title = ""
       weight = 4
+  [languages.jp.params]
+    description = "ソフトウェア開発の世界での私の経験を共有する小さなインターネットコーナー"
+    keywords = ["ブログ", "Hugo", "開発", "ソフトウェア", "個人"]
+  [languages.jp.params.app]
+    title = "イアラン　ソフトウェア開発者"
+  [languages.jp.params.footer]
+    enable = true
+    custom = '<div>アイランによって維持されています。<a href="https://www.linkedin.com/in/air%C3%A1n-s%C3%A1nchez-brito-415910145/" target="https://www.github.com/AiranSchez">Airán</a></div>'
+    hugo = true
+    copyright = true
+    author = true
+    since = 2021
+    icp = ""
+    license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+  [languages.jp.params.search]
+    enable = true
+    type = "algolia"
+    contentLength = 4000
+    placeholder = ""
+    maxResultLength = 10
+    snippetLength = 30
+    highlightTag = "em"
+    absoluteURL = false
+  [languages.jp.params.home.profile]
+    title = "アイラン　ソフトウェア開発者"
+    subtitle = "ソフトウェア開発者"
+  [languages.jp.params.about]
+    paramTitle = "個人情報"
+    description = "TypeScript, JavaScript (ES6+), Python, C#, SQL, HTML5, CSS3, React, Vue, Next.js, TailwindCSS, .NET, Node.js, Nginx, MongoDB, SQL Server, Pandas, Jupyter Notebooks, Testing Library, Jest, JUnit, Pytest, Hypothesis, Playwright, NSubstitute, TestContainers, Docker, AWS, Jenkins, GitHub Actions, ArgoCD, Git"
+    [[languages.jp.params.about.status]]
+      faIcon = "fas fa-building"
+      title = "会社"
+      desc = "Lean Mind"
+    [[languages.jp.params.about.status]]
+      faIcon = "fas fa-briefcase fa-fw"
+      title = "職業"
+      desc = "ソフトウェア開発者"
+    [[languages.jp.params.about.status]]
+      title = "場所"
+      faIcon = "fas fa-map-marker-alt"
+      desc = "テネリフェ、カナリア諸島 | 東京、日本"
+  [
 
 [params]
   version = "1.0.X"
