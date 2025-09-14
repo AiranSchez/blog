@@ -192,7 +192,7 @@ enableEmoji = true
     mobileMode = "auto"
     [params.header.title]
       # URL of the LOGO
-      logo = "https://www.gravatar.com/avatar/56d69f17d90ad6fc5157363443f4208a?s=240&d=mp"
+      logo = ""
       name = "Airan Sánchez"
       pre = ""
       post = ""
