@@ -195,7 +195,6 @@ enableEmoji = true
       title = "場所"
       faIcon = "fas fa-map-marker-alt"
       desc = "テネリフェ、カナリア諸島 | 東京、日本"
-  [
 
 [params]
   version = "1.0.X"
