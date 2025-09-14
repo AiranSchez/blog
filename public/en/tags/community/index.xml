@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Community on Airan Dev</title>
+    <link>http://localhost:1313/en/tags/community/</link>
+    <description>Recent content in Community on Airan Dev</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 18 Mar 2021 14:21:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/community/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mob and Pair Programming</title>
+      <link>http://localhost:1313/en/mob-and-pair-programming/</link>
+      <pubDate>Thu, 18 Mar 2021 14:21:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/mob-and-pair-programming/</guid>
+      <description>&lt;h2 id=&#34;mob-programming&#34;&gt;Mob Programming&lt;/h2&gt;&#xA;&lt;p&gt;During my short time in the professional world, I’ve had the chance to experience Pair Programming and occasionally Mob Programming. At first, it seems like work would get done faster if each programmer handled their tasks individually. But in reality, you rely on each other’s work to understand how the software everyone is building fits together.&lt;/p&gt;&#xA;&lt;h2 id=&#34;benefits&#34;&gt;Benefits&lt;/h2&gt;&#xA;&lt;p&gt;Bringing multiple team members together &lt;strong&gt;offers more advantages than drawbacks&lt;/strong&gt;. Some of the benefits I’ve found most valuable include:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

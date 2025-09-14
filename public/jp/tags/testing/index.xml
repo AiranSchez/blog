@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Testing on アイラン　ソフトウェア開発者</title>
+    <link>http://localhost:1313/jp/tags/testing/</link>
+    <description>Recent content in Testing on アイラン　ソフトウェア開発者</description>
+    <generator>Hugo</generator>
+    <language>jp</language>
+    <lastBuildDate>Thu, 18 Mar 2021 14:21:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/jp/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mob and Pair programming</title>
+      <link>http://localhost:1313/jp/mob-and-pair-programming/</link>
+      <pubDate>Thu, 18 Mar 2021 14:21:00 +0000</pubDate>
+      <guid>http://localhost:1313/jp/mob-and-pair-programming/</guid>
+      <description>&lt;h2 id=&#34;mob-programming&#34;&gt;Mob Programming&lt;/h2&gt;&#xA;&lt;p&gt;En mi corto recorrido por el mundo laboral he podido experimentar de primera mano trabajar en Pair programming y en ocasiones en Mob. Lo primero que se te pasa por la mente es &lt;strong&gt;pensar que el trabajo saldría más rápido&lt;/strong&gt; si cada programador hiciese su tarea individualmente. Sin embargo dependes del trabajo de los demás para saber cómo funciona el software que están desarrollando entre todos.&lt;/p&gt;&#xA;&lt;h2 id=&#34;beneficios&#34;&gt;Beneficios&lt;/h2&gt;&#xA;&lt;p&gt;El juntar a varios miembros del equipo &lt;strong&gt;trae más beneficios que inconvenientes&lt;/strong&gt;, dejo a continuación algunas de las más relevantes para mí:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
