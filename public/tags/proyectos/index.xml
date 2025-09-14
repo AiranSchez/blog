@@ -4,23 +4,16 @@
     <title>Proyectos on Airan Dev</title>
     <link>https://www.airanschez.tech/tags/proyectos/</link>
     <description>Recent content in Proyectos on Airan Dev</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>es</language>
-    <managingEditor>airan@leanmind.es (Airan)</managingEditor>
-    <webMaster>airan@leanmind.es (Airan)</webMaster>
-    <lastBuildDate>Thu, 31 Dec 2020 13:52:00 +0000</lastBuildDate><atom:link href="https://www.airanschez.tech/tags/proyectos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Dec 2020 13:52:00 +0000</lastBuildDate>
+    <atom:link href="https://www.airanschez.tech/tags/proyectos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mi experiencia en un bootcamp FullStack</title>
       <link>https://www.airanschez.tech/mi-experiencia-en-un-bootcamp-fullstack/</link>
       <pubDate>Thu, 31 Dec 2020 13:52:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/mi-experiencia-en-un-bootcamp-fullstack/</guid>
-      <description>Introducción ¿Dónde he estado metido estos últimos meses?
-¿Por qué has abandonado el blog?
-¿Qué has aprendido?
-Estas son preguntas normales que alguien que entre a ver las entradas del blog se plantee. No, no he abandonado mis ganas de aprender, sino que por el contrario he estado aprendiendo y trabajando en equipo para un proyecto en un bootcamp desde finales de septiembre hasta ahora.
-Tras las muchas recomendaciones me aventuré en este curso (intenso) de 3 meses de duración con el propósito de aprender tantas tecnologías como pueda recordar mi mente.</description>
+      <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;¿Dónde he estado metido estos últimos meses?&lt;br&gt;&#xA;¿Por qué has abandonado el blog?&lt;br&gt;&#xA;¿Qué has aprendido?&lt;/p&gt;&#xA;&lt;p&gt;Estas son preguntas normales que alguien que entre a ver las entradas del blog se plantee. No, no he abandonado mis ganas de aprender, sino que por el contrario he estado aprendiendo y trabajando en equipo para un proyecto en un bootcamp desde finales de septiembre hasta ahora.&lt;/p&gt;&#xA;&lt;p&gt;Tras las muchas recomendaciones me aventuré en este curso (intenso) de 3 meses de duración con el propósito de aprender tantas tecnologías como pueda recordar mi mente.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

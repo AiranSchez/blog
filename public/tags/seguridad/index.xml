@@ -4,20 +4,16 @@
     <title>Seguridad on Airan Dev</title>
     <link>https://www.airanschez.tech/tags/seguridad/</link>
     <description>Recent content in Seguridad on Airan Dev</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>es</language>
-    <managingEditor>airan@leanmind.es (Airan)</managingEditor>
-    <webMaster>airan@leanmind.es (Airan)</webMaster>
-    <lastBuildDate>Wed, 01 Jul 2020 13:37:00 +0000</lastBuildDate><atom:link href="https://www.airanschez.tech/tags/seguridad/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Jul 2020 13:37:00 +0000</lastBuildDate>
+    <atom:link href="https://www.airanschez.tech/tags/seguridad/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CSRF, XSS &amp; CORS</title>
       <link>https://www.airanschez.tech/csrf-xss-cors/</link>
       <pubDate>Wed, 01 Jul 2020 13:37:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/csrf-xss-cors/</guid>
-      <description>Introducción Si no te suenan estos términos estás de suerte porque no eres el único. Hace unas semanas tuve la suerte de preguntarme “¿Qué es eso?” debido a que lo estamos teniendo en cuenta en un proyecto en el que estamos trabajando. Gracias a que me lo pregunté surgieron muchas dudas que no tardé en anotar para realizar una guía de conceptos sobre estos términos de seguridad.
-Para comenzar vamos a definir lo que son y cómo funcionan</description>
+      <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Si no te suenan estos términos estás de suerte porque no eres el único. Hace unas semanas tuve la suerte de preguntarme “¿Qué es eso?” debido a que lo estamos teniendo en cuenta en un proyecto en el que estamos trabajando. Gracias a que me lo pregunté surgieron muchas dudas que no tardé en anotar para realizar una guía de conceptos sobre estos términos de seguridad.&lt;/p&gt;&#xA;&lt;p&gt;Para comenzar vamos a definir lo que son y cómo funcionan&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -3,9 +3,12 @@ defaultContentLanguage = "es"
 languageCode = "es"
 title = "Airan Sánchez"
 theme = "FeelIt"
+googleAnalytics = "G-KVZTPYTYQV"
+enableGitInfo = true
+enableEmoji = true
 
 [languages]
-  [languages.en]
+  [languages.en.menu]
     weight = 1
     title = "Airan Dev"
     languageCode = "en"
@@ -42,6 +45,21 @@ theme = "FeelIt"
       url = "/about/"
       title = ""
       weight = 4
+  [languages.en.params]
+    description = "Small corner of the internet where I share my experiences in the world of software development"
+    keywords = ["Blog", "Hugo", "Development", "Software", "Personal"]
+    [languages.en.params.app]
+      title = "AiranSchez"
+    [languages.en.params.search]
+      enable = true
+      type = "algolia
+      contentLength = 4000
+      placeholder = "python"
+      maxResultLength = 10
+      snippetLength = 30
+      highlightTag = "em"
+      absoluteURL = false
+
 
   [languages.es]
     weight = 2
@@ -64,19 +82,66 @@ theme = "FeelIt"
       url = "/tags/"
       title = ""
       weight = 2
-    # [[languages.es.menu.main]]
-    #   identifier = "categories"
-    #   pre = ""
-    #   post = ""
-    #   name = "Categorías"
-    #   url = "/categories/"
-    #   title = ""
-    #   weight = 3
+    [[languages.es.menu.main]]
+      identifier = "categories"
+      pre = ""
+      post = ""
+      name = "Categorías"
+      url = "/categories/"
+      title = ""
+      weight = 3
     [[languages.es.menu.main]]
       identifier = "Sobre mí"
       pre = ""
       post = ""
       name = "Sobre mí"
+      url = "/about/"
+      title = ""
+      weight = 4
+    [[languages.es.menu.main]]
+      identifier = "github"
+      pre = "<i class='fab fa-github fa-fw'></i>"
+      post = ""
+      name = ""
+      url = "https://github.com/AiranSchez"
+      title = "GitHub"
+      weight = 5
+
+  [languages.jp]
+    weight = 3
+    hasCJKLanguage = false
+    title = "アイラン　ソフトウェア開発者"
+    languageCode = "jp"
+    languageName = "Japanese"
+    [[languages.jp.menu.main]]
+      identifier = "posts"
+      pre = ""
+      post = ""
+      name = "ブログ"
+      url = "/posts/"
+      title = ""
+      weight = 1
+    [[languages.jp.menu.main]]
+      identifier = "tags"
+      pre = ""
+      post = ""
+      name = "タグ"
+      url = "/tags/"
+      title = ""
+      weight = 2
+    [[languages.jp.menu.main]]
+      identifier = "categories"
+      pre = ""
+      post = ""
+      name = "カテゴリー"
+      url = "/categories/"
+      title = ""
+      weight = 3
+    [[languages.jp.menu.main]]
+      identifier = "about"
+      pre = ""
+      post = ""
+      name = "私について"
       url = "/about/"
       title = ""
       weight = 4
@@ -112,7 +177,7 @@ theme = "FeelIt"
     # max index length of the chunked content
     contentLength = 4000
     # placeholder of the search bar
-    placeholder = ""
+    placeholder = "python"
     maxResultLength = 10
     snippetLength = 30
     highlightTag = "em"
@@ -127,7 +192,7 @@ theme = "FeelIt"
     mobileMode = "auto"
     [params.header.title]
       # URL of the LOGO
-      logo = ""
+      logo = "https://www.gravatar.com/avatar/56d69f17d90ad6fc5157363443f4208a?s=240&d=mp"
       name = "Airan Sánchez"
       pre = ""
       post = ""
@@ -136,7 +201,7 @@ theme = "FeelIt"
 
   [params.footer]
     enable = true
-    custom = '<div>Mantenido con ilusión por <a href="https://www.linkedin.com/in/air%C3%A1n-s%C3%A1nchez-brito-415910145/" target="_blank">Airán</a></div>'
+    custom = '<div>Mantenido con ilusión por <a href="https://www.linkedin.com/in/air%C3%A1n-s%C3%A1nchez-brito-415910145/" target="https://www.github.com/AiranSchez">Airán</a></div>'
     hugo = true
     copyright = true
     author = true
@@ -161,7 +226,7 @@ theme = "FeelIt"
     param = true
     # title for param layout
     paramTitle = "Información personal"
-    description = "TypeScript, HTML5, CSS3, SQL, C#, Vue, React, Testing Library, Jest, JUnit, Docker, MongoDB, Pandas, Git"
+    description = "TypeScript, JavaScript (ES6+), Python, C#, SQL, HTML5, CSS3, React, Vue, Next.js, TailwindCSS, .NET, Node.js, Nginx, MongoDB, SQL Server, Pandas, Jupyter Notebooks, Testing Library, Jest, JUnit, Pytest, Hypothesis, Playwright, NSubstitute, TestContainers, Docker, AWS, Jenkins, GitHub Actions, ArgoCD, Git"
     [[params.about.status]]
       faIcon = "fas fa-building"
       title = "Company"
@@ -173,17 +238,17 @@ theme = "FeelIt"
     [[params.about.status]]
       title = "Location"
       faIcon = "fas fa-map-marker-alt"
-      desc = "Tenerife, Canary Islands"
+      desc = "Tenerife, Canary Islands | Tokyo, Japan"
     # description of your parameter
     [[params.about.parameter]]
-      language = "Javascript"
-      level = "80"
-    [[params.about.parameter]]
-      language = "Java"
-      level = "50"
+      language = "TypeScript"
+      level = "90"
     [[params.about.parameter]]
       language = "Python"
-      level = "40"
+      level = "75"
+    [[params.about.parameter]]
+      language = ".NET"
+      level = "60"
 
   # Home page config
   [params.home]
@@ -401,7 +466,7 @@ theme = "FeelIt"
       # Disqus comment config
       [params.page.comment.disqus]
         #
-        enable = false
+        enable = true
         # Disqus shortname to use Disqus in posts
         shortname = "Airan"
       # Vssue comment config (https://github.com/meteorlxy/vssue)
@@ -593,7 +658,7 @@ theme = "FeelIt"
 [author]
   name = "Airan"
   email = "airan@leanmind.es"
-  link = ""
+  link = "https://www.airanschez.tech/about"
 
 # Sitemap config
 [sitemap]
@@ -636,5 +701,3 @@ theme = "FeelIt"
 # Options to make hugo output files
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-
-GoogleAnalytics = ""

@@ -4,79 +4,58 @@
     <title>Comunidad on Airan Dev</title>
     <link>https://www.airanschez.tech/tags/comunidad/</link>
     <description>Recent content in Comunidad on Airan Dev</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>es</language>
-    <managingEditor>airan@leanmind.es (Airan)</managingEditor>
-    <webMaster>airan@leanmind.es (Airan)</webMaster>
-    <lastBuildDate>Thu, 18 Mar 2021 14:21:00 +0000</lastBuildDate><atom:link href="https://www.airanschez.tech/tags/comunidad/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Mar 2021 14:21:00 +0000</lastBuildDate>
+    <atom:link href="https://www.airanschez.tech/tags/comunidad/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mob and Pair programming</title>
       <link>https://www.airanschez.tech/mob-and-pair-programming/</link>
       <pubDate>Thu, 18 Mar 2021 14:21:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/mob-and-pair-programming/</guid>
-      <description>Mob Programming En mi corto recorrido por el mundo laboral he podido experimentar de primera mano trabajar en Pair programming y en ocasiones en Mob. Lo primero que se te pasa por la mente es pensar que el trabajo saldría más rápido si cada programador hiciese su tarea individualmente. Sin embargo dependes del trabajo de los demás para saber cómo funciona el software que están desarrollando entre todos.
-Beneficios El juntar a varios miembros del equipo trae más beneficios que inconvenientes, dejo a continuación algunas de las más relevantes para mí:</description>
+      <description>&lt;h2 id=&#34;mob-programming&#34;&gt;Mob Programming&lt;/h2&gt;&#xA;&lt;p&gt;En mi corto recorrido por el mundo laboral he podido experimentar de primera mano trabajar en Pair programming y en ocasiones en Mob. Lo primero que se te pasa por la mente es &lt;strong&gt;pensar que el trabajo saldría más rápido&lt;/strong&gt; si cada programador hiciese su tarea individualmente. Sin embargo dependes del trabajo de los demás para saber cómo funciona el software que están desarrollando entre todos.&lt;/p&gt;&#xA;&lt;h2 id=&#34;beneficios&#34;&gt;Beneficios&lt;/h2&gt;&#xA;&lt;p&gt;El juntar a varios miembros del equipo &lt;strong&gt;trae más beneficios que inconvenientes&lt;/strong&gt;, dejo a continuación algunas de las más relevantes para mí:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>🚀¡Bienvenido a la comunidad de Lean Mind! 🚀</title>
       <link>https://www.airanschez.tech/bienvenido-a-la-comunidad-de-lean-mind-/</link>
       <pubDate>Mon, 06 Jul 2020 13:38:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/bienvenido-a-la-comunidad-de-lean-mind-/</guid>
-      <description>Introducción Todos hemos querido en algún momento de nuestra carrera estar en contacto con gente que sepa mucho para poder tenerlos como guías en el camino ¿Verdad? Bueno, me alegra comunicarte que lo has encontrado.
-Profesionales y estudiantes nos juntamos en esta comunidad para realizar actividades muy variadas que seguro te interesarán:
-Coding dojo Actividad por excelencia en la que nos reunimos para practicar metodologías de programación para resolver un paradigma concreto.</description>
+      <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Todos hemos querido en algún momento de nuestra carrera estar en contacto con gente que sepa mucho para poder tenerlos como guías en el camino ¿Verdad? Bueno, me alegra comunicarte que lo has encontrado.&lt;/p&gt;&#xA;&lt;p&gt;Profesionales y estudiantes nos juntamos en esta comunidad para realizar actividades muy variadas que seguro te interesarán:&lt;/p&gt;&#xA;&lt;h2 id=&#34;coding-dojo&#34;&gt;Coding dojo&lt;/h2&gt;&#xA;&lt;p&gt;Actividad por excelencia en la que nos reunimos para practicar metodologías de programación para resolver un paradigma concreto. Siempre nos juntamos por parejas para comenzar a &lt;strong&gt;practicar TDD&lt;/strong&gt; con las reglas establecidas. Tras 30-40 minutos nos juntamos en grupo y debatimos el planteamiento que han tenido cada pareja. Luego cambiamos de compañero y volvemos a empezar de cero y, si es posible, con otro planteamiento diferente. ¿Cuál es el propósito? Ver &lt;strong&gt;diferentes formas&lt;/strong&gt; de hacer un mismo ejercicio y &lt;strong&gt;aprender&lt;/strong&gt; de los demás todo lo que se pueda. Da igual el nivel que tengas y la tecnología que uses con tal de que aprendas algo nuevo con cada sesión.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Testing Library</title>
       <link>https://www.airanschez.tech/testing-library/</link>
       <pubDate>Tue, 16 Jun 2020 13:24:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/testing-library/</guid>
-      <description>¿Qué es Testing library? Esta librería de test está pensada sobretodo para comprobar el comportamiento de ciertos elementos en tu web. No es un framework de testing, es una herramienta para suplementar un framework de testing (Ellos mismos recomiendan usar Jest pero funciona con cualquier framework).
-Para ello nos proporciona diferentes comandos que podríamos dividir en DOM testing library y React testing library (Nos centraremos en la primera ya que la segunda está construida sobre la primera y simplemente añade unas funcionalidades extra para trabajar de manera más cómoda con React):</description>
+      <description>&lt;h2 id=&#34;qué-es-testing-library&#34;&gt;¿Qué es Testing library?&lt;/h2&gt;&#xA;&lt;p&gt;Esta librería de test está pensada sobretodo para comprobar el comportamiento de ciertos elementos en tu web. No es un framework de testing, es una herramienta para suplementar un framework de testing (Ellos mismos recomiendan usar Jest pero funciona con cualquier framework).&lt;/p&gt;&#xA;&lt;p&gt;Para ello nos proporciona diferentes comandos que podríamos dividir en DOM testing library y React testing library (Nos centraremos en la primera ya que la segunda está construida sobre la primera y simplemente añade unas funcionalidades extra para trabajar de manera más cómoda con React):&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Arrancando el proyecto Huella Digital</title>
       <link>https://www.airanschez.tech/arrancando-huella-digital/</link>
       <pubDate>Sat, 06 Jun 2020 13:22:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/arrancando-huella-digital/</guid>
-      <description>Introducción Durante estas últimas semanas he empezado a formar parte de un proyecto open source llamado Huella Digital que consiste en hacer una plataforma web que facilite el acceso a recursos para voluntarios que se encuentran en la lucha contra el COVID-19.
-De lo que me gustaría hablar en este primer post es de cómo afronté el inicio de este proyecto, ya que inicialmente andaba un poco perdido y sin saber qué hacer.</description>
+      <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Durante estas últimas semanas he empezado a formar parte de un proyecto open source llamado Huella Digital que consiste en hacer una plataforma web que facilite el acceso a recursos para voluntarios que se encuentran en la lucha contra el COVID-19.&lt;/p&gt;&#xA;&lt;p&gt;De lo que me gustaría hablar en este primer post es de cómo afronté el inicio de este proyecto, ya que inicialmente andaba un poco perdido y sin saber qué hacer. Pero gracias a mis compañeros de trabajo (&lt;a href=&#34;https://ddiaalv.wordpress.com/&#34;&gt;David&lt;/a&gt; y Agustín) logramos entre todos realizar una guía para desplegar en local el proyecto y empezar a trabajar.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>React &#43; TS &#43; StoryBook &#43; EmotionJS (Parte 1)</title>
       <link>https://www.airanschez.tech/react-ts-storybook-emotionjs-parte-1/</link>
       <pubDate>Thu, 14 May 2020 13:32:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/react-ts-storybook-emotionjs-parte-1/</guid>
-      <description>Introducción Se nos planteó hacer una Kata diferente a los que ya hemos hecho. Esta Kata consistía en hacer en grupo una aplicación con React + TypeScript paso a paso para que todos entendamos las virtudes de usar un framework como React y todas las posibilidades que nos ofrece. Lo primero que hicimos fue crear el proyecto de manera simple:
-npm create-react-app blackjack_powah --template typescript Lo importante aquí es la librería EmotionJS, la cual nos permitirá pintar componentes de una manera diferente.</description>
+      <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Se nos planteó hacer una Kata diferente a los que ya hemos hecho. Esta Kata consistía en hacer en grupo una aplicación con &lt;strong&gt;React + TypeScript&lt;/strong&gt; paso a paso para que todos entendamos las virtudes de usar un framework como React y todas las posibilidades que nos ofrece. Lo primero que hicimos fue crear el proyecto de manera simple:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;npm create-react-app blackjack_powah --template typescript &lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Lo importante aquí es la librería EmotionJS, la cual nos permitirá pintar componentes de una manera diferente. Como ejemplo se utiliza un componente &lt;strong&gt;HelloWorld&lt;/strong&gt; el cual tendrá dentro otro componente llamado &lt;strong&gt;Greetings.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>String Calculator Kata</title>
       <link>https://www.airanschez.tech/string-calculator-kata/</link>
       <pubDate>Tue, 12 May 2020 13:11:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/string-calculator-kata/</guid>
-      <description>Introducción El pasado día 11 de Mayo los compañeros de Lean Mind nos ofrecieron reunimos mediante videollamada para realizar un ejercicio conjunto denominado Kata el cual consiste en abordar un problema paso a paso implementando la metodología TDD, de la cual ya hablé en mi anterior post. Estas reuniones con frecuencia las suelen llamar Coding dojo, término más que adecuado ya que es un entrenamiento para aprender metodologías desconocidas, practicar las que tenemos flojas e incluso aprender a salir de nuestra zona de confort y comunicarnos con gente que no conocemos.</description>
+      <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;El pasado día 11 de Mayo los compañeros de Lean Mind nos ofrecieron reunimos mediante videollamada para realizar un ejercicio conjunto denominado &lt;em&gt;&lt;strong&gt;Kata&lt;/strong&gt;&lt;/em&gt; el cual consiste en abordar un problema paso a paso implementando la metodología &lt;strong&gt;TDD&lt;/strong&gt;, de la cual ya hablé en mi anterior post. Estas reuniones con frecuencia las suelen llamar &lt;em&gt;&lt;strong&gt;Coding dojo&lt;/strong&gt;&lt;/em&gt;, término más que adecuado ya que es un entrenamiento para aprender metodologías desconocidas, practicar las que tenemos flojas e incluso aprender a salir de nuestra zona de confort y comunicarnos con gente que no conocemos.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>He leído Diseño ágil con TDD de Carlos Blé</title>
       <link>https://www.airanschez.tech/he-le%C3%ADdo-dise%C3%B1o-%C3%A1gil-con-tdd-de-carlos-bl%C3%A9/</link>
       <pubDate>Tue, 05 May 2020 11:00:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/he-le%C3%ADdo-dise%C3%B1o-%C3%A1gil-con-tdd-de-carlos-bl%C3%A9/</guid>
-      <description>Introducción Antes de empezar con el artículo, he de aclarar que durante mis estudios en el ciclo superior hemos tocado muy brevemente la implantación de test en C# con Visual Studio. Dichos test fueron realizados sobre un código ya existente, por eso mismo tenía la percepción de que los test se realizaban de una forma, pero este libro me ha enseñado que hay muchas más formas que desconocía por completo.</description>
+      <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Antes de empezar con el artículo, he de aclarar que durante mis estudios en el ciclo superior hemos tocado muy brevemente la implantación de &lt;strong&gt;test en C#&lt;/strong&gt; con &lt;strong&gt;Visual Studio&lt;/strong&gt;. Dichos test fueron realizados sobre un código ya existente, por eso mismo tenía la percepción de que los test se realizaban de una forma, pero este libro me ha enseñado que hay muchas más formas que desconocía por completo.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

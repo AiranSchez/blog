@@ -4,9 +4,8 @@
     <title>Categories on Airan Dev</title>
     <link>https://www.airanschez.tech/categories/</link>
     <description>Recent content in Categories on Airan Dev</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>es</language>
-    <managingEditor>airan@leanmind.es (Airan)</managingEditor>
-    <webMaster>airan@leanmind.es (Airan)</webMaster><atom:link href="https://www.airanschez.tech/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.airanschez.tech/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

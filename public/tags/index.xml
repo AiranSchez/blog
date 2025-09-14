@@ -4,352 +4,275 @@
     <title>Tags on Airan Dev</title>
     <link>https://www.airanschez.tech/tags/</link>
     <description>Recent content in Tags on Airan Dev</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>es</language>
-    <managingEditor>airan@leanmind.es (Airan)</managingEditor>
-    <webMaster>airan@leanmind.es (Airan)</webMaster>
-    <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.airanschez.tech/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.airanschez.tech/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aprendizaje</title>
       <link>https://www.airanschez.tech/tags/aprendizaje/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/aprendizaje/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>BigData</title>
       <link>https://www.airanschez.tech/tags/bigdata/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/bigdata/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Blog</title>
       <link>https://www.airanschez.tech/tags/blog/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/blog/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>DataEngineering</title>
       <link>https://www.airanschez.tech/tags/dataengineering/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/dataengineering/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>LeanMind</title>
       <link>https://www.airanschez.tech/tags/leanmind/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/leanmind/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Numpy</title>
       <link>https://www.airanschez.tech/tags/numpy/</link>
       <pubDate>Tue, 04 May 2021 13:26:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/numpy/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Pandas</title>
       <link>https://www.airanschez.tech/tags/pandas/</link>
       <pubDate>Tue, 04 May 2021 13:26:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/pandas/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Python</title>
       <link>https://www.airanschez.tech/tags/python/</link>
       <pubDate>Tue, 04 May 2021 13:26:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/python/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Backend</title>
       <link>https://www.airanschez.tech/tags/backend/</link>
       <pubDate>Mon, 29 Mar 2021 15:35:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/backend/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Docker</title>
       <link>https://www.airanschez.tech/tags/docker/</link>
       <pubDate>Mon, 29 Mar 2021 15:35:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/docker/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Guía</title>
       <link>https://www.airanschez.tech/tags/gu%C3%ADa/</link>
       <pubDate>Mon, 29 Mar 2021 15:35:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/gu%C3%ADa/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>JavaScript</title>
       <link>https://www.airanschez.tech/tags/javascript/</link>
       <pubDate>Mon, 29 Mar 2021 15:35:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/javascript/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Loopback</title>
       <link>https://www.airanschez.tech/tags/loopback/</link>
       <pubDate>Mon, 29 Mar 2021 15:35:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/loopback/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>MongoDB</title>
       <link>https://www.airanschez.tech/tags/mongodb/</link>
       <pubDate>Mon, 29 Mar 2021 15:35:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/mongodb/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>TypeScript</title>
       <link>https://www.airanschez.tech/tags/typescript/</link>
       <pubDate>Mon, 29 Mar 2021 15:35:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/typescript/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Comunidad</title>
       <link>https://www.airanschez.tech/tags/comunidad/</link>
       <pubDate>Thu, 18 Mar 2021 14:21:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/comunidad/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Mob/Pair</title>
+      <link>https://www.airanschez.tech/tags/mob/pair/</link>
+      <pubDate>Thu, 18 Mar 2021 14:21:00 +0000</pubDate>
+      <guid>https://www.airanschez.tech/tags/mob/pair/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Testing</title>
       <link>https://www.airanschez.tech/tags/testing/</link>
       <pubDate>Thu, 18 Mar 2021 14:21:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/testing/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Bootcamp</title>
       <link>https://www.airanschez.tech/tags/bootcamp/</link>
       <pubDate>Thu, 31 Dec 2020 13:52:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/bootcamp/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Proyectos</title>
       <link>https://www.airanschez.tech/tags/proyectos/</link>
       <pubDate>Thu, 31 Dec 2020 13:52:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/proyectos/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Ubuntu</title>
       <link>https://www.airanschez.tech/tags/ubuntu/</link>
       <pubDate>Tue, 22 Sep 2020 13:50:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/ubuntu/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Windows</title>
       <link>https://www.airanschez.tech/tags/windows/</link>
       <pubDate>Tue, 22 Sep 2020 13:50:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/windows/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>WSL</title>
       <link>https://www.airanschez.tech/tags/wsl/</link>
       <pubDate>Tue, 22 Sep 2020 13:50:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/wsl/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Proyecto</title>
       <link>https://www.airanschez.tech/tags/proyecto/</link>
       <pubDate>Wed, 05 Aug 2020 13:45:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/proyecto/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>React</title>
       <link>https://www.airanschez.tech/tags/react/</link>
       <pubDate>Wed, 05 Aug 2020 13:45:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/react/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Refactor</title>
       <link>https://www.airanschez.tech/tags/refactor/</link>
       <pubDate>Wed, 05 Aug 2020 13:45:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/refactor/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Coding-dojo</title>
+      <title>Coding-Dojo</title>
       <link>https://www.airanschez.tech/tags/coding-dojo/</link>
       <pubDate>Mon, 06 Jul 2020 13:38:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/coding-dojo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Kata</title>
       <link>https://www.airanschez.tech/tags/kata/</link>
       <pubDate>Mon, 06 Jul 2020 13:38:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/kata/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>CORS</title>
       <link>https://www.airanschez.tech/tags/cors/</link>
       <pubDate>Wed, 01 Jul 2020 13:37:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/cors/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>CSRF</title>
       <link>https://www.airanschez.tech/tags/csrf/</link>
       <pubDate>Wed, 01 Jul 2020 13:37:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/csrf/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Seguridad</title>
       <link>https://www.airanschez.tech/tags/seguridad/</link>
       <pubDate>Wed, 01 Jul 2020 13:37:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/seguridad/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>XSS</title>
       <link>https://www.airanschez.tech/tags/xss/</link>
       <pubDate>Wed, 01 Jul 2020 13:37:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/xss/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Library</title>
       <link>https://www.airanschez.tech/tags/library/</link>
       <pubDate>Tue, 16 Jun 2020 13:24:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/library/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>IntelliJ</title>
       <link>https://www.airanschez.tech/tags/intellij/</link>
       <pubDate>Sat, 06 Jun 2020 13:22:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/intellij/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>OpenSource</title>
       <link>https://www.airanschez.tech/tags/opensource/</link>
       <pubDate>Sat, 06 Jun 2020 13:22:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/opensource/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Java</title>
       <link>https://www.airanschez.tech/tags/java/</link>
       <pubDate>Tue, 12 May 2020 13:11:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/java/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>TDD</title>
       <link>https://www.airanschez.tech/tags/tdd/</link>
       <pubDate>Tue, 12 May 2020 13:11:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/tdd/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Libros</title>
       <link>https://www.airanschez.tech/tags/libros/</link>
       <pubDate>Tue, 05 May 2020 11:00:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
       <guid>https://www.airanschez.tech/tags/libros/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>Mob/Pair</title>
-      <link>https://www.airanschez.tech/tags/mob/pair/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>airan@leanmind.es (Airan)</author>
-      <guid>https://www.airanschez.tech/tags/mob/pair/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
