@@ -52,7 +52,7 @@ enableEmoji = true
       title = "AiranSchez"
     [languages.en.params.search]
       enable = true
-      type = "algolia
+      type = "algolia"
       contentLength = 4000
       placeholder = "python"
       maxResultLength = 10
