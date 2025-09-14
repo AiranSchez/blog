@@ -8,7 +8,7 @@ enableGitInfo = true
 enableEmoji = true
 
 [languages]
-  [languages.en.menu]
+  [languages.en]
     weight = 1
     title = "Airan Dev"
     languageCode = "en"
