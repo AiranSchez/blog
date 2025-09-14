@@ -30,14 +30,6 @@ enableEmoji = true
       title = ""
       weight = 2
     [[languages.en.menu.main]]
-      identifier = "categories"
-      pre = ""
-      post = ""
-      name = "Categories"
-      url = "/categories/"
-      title = ""
-      weight = 3
-    [[languages.en.menu.main]]
       identifier = "about"
       pre = ""
       post = ""
@@ -50,6 +42,8 @@ enableEmoji = true
     keywords = ["Blog", "Hugo", "Development", "Software", "Personal"]
     [languages.en.params.app]
       title = "AiranSchez"
+    [languages.en.params.about]
+      paramTitle = "Personal Information"
     [languages.en.params.footer]
       enable = true
       custom = '<div>Maintained with love by <a href="https://www.linkedin.com/in/air%C3%A1n-s%C3%A1nchez-brito-415910145/" target="https://www.github.com/AiranSchez">Airán</a></div>'
@@ -92,14 +86,6 @@ enableEmoji = true
       title = ""
       weight = 2
     [[languages.es.menu.main]]
-      identifier = "categories"
-      pre = ""
-      post = ""
-      name = "Categorías"
-      url = "/categories/"
-      title = ""
-      weight = 3
-    [[languages.es.menu.main]]
       identifier = "Sobre mí"
       pre = ""
       post = ""
@@ -138,14 +124,6 @@ enableEmoji = true
       url = "/tags/"
       title = ""
       weight = 2
-    [[languages.jp.menu.main]]
-      identifier = "categories"
-      pre = ""
-      post = ""
-      name = "カテゴリー"
-      url = "/categories/"
-      title = ""
-      weight = 3
     [[languages.jp.menu.main]]
       identifier = "about"
       pre = ""
