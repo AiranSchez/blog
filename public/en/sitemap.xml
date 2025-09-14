@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/en/</loc>
-    <lastmod>2025-09-14T16:41:19+09:00</lastmod>
+    <lastmod>2025-09-14T17:07:21+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -23,7 +23,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/tags/bigdata/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-14T17:07:21+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -38,7 +38,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/tags/blog/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-14T17:07:21+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -53,7 +53,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/tags/dataengineering/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-14T17:07:21+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -68,7 +68,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/como-pasamos-un-proceso-de-11-horas-a-37-minutos/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-14T17:07:21+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -88,7 +88,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/tags/leanmind/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-14T17:07:21+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -103,12 +103,12 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/tags/learning/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-14T17:07:21+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/en/posts/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-14T17:07:21+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -128,7 +128,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/tags/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-14T17:07:21+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -228,7 +228,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/about/</loc>
-    <lastmod>2025-09-14T16:41:19+09:00</lastmod>
+    <lastmod>2025-09-14T17:07:21+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
