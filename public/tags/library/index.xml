@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Library on Airan Dev</title>
-    <link>https://www.airanschez.tech/tags/library/</link>
+    <link>http://localhost:1313/tags/library/</link>
     <description>Recent content in Library on Airan Dev</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 16 Jun 2020 13:24:00 +0000</lastBuildDate>
-    <atom:link href="https://www.airanschez.tech/tags/library/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Nov 2021 16:05:17 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/library/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Testing Library</title>
-      <link>https://www.airanschez.tech/testing-library/</link>
+      <link>http://localhost:1313/testing-library/</link>
       <pubDate>Tue, 16 Jun 2020 13:24:00 +0000</pubDate>
-      <guid>https://www.airanschez.tech/testing-library/</guid>
+      <guid>http://localhost:1313/testing-library/</guid>
       <description>&lt;h2 id=&#34;qué-es-testing-library&#34;&gt;¿Qué es Testing library?&lt;/h2&gt;&#xA;&lt;p&gt;Esta librería de test está pensada sobretodo para comprobar el comportamiento de ciertos elementos en tu web. No es un framework de testing, es una herramienta para suplementar un framework de testing (Ellos mismos recomiendan usar Jest pero funciona con cualquier framework).&lt;/p&gt;&#xA;&lt;p&gt;Para ello nos proporciona diferentes comandos que podríamos dividir en DOM testing library y React testing library (Nos centraremos en la primera ya que la segunda está construida sobre la primera y simplemente añade unas funcionalidades extra para trabajar de manera más cómoda con React):&lt;/p&gt;</description>
     </item>
   </channel>

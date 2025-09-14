@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>React on Airan Dev</title>
-    <link>https://www.airanschez.tech/tags/react/</link>
+    <link>http://localhost:1313/tags/react/</link>
     <description>Recent content in React on Airan Dev</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 05 Aug 2020 13:45:00 +0000</lastBuildDate>
-    <atom:link href="https://www.airanschez.tech/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Nov 2021 16:05:17 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/react/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Refactor proyecto Pokémon</title>
-      <link>https://www.airanschez.tech/refactor-proyecto-pok%C3%A9mon/</link>
+      <link>http://localhost:1313/refactor-proyecto-pok%C3%A9mon/</link>
       <pubDate>Wed, 05 Aug 2020 13:45:00 +0000</pubDate>
-      <guid>https://www.airanschez.tech/refactor-proyecto-pok%C3%A9mon/</guid>
+      <guid>http://localhost:1313/refactor-proyecto-pok%C3%A9mon/</guid>
       <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Previamente en el blog he hablado acerca del proyecto personal en el que estoy trabajando. Por si no lo has leído te recomiendo pasarte por &lt;a href=&#34;https://airanschez.wordpress.com/2020/07/15/type-en-typescript/&#34;&gt;aquí&lt;/a&gt; y echarle un vistazo primero.&lt;/p&gt;&#xA;&lt;p&gt;Desde ese momento hasta ahora han habido muchos cambios y nuevos aprendizajes tales como cambiar el uso de types a interfaces o meter una capa de dominio a mi proyecto para simplificar los componentes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;types--interfaces&#34;&gt;Types – Interfaces&lt;/h2&gt;&#xA;&lt;p&gt;Tenía entendido que era buena alternativa usar un type para crearte tu propio tipo, sin embargo, hay mejores alternativas y un uso más concreto para esta característica de TypeScript.&lt;strong&gt;Preferentemente debemos utilizar interfaces&lt;/strong&gt; para las diferentes estructuras que componen nuestra app y hacer uso del type cuando lo que intentemos hacer no se pueda en una interfaz.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Type en TypeScript</title>
-      <link>https://www.airanschez.tech/type-en-typescript/</link>
+      <link>http://localhost:1313/type-en-typescript/</link>
       <pubDate>Wed, 15 Jul 2020 13:40:00 +0000</pubDate>
-      <guid>https://www.airanschez.tech/type-en-typescript/</guid>
+      <guid>http://localhost:1313/type-en-typescript/</guid>
       <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Estoy con un proyecto personal que mezcla &lt;strong&gt;React + TypeScript&lt;/strong&gt; y se me plantearon algunas dudas acerca de los tipos de datos type ¿Cómo funcionan y cuándo son necesarios? ¿Cuándo debo usarlos y cuándo no?&lt;/p&gt;&#xA;&lt;p&gt;El proyecto es hacer una pokedex haciendo uso de la API pública &lt;a href=&#34;https://pokeapi.co/&#34;&gt;PokeAPI&lt;/a&gt;. Hasta ahora dispongo de lo siguiente:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Buscador principal&lt;/strong&gt; -&amp;gt; Se puede buscar por nombre de pokemon o por Nº de Pokedex. Si no escribimos nada nos hará una búsqueda aleatoria entre todos los registros posibles.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tabla principal&lt;/strong&gt; -&amp;gt; Muestra inicialmente los 10 primeros pokemons con algunas estadísticas simples (Posteriormente serán más)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Página de detalles&lt;/strong&gt; -&amp;gt; Muestra imagen, nombre y estadísticas base del pokemon buscado.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Diseño únicamente pensado para móvil&lt;/strong&gt;, luego le añadiré las correspondientes versiones para tablet y ordenador. Intento seguir el patrón de diseño Mobile-First.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Para entender un poco mejor su funcionamiento adjunto GIF:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Testing Library</title>
-      <link>https://www.airanschez.tech/testing-library/</link>
+      <link>http://localhost:1313/testing-library/</link>
       <pubDate>Tue, 16 Jun 2020 13:24:00 +0000</pubDate>
-      <guid>https://www.airanschez.tech/testing-library/</guid>
+      <guid>http://localhost:1313/testing-library/</guid>
       <description>&lt;h2 id=&#34;qué-es-testing-library&#34;&gt;¿Qué es Testing library?&lt;/h2&gt;&#xA;&lt;p&gt;Esta librería de test está pensada sobretodo para comprobar el comportamiento de ciertos elementos en tu web. No es un framework de testing, es una herramienta para suplementar un framework de testing (Ellos mismos recomiendan usar Jest pero funciona con cualquier framework).&lt;/p&gt;&#xA;&lt;p&gt;Para ello nos proporciona diferentes comandos que podríamos dividir en DOM testing library y React testing library (Nos centraremos en la primera ya que la segunda está construida sobre la primera y simplemente añade unas funcionalidades extra para trabajar de manera más cómoda con React):&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ubuntu on Airan Dev</title>
-    <link>https://www.airanschez.tech/tags/ubuntu/</link>
+    <link>http://localhost:1313/tags/ubuntu/</link>
     <description>Recent content in Ubuntu on Airan Dev</description>
     <generator>Hugo</generator>
     <language>es</language>
     <lastBuildDate>Tue, 22 Sep 2020 13:50:00 +0000</lastBuildDate>
-    <atom:link href="https://www.airanschez.tech/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Instalación WSL</title>
-      <link>https://www.airanschez.tech/instalaci%C3%B3n-wsl/</link>
+      <link>http://localhost:1313/instalaci%C3%B3n-wsl/</link>
       <pubDate>Tue, 22 Sep 2020 13:50:00 +0000</pubDate>
-      <guid>https://www.airanschez.tech/instalaci%C3%B3n-wsl/</guid>
+      <guid>http://localhost:1313/instalaci%C3%B3n-wsl/</guid>
       <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Uno de los mayores desacuerdos con los que me he encontrado en mi corto recorrido en el mundo del desarrollo es si utilizar windows o linux. La mayoría utiliza la segunda opción pero muchos aún utilizan Windows por otros motivos y no hacen uso de Linux con frecuencia. Por ello Microsoft desarrollo WSL (Windows Subsistem for Linux) el cual nos permite emular un Linux dentro de Windows.&lt;/p&gt;&#xA;&lt;p&gt;Esto es extremadamente útil ya que nos permitirá unificar las consolas y utilizar todos los comandos y conectar tu entorno preferido y trabajar como si estuvieras en un sistema Linux.&lt;/p&gt;</description>
     </item>
   </channel>

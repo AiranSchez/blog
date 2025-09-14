@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Airan Dev</title>
-    <link>https://www.airanschez.tech/en/posts/</link>
+    <link>http://localhost:1313/en/posts/</link>
     <description>Recent content in Posts on Airan Dev</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Jul 2020 13:38:00 +0000</lastBuildDate>
-    <atom:link href="https://www.airanschez.tech/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How We Reduced an 11-Hour Process to 37 Minutes</title>
+      <link>http://localhost:1313/en/como-pasamos-un-proceso-de-11-horas-a-37-minutos/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/como-pasamos-un-proceso-de-11-horas-a-37-minutos/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This article is very similar to the one Ulises wrote about &lt;a href=&#34;https://ulisesantana.dev/blog/2022/como-pase-un-proceso-en-nodejs-de-5-horas-a-5-minutos/&#34;&gt;how he reduced a 5-hour process to 5 minutes&lt;/a&gt;, but in a different context. Here we are not optimizing NodeJS code, but Python applied to Data Engineering, and in this case we reduced a process from &lt;strong&gt;11 hours to 37 minutes&lt;/strong&gt;. But let me give you some context first:&lt;/p&gt;&#xA;&lt;h3 id=&#34;problems-winter-is-coming&#34;&gt;Problems (Winter is coming)&lt;/h3&gt;&#xA;&lt;p&gt;We currently use a tool called &lt;a href=&#34;https://airflow.apache.org/&#34;&gt;Apache Airflow&lt;/a&gt; to manage process automation. With it, you can schedule processes using a crontab so that they run automatically, executing tasks defined in Python code.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>🚀¡Welcome to Lean Mind community! 🚀</title>
-      <link>https://www.airanschez.tech/en/welcome-to-lean-mind-community/</link>
+      <link>http://localhost:1313/en/welcome-to-lean-mind-community/</link>
       <pubDate>Mon, 06 Jul 2020 13:38:00 +0000</pubDate>
-      <guid>https://www.airanschez.tech/en/welcome-to-lean-mind-community/</guid>
+      <guid>http://localhost:1313/en/welcome-to-lean-mind-community/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;We have all wanted at some point in our career to be in contact with people who know a lot to follow them as mentors on our professional development, right? Well, I&amp;rsquo;m glad to report that you&amp;rsquo;ve found it.&lt;/p&gt;&#xA;&lt;p&gt;Professionals and students are gather together in this community to do different activities I&amp;rsquo;m sure you&amp;rsquo;re interested in.&lt;/p&gt;&#xA;&lt;h2 id=&#34;coding-dojo&#34;&gt;Coding dojo&lt;/h2&gt;&#xA;&lt;p&gt;Activity in which we meet to practice programming methodologies to solve a specific paradigm. We always get together in pairs to start &lt;strong&gt;practicing TDD&lt;/strong&gt; with the established rules. After 30-40 minutes we get together as a group and discuss the approach that each couple has had. Then we change partners and start over from scratch and, if possible, with a different approach. What is the purpose? To see ** different ways ** to do the same exercise and ** to learn ** from others as much as possible. It does not matter what level you have and the technology you use as long as you learn something new with each session.&lt;/p&gt;</description>
     </item>
   </channel>

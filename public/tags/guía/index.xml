@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Guía on Airan Dev</title>
-    <link>https://www.airanschez.tech/tags/gu%C3%ADa/</link>
+    <link>http://localhost:1313/tags/gu%C3%ADa/</link>
     <description>Recent content in Guía on Airan Dev</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 29 Mar 2021 15:35:00 +0000</lastBuildDate>
-    <atom:link href="https://www.airanschez.tech/tags/gu%C3%ADa/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Nov 2021 16:05:17 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/gu%C3%ADa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Loopback &#43; mongo</title>
-      <link>https://www.airanschez.tech/loopback-mongo/</link>
+      <link>http://localhost:1313/loopback-mongo/</link>
       <pubDate>Mon, 29 Mar 2021 15:35:00 +0000</pubDate>
-      <guid>https://www.airanschez.tech/loopback-mongo/</guid>
+      <guid>http://localhost:1313/loopback-mongo/</guid>
       <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;El otro día me dio por curiosear un poco acerca de &lt;a href=&#34;https://loopback.io/&#34;&gt;Loopback&lt;/a&gt;, un framework para nodejs y TypeScript que te permite crear APIs de una forma rápida sin preocuparte de mucho. Está creado por IBM y tras alguna que otra recomendación me aventuré a probar y este fue el resultado:&lt;/p&gt;&#xA;&lt;h2 id=&#34;loopback4&#34;&gt;Loopback4&lt;/h2&gt;&#xA;&lt;p&gt;La idea principal era crear una API que se conectara a un contenedor de mongo y permita crear, leer, actualizar y eliminar usuarios de una aplicación (CRUD). Para ello, según el tutorial oficial, basta con hacer estos pocos comandos:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Instalación WSL</title>
-      <link>https://www.airanschez.tech/instalaci%C3%B3n-wsl/</link>
+      <link>http://localhost:1313/instalaci%C3%B3n-wsl/</link>
       <pubDate>Tue, 22 Sep 2020 13:50:00 +0000</pubDate>
-      <guid>https://www.airanschez.tech/instalaci%C3%B3n-wsl/</guid>
+      <guid>http://localhost:1313/instalaci%C3%B3n-wsl/</guid>
       <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Uno de los mayores desacuerdos con los que me he encontrado en mi corto recorrido en el mundo del desarrollo es si utilizar windows o linux. La mayoría utiliza la segunda opción pero muchos aún utilizan Windows por otros motivos y no hacen uso de Linux con frecuencia. Por ello Microsoft desarrollo WSL (Windows Subsistem for Linux) el cual nos permite emular un Linux dentro de Windows.&lt;/p&gt;&#xA;&lt;p&gt;Esto es extremadamente útil ya que nos permitirá unificar las consolas y utilizar todos los comandos y conectar tu entorno preferido y trabajar como si estuvieras en un sistema Linux.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Type en TypeScript</title>
-      <link>https://www.airanschez.tech/type-en-typescript/</link>
+      <link>http://localhost:1313/type-en-typescript/</link>
       <pubDate>Wed, 15 Jul 2020 13:40:00 +0000</pubDate>
-      <guid>https://www.airanschez.tech/type-en-typescript/</guid>
+      <guid>http://localhost:1313/type-en-typescript/</guid>
       <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Estoy con un proyecto personal que mezcla &lt;strong&gt;React + TypeScript&lt;/strong&gt; y se me plantearon algunas dudas acerca de los tipos de datos type ¿Cómo funcionan y cuándo son necesarios? ¿Cuándo debo usarlos y cuándo no?&lt;/p&gt;&#xA;&lt;p&gt;El proyecto es hacer una pokedex haciendo uso de la API pública &lt;a href=&#34;https://pokeapi.co/&#34;&gt;PokeAPI&lt;/a&gt;. Hasta ahora dispongo de lo siguiente:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Buscador principal&lt;/strong&gt; -&amp;gt; Se puede buscar por nombre de pokemon o por Nº de Pokedex. Si no escribimos nada nos hará una búsqueda aleatoria entre todos los registros posibles.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tabla principal&lt;/strong&gt; -&amp;gt; Muestra inicialmente los 10 primeros pokemons con algunas estadísticas simples (Posteriormente serán más)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Página de detalles&lt;/strong&gt; -&amp;gt; Muestra imagen, nombre y estadísticas base del pokemon buscado.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Diseño únicamente pensado para móvil&lt;/strong&gt;, luego le añadiré las correspondientes versiones para tablet y ordenador. Intento seguir el patrón de diseño Mobile-First.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Para entender un poco mejor su funcionamiento adjunto GIF:&lt;/p&gt;</description>
     </item>
     <item>
       <title>🚀¡Bienvenido a la comunidad de Lean Mind! 🚀</title>
-      <link>https://www.airanschez.tech/bienvenido-a-la-comunidad-de-lean-mind-/</link>
+      <link>http://localhost:1313/bienvenido-a-la-comunidad-de-lean-mind-/</link>
       <pubDate>Mon, 06 Jul 2020 13:38:00 +0000</pubDate>
-      <guid>https://www.airanschez.tech/bienvenido-a-la-comunidad-de-lean-mind-/</guid>
+      <guid>http://localhost:1313/bienvenido-a-la-comunidad-de-lean-mind-/</guid>
       <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Todos hemos querido en algún momento de nuestra carrera estar en contacto con gente que sepa mucho para poder tenerlos como guías en el camino ¿Verdad? Bueno, me alegra comunicarte que lo has encontrado.&lt;/p&gt;&#xA;&lt;p&gt;Profesionales y estudiantes nos juntamos en esta comunidad para realizar actividades muy variadas que seguro te interesarán:&lt;/p&gt;&#xA;&lt;h2 id=&#34;coding-dojo&#34;&gt;Coding dojo&lt;/h2&gt;&#xA;&lt;p&gt;Actividad por excelencia en la que nos reunimos para practicar metodologías de programación para resolver un paradigma concreto. Siempre nos juntamos por parejas para comenzar a &lt;strong&gt;practicar TDD&lt;/strong&gt; con las reglas establecidas. Tras 30-40 minutos nos juntamos en grupo y debatimos el planteamiento que han tenido cada pareja. Luego cambiamos de compañero y volvemos a empezar de cero y, si es posible, con otro planteamiento diferente. ¿Cuál es el propósito? Ver &lt;strong&gt;diferentes formas&lt;/strong&gt; de hacer un mismo ejercicio y &lt;strong&gt;aprender&lt;/strong&gt; de los demás todo lo que se pueda. Da igual el nivel que tengas y la tecnología que uses con tal de que aprendas algo nuevo con cada sesión.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Testing Library</title>
-      <link>https://www.airanschez.tech/testing-library/</link>
+      <link>http://localhost:1313/testing-library/</link>
       <pubDate>Tue, 16 Jun 2020 13:24:00 +0000</pubDate>
-      <guid>https://www.airanschez.tech/testing-library/</guid>
+      <guid>http://localhost:1313/testing-library/</guid>
       <description>&lt;h2 id=&#34;qué-es-testing-library&#34;&gt;¿Qué es Testing library?&lt;/h2&gt;&#xA;&lt;p&gt;Esta librería de test está pensada sobretodo para comprobar el comportamiento de ciertos elementos en tu web. No es un framework de testing, es una herramienta para suplementar un framework de testing (Ellos mismos recomiendan usar Jest pero funciona con cualquier framework).&lt;/p&gt;&#xA;&lt;p&gt;Para ello nos proporciona diferentes comandos que podríamos dividir en DOM testing library y React testing library (Nos centraremos en la primera ya que la segunda está construida sobre la primera y simplemente añade unas funcionalidades extra para trabajar de manera más cómoda con React):&lt;/p&gt;</description>
     </item>
     <item>
       <title>Arrancando el proyecto Huella Digital</title>
-      <link>https://www.airanschez.tech/arrancando-huella-digital/</link>
+      <link>http://localhost:1313/arrancando-huella-digital/</link>
       <pubDate>Sat, 06 Jun 2020 13:22:00 +0000</pubDate>
-      <guid>https://www.airanschez.tech/arrancando-huella-digital/</guid>
+      <guid>http://localhost:1313/arrancando-huella-digital/</guid>
       <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Durante estas últimas semanas he empezado a formar parte de un proyecto open source llamado Huella Digital que consiste en hacer una plataforma web que facilite el acceso a recursos para voluntarios que se encuentran en la lucha contra el COVID-19.&lt;/p&gt;&#xA;&lt;p&gt;De lo que me gustaría hablar en este primer post es de cómo afronté el inicio de este proyecto, ya que inicialmente andaba un poco perdido y sin saber qué hacer. Pero gracias a mis compañeros de trabajo (&lt;a href=&#34;https://ddiaalv.wordpress.com/&#34;&gt;David&lt;/a&gt; y Agustín) logramos entre todos realizar una guía para desplegar en local el proyecto y empezar a trabajar.&lt;/p&gt;</description>
     </item>
   </channel>

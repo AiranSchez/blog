@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LeanMind on Airan Dev</title>
-    <link>https://www.airanschez.tech/tags/leanmind/</link>
+    <link>http://localhost:1313/tags/leanmind/</link>
     <description>Recent content in LeanMind on Airan Dev</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.airanschez.tech/tags/leanmind/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Sep 2023 01:10:10 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/leanmind/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Como pasamos un proceso de 11 horas a 37 minutos</title>
-      <link>https://www.airanschez.tech/como-pasamos-un-proceso-de-11-horas-a-37-minutos/</link>
+      <link>http://localhost:1313/como-pasamos-un-proceso-de-11-horas-a-37-minutos/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.airanschez.tech/como-pasamos-un-proceso-de-11-horas-a-37-minutos/</guid>
+      <guid>http://localhost:1313/como-pasamos-un-proceso-de-11-horas-a-37-minutos/</guid>
       <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Este artículo es muy similar al que Ulises escribió en su momento sobre &lt;a href=&#34;https://ulisesantana.dev/blog/2022/como-pase-un-proceso-en-nodejs-de-5-horas-a-5-minutos/&#34;&gt;como pasó un proceso de 5 horas a 5 minutos&lt;/a&gt; pero en un contexto diferente ya que no se trata de optimizar el código en NodeJS sino que hablamos de Python aplicado a Ingeniería de datos y en este caso ha sido &lt;strong&gt;pasar un proceso de 11 horas a 37 min&lt;/strong&gt;. Pero mejor dejadme que os pongo en contexto:&lt;/p&gt;</description>
     </item>
     <item>
       <title>🚀¡Bienvenido a la comunidad de Lean Mind! 🚀</title>
-      <link>https://www.airanschez.tech/bienvenido-a-la-comunidad-de-lean-mind-/</link>
+      <link>http://localhost:1313/bienvenido-a-la-comunidad-de-lean-mind-/</link>
       <pubDate>Mon, 06 Jul 2020 13:38:00 +0000</pubDate>
-      <guid>https://www.airanschez.tech/bienvenido-a-la-comunidad-de-lean-mind-/</guid>
+      <guid>http://localhost:1313/bienvenido-a-la-comunidad-de-lean-mind-/</guid>
       <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Todos hemos querido en algún momento de nuestra carrera estar en contacto con gente que sepa mucho para poder tenerlos como guías en el camino ¿Verdad? Bueno, me alegra comunicarte que lo has encontrado.&lt;/p&gt;&#xA;&lt;p&gt;Profesionales y estudiantes nos juntamos en esta comunidad para realizar actividades muy variadas que seguro te interesarán:&lt;/p&gt;&#xA;&lt;h2 id=&#34;coding-dojo&#34;&gt;Coding dojo&lt;/h2&gt;&#xA;&lt;p&gt;Actividad por excelencia en la que nos reunimos para practicar metodologías de programación para resolver un paradigma concreto. Siempre nos juntamos por parejas para comenzar a &lt;strong&gt;practicar TDD&lt;/strong&gt; con las reglas establecidas. Tras 30-40 minutos nos juntamos en grupo y debatimos el planteamiento que han tenido cada pareja. Luego cambiamos de compañero y volvemos a empezar de cero y, si es posible, con otro planteamiento diferente. ¿Cuál es el propósito? Ver &lt;strong&gt;diferentes formas&lt;/strong&gt; de hacer un mismo ejercicio y &lt;strong&gt;aprender&lt;/strong&gt; de los demás todo lo que se pueda. Da igual el nivel que tengas y la tecnología que uses con tal de que aprendas algo nuevo con cada sesión.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Arrancando el proyecto Huella Digital</title>
-      <link>https://www.airanschez.tech/arrancando-huella-digital/</link>
+      <link>http://localhost:1313/arrancando-huella-digital/</link>
       <pubDate>Sat, 06 Jun 2020 13:22:00 +0000</pubDate>
-      <guid>https://www.airanschez.tech/arrancando-huella-digital/</guid>
+      <guid>http://localhost:1313/arrancando-huella-digital/</guid>
       <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Durante estas últimas semanas he empezado a formar parte de un proyecto open source llamado Huella Digital que consiste en hacer una plataforma web que facilite el acceso a recursos para voluntarios que se encuentran en la lucha contra el COVID-19.&lt;/p&gt;&#xA;&lt;p&gt;De lo que me gustaría hablar en este primer post es de cómo afronté el inicio de este proyecto, ya que inicialmente andaba un poco perdido y sin saber qué hacer. Pero gracias a mis compañeros de trabajo (&lt;a href=&#34;https://ddiaalv.wordpress.com/&#34;&gt;David&lt;/a&gt; y Agustín) logramos entre todos realizar una guía para desplegar en local el proyecto y empezar a trabajar.&lt;/p&gt;</description>
     </item>
     <item>
       <title>He leído Diseño ágil con TDD de Carlos Blé</title>
-      <link>https://www.airanschez.tech/he-le%C3%ADdo-dise%C3%B1o-%C3%A1gil-con-tdd-de-carlos-bl%C3%A9/</link>
+      <link>http://localhost:1313/he-le%C3%ADdo-dise%C3%B1o-%C3%A1gil-con-tdd-de-carlos-bl%C3%A9/</link>
       <pubDate>Tue, 05 May 2020 11:00:00 +0000</pubDate>
-      <guid>https://www.airanschez.tech/he-le%C3%ADdo-dise%C3%B1o-%C3%A1gil-con-tdd-de-carlos-bl%C3%A9/</guid>
+      <guid>http://localhost:1313/he-le%C3%ADdo-dise%C3%B1o-%C3%A1gil-con-tdd-de-carlos-bl%C3%A9/</guid>
       <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Antes de empezar con el artículo, he de aclarar que durante mis estudios en el ciclo superior hemos tocado muy brevemente la implantación de &lt;strong&gt;test en C#&lt;/strong&gt; con &lt;strong&gt;Visual Studio&lt;/strong&gt;. Dichos test fueron realizados sobre un código ya existente, por eso mismo tenía la percepción de que los test se realizaban de una forma, pero este libro me ha enseñado que hay muchas más formas que desconocía por completo.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,421 +2,483 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.airanschez.tech/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-09-11T05:13:10+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.airanschez.tech/en/"
+                href="http://localhost:1313/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="http://localhost:1313/jp/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.airanschez.tech/"
+                href="http://localhost:1313/"
                 />
   </url><url>
-    <loc>https://www.airanschez.tech/tags/aprendizaje/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/aprendizaje/</loc>
+    <lastmod>2023-09-16T01:10:10+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.airanschez.tech/en/tags/aprendizaje/"
+                href="http://localhost:1313/en/tags/aprendizaje/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.airanschez.tech/tags/aprendizaje/"
+                href="http://localhost:1313/tags/aprendizaje/"
                 />
   </url><url>
-    <loc>https://www.airanschez.tech/tags/bigdata/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.airanschez.tech/tags/blog/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/bigdata/</loc>
+    <lastmod>2023-09-16T01:10:10+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.airanschez.tech/en/tags/blog/"
+                href="http://localhost:1313/en/tags/bigdata/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.airanschez.tech/tags/blog/"
+                href="http://localhost:1313/tags/bigdata/"
                 />
   </url><url>
-    <loc>https://www.airanschez.tech/como-pasamos-un-proceso-de-11-horas-a-37-minutos/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.airanschez.tech/tags/dataengineering/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.airanschez.tech/tags/leanmind/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/blog/</loc>
+    <lastmod>2023-09-16T01:10:10+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.airanschez.tech/en/tags/leanmind/"
+                href="http://localhost:1313/en/tags/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.airanschez.tech/tags/leanmind/"
+                href="http://localhost:1313/tags/blog/"
                 />
   </url><url>
-    <loc>https://www.airanschez.tech/posts/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/como-pasamos-un-proceso-de-11-horas-a-37-minutos/</loc>
+    <lastmod>2023-09-16T01:10:10+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.airanschez.tech/en/posts/"
+                href="http://localhost:1313/en/como-pasamos-un-proceso-de-11-horas-a-37-minutos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="http://localhost:1313/jp/como-pasamos-un-proceso-de-11-horas-a-37-minutos/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.airanschez.tech/posts/"
+                href="http://localhost:1313/como-pasamos-un-proceso-de-11-horas-a-37-minutos/"
                 />
   </url><url>
-    <loc>https://www.airanschez.tech/tags/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/dataengineering/</loc>
+    <lastmod>2023-09-16T01:10:10+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.airanschez.tech/en/tags/"
+                href="http://localhost:1313/en/tags/dataengineering/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.airanschez.tech/tags/"
+                href="http://localhost:1313/tags/dataengineering/"
                 />
   </url><url>
-    <loc>https://www.airanschez.tech/tags/numpy/</loc>
-    <lastmod>2021-05-04T13:26:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.airanschez.tech/tags/pandas/</loc>
-    <lastmod>2021-05-04T13:26:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.airanschez.tech/python/</loc>
-    <lastmod>2021-05-04T13:26:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.airanschez.tech/tags/python/</loc>
-    <lastmod>2021-05-04T13:26:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.airanschez.tech/tags/backend/</loc>
-    <lastmod>2021-03-29T15:35:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.airanschez.tech/tags/docker/</loc>
-    <lastmod>2021-03-29T15:35:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.airanschez.tech/tags/gu%C3%ADa/</loc>
-    <lastmod>2021-03-29T15:35:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/leanmind/</loc>
+    <lastmod>2023-09-16T01:10:10+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.airanschez.tech/en/tags/gu%C3%ADa/"
+                href="http://localhost:1313/en/tags/leanmind/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.airanschez.tech/tags/gu%C3%ADa/"
+                href="http://localhost:1313/tags/leanmind/"
                 />
   </url><url>
-    <loc>https://www.airanschez.tech/tags/javascript/</loc>
-    <lastmod>2021-03-29T15:35:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.airanschez.tech/tags/loopback/</loc>
-    <lastmod>2021-03-29T15:35:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.airanschez.tech/loopback-mongo/</loc>
-    <lastmod>2021-03-29T15:35:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.airanschez.tech/tags/mongodb/</loc>
-    <lastmod>2021-03-29T15:35:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.airanschez.tech/tags/typescript/</loc>
-    <lastmod>2021-03-29T15:35:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.airanschez.tech/tags/comunidad/</loc>
-    <lastmod>2021-03-18T14:21:00+00:00</lastmod>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2023-09-16T01:10:10+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.airanschez.tech/en/tags/comunidad/"
+                href="http://localhost:1313/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="http://localhost:1313/jp/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.airanschez.tech/tags/comunidad/"
+                href="http://localhost:1313/posts/"
                 />
   </url><url>
-    <loc>https://www.airanschez.tech/mob-and-pair-programming/</loc>
-    <lastmod>2021-03-18T14:21:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2023-09-16T01:10:10+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="http://localhost:1313/jp/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/numpy/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/tags/mob/pair/</loc>
-    <lastmod>2021-03-18T14:21:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/pandas/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/tags/testing/</loc>
-    <lastmod>2021-03-18T14:21:00+00:00</lastmod>
+    <loc>http://localhost:1313/python/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/tags/bootcamp/</loc>
-    <lastmod>2020-12-31T13:52:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/python/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/mi-experiencia-en-un-bootcamp-fullstack/</loc>
-    <lastmod>2020-12-31T13:52:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/backend/</loc>
+    <lastmod>2021-11-26T15:18:36+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/tags/proyectos/</loc>
-    <lastmod>2020-12-31T13:52:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/docker/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/instalaci%C3%B3n-wsl/</loc>
+    <loc>http://localhost:1313/tags/gu%C3%ADa/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/gu%C3%ADa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/tags/gu%C3%ADa/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/javascript/</loc>
+    <lastmod>2021-11-26T15:18:36+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/loopback/</loc>
+    <lastmod>2021-11-26T15:18:36+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/loopback-mongo/</loc>
+    <lastmod>2021-11-26T15:18:36+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/mongodb/</loc>
+    <lastmod>2021-11-26T15:18:36+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/typescript/</loc>
+    <lastmod>2021-11-26T15:18:36+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/comunidad/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/comunidad/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/tags/comunidad/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/mob-and-pair-programming/</loc>
+    <lastmod>2021-11-26T15:18:36+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/mob/pair/</loc>
+    <lastmod>2021-11-26T15:18:36+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/testing/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/bootcamp/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/mi-experiencia-en-un-bootcamp-fullstack/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/proyectos/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/instalaci%C3%B3n-wsl/</loc>
     <lastmod>2020-09-22T13:50:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/tags/ubuntu/</loc>
+    <loc>http://localhost:1313/tags/ubuntu/</loc>
     <lastmod>2020-09-22T13:50:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/tags/windows/</loc>
+    <loc>http://localhost:1313/tags/windows/</loc>
     <lastmod>2020-09-22T13:50:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/tags/wsl/</loc>
+    <loc>http://localhost:1313/tags/wsl/</loc>
     <lastmod>2020-09-22T13:50:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/tags/proyecto/</loc>
+    <loc>http://localhost:1313/tags/proyecto/</loc>
     <lastmod>2020-08-05T13:45:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/tags/react/</loc>
+    <loc>http://localhost:1313/tags/react/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/refactor/</loc>
     <lastmod>2020-08-05T13:45:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/tags/refactor/</loc>
+    <loc>http://localhost:1313/refactor-proyecto-pok%C3%A9mon/</loc>
     <lastmod>2020-08-05T13:45:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/refactor-proyecto-pok%C3%A9mon/</loc>
-    <lastmod>2020-08-05T13:45:00+00:00</lastmod>
+    <loc>http://localhost:1313/type-en-typescript/</loc>
+    <lastmod>2021-11-26T15:18:36+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/type-en-typescript/</loc>
-    <lastmod>2020-07-15T13:40:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.airanschez.tech/bienvenido-a-la-comunidad-de-lean-mind-/</loc>
+    <loc>http://localhost:1313/bienvenido-a-la-comunidad-de-lean-mind-/</loc>
     <lastmod>2020-07-06T13:38:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/tags/coding-dojo/</loc>
-    <lastmod>2020-07-06T13:38:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/coding-dojo/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.airanschez.tech/en/tags/coding-dojo/"
+                href="http://localhost:1313/en/tags/coding-dojo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.airanschez.tech/tags/coding-dojo/"
+                href="http://localhost:1313/tags/coding-dojo/"
                 />
   </url><url>
-    <loc>https://www.airanschez.tech/tags/kata/</loc>
-    <lastmod>2020-07-06T13:38:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/kata/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.airanschez.tech/en/tags/kata/"
+                href="http://localhost:1313/en/tags/kata/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.airanschez.tech/tags/kata/"
+                href="http://localhost:1313/tags/kata/"
                 />
   </url><url>
-    <loc>https://www.airanschez.tech/tags/cors/</loc>
-    <lastmod>2020-07-01T13:37:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/cors/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/tags/csrf/</loc>
-    <lastmod>2020-07-01T13:37:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/csrf/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/csrf-xss-cors/</loc>
-    <lastmod>2020-07-01T13:37:00+00:00</lastmod>
+    <loc>http://localhost:1313/csrf-xss-cors/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/tags/seguridad/</loc>
-    <lastmod>2020-07-01T13:37:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/seguridad/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/tags/xss/</loc>
-    <lastmod>2020-07-01T13:37:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/xss/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/tags/library/</loc>
-    <lastmod>2020-06-16T13:24:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/library/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/testing-library/</loc>
-    <lastmod>2020-06-16T13:24:00+00:00</lastmod>
+    <loc>http://localhost:1313/testing-library/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/arrancando-huella-digital/</loc>
-    <lastmod>2020-06-06T13:22:00+00:00</lastmod>
+    <loc>http://localhost:1313/arrancando-huella-digital/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/tags/intellij/</loc>
-    <lastmod>2020-06-06T13:22:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/intellij/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/tags/opensource/</loc>
-    <lastmod>2020-06-06T13:22:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/opensource/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/react-ts-storybook-emotionjs-parte-1/</loc>
-    <lastmod>2020-05-14T13:32:00+00:00</lastmod>
+    <loc>http://localhost:1313/react-ts-storybook-emotionjs-parte-1/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/tags/java/</loc>
-    <lastmod>2020-05-12T13:11:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/java/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/string-calculator-kata/</loc>
-    <lastmod>2020-05-12T13:11:00+00:00</lastmod>
+    <loc>http://localhost:1313/string-calculator-kata/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/tags/tdd/</loc>
-    <lastmod>2020-05-12T13:11:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/tdd/</loc>
+    <lastmod>2021-11-26T16:05:17+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/he-le%C3%ADdo-dise%C3%B1o-%C3%A1gil-con-tdd-de-carlos-bl%C3%A9/</loc>
+    <loc>http://localhost:1313/he-le%C3%ADdo-dise%C3%B1o-%C3%A1gil-con-tdd-de-carlos-bl%C3%A9/</loc>
     <lastmod>2020-05-05T11:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/tags/libros/</loc>
+    <loc>http://localhost:1313/tags/libros/</loc>
     <lastmod>2020-05-05T11:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/about/</loc>
-    <lastmod>2019-08-02T03:04:49+00:00</lastmod>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2025-09-11T05:13:10+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.airanschez.tech/en/about/"
+                href="http://localhost:1313/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="http://localhost:1313/jp/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.airanschez.tech/about/"
+                href="http://localhost:1313/about/"
                 />
   </url><url>
-    <loc>https://www.airanschez.tech/pandas/</loc>
+    <loc>http://localhost:1313/pandas/</loc>
+    <lastmod>2023-09-16T01:02:16+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/pandas_testing/</loc>
+    <loc>http://localhost:1313/pandas_testing/</loc>
+    <lastmod>2023-09-16T01:02:16+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.airanschez.tech/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.airanschez.tech/en/categories/"
+                href="http://localhost:1313/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="http://localhost:1313/jp/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.airanschez.tech/categories/"
+                href="http://localhost:1313/categories/"
                 />
   </url>
 </urlset>

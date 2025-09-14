@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>OpenSource on Airan Dev</title>
-    <link>https://www.airanschez.tech/tags/opensource/</link>
+    <link>http://localhost:1313/tags/opensource/</link>
     <description>Recent content in OpenSource on Airan Dev</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Sat, 06 Jun 2020 13:22:00 +0000</lastBuildDate>
-    <atom:link href="https://www.airanschez.tech/tags/opensource/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Nov 2021 16:05:17 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/opensource/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arrancando el proyecto Huella Digital</title>
-      <link>https://www.airanschez.tech/arrancando-huella-digital/</link>
+      <link>http://localhost:1313/arrancando-huella-digital/</link>
       <pubDate>Sat, 06 Jun 2020 13:22:00 +0000</pubDate>
-      <guid>https://www.airanschez.tech/arrancando-huella-digital/</guid>
+      <guid>http://localhost:1313/arrancando-huella-digital/</guid>
       <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Durante estas últimas semanas he empezado a formar parte de un proyecto open source llamado Huella Digital que consiste en hacer una plataforma web que facilite el acceso a recursos para voluntarios que se encuentran en la lucha contra el COVID-19.&lt;/p&gt;&#xA;&lt;p&gt;De lo que me gustaría hablar en este primer post es de cómo afronté el inicio de este proyecto, ya que inicialmente andaba un poco perdido y sin saber qué hacer. Pero gracias a mis compañeros de trabajo (&lt;a href=&#34;https://ddiaalv.wordpress.com/&#34;&gt;David&lt;/a&gt; y Agustín) logramos entre todos realizar una guía para desplegar en local el proyecto y empezar a trabajar.&lt;/p&gt;</description>
     </item>
   </channel>

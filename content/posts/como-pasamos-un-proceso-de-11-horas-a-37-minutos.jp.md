@@ -6,11 +6,11 @@ date: 2023-01-20T00:00:00.000Z
 description: データエンジニアリングにおけるプロセス最適化
 featuredImage: /assets/Optimizacion.webp
 tags:
-- BigData
-- Learning
-- LeanMind
-- DataEngineering
-- Blog
+- ビッグデータ
+- 学習
+- リーンマインド
+- データエンジニアリング
+- ブログ
 ---
 ## はじめに
 

@@ -50,6 +50,15 @@ enableEmoji = true
     keywords = ["Blog", "Hugo", "Development", "Software", "Personal"]
     [languages.en.params.app]
       title = "AiranSchez"
+    [languages.en.params.footer]
+      enable = true
+      custom = '<div>Maintained with love by <a href="https://www.linkedin.com/in/air%C3%A1n-s%C3%A1nchez-brito-415910145/" target="https://www.github.com/AiranSchez">Airán</a></div>'
+      hugo = true
+      copyright = true
+      author = true
+      since = 2021
+      icp = ""
+      license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
     [languages.en.params.search]
       enable = true
       type = "algolia"

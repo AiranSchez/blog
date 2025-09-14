@@ -2,25 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Airan Dev</title>
-    <link>https://www.airanschez.tech/en/</link>
+    <link>http://localhost:1313/en/</link>
     <description>Recent content on Airan Dev</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Jul 2020 13:38:00 +0000</lastBuildDate>
-    <atom:link href="https://www.airanschez.tech/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Sep 2025 16:41:19 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How We Reduced an 11-Hour Process to 37 Minutes</title>
+      <link>http://localhost:1313/en/como-pasamos-un-proceso-de-11-horas-a-37-minutos/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/como-pasamos-un-proceso-de-11-horas-a-37-minutos/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This article is very similar to the one Ulises wrote about &lt;a href=&#34;https://ulisesantana.dev/blog/2022/como-pase-un-proceso-en-nodejs-de-5-horas-a-5-minutos/&#34;&gt;how he reduced a 5-hour process to 5 minutes&lt;/a&gt;, but in a different context. Here we are not optimizing NodeJS code, but Python applied to Data Engineering, and in this case we reduced a process from &lt;strong&gt;11 hours to 37 minutes&lt;/strong&gt;. But let me give you some context first:&lt;/p&gt;&#xA;&lt;h3 id=&#34;problems-winter-is-coming&#34;&gt;Problems (Winter is coming)&lt;/h3&gt;&#xA;&lt;p&gt;We currently use a tool called &lt;a href=&#34;https://airflow.apache.org/&#34;&gt;Apache Airflow&lt;/a&gt; to manage process automation. With it, you can schedule processes using a crontab so that they run automatically, executing tasks defined in Python code.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>🚀¡Welcome to Lean Mind community! 🚀</title>
-      <link>https://www.airanschez.tech/en/welcome-to-lean-mind-community/</link>
+      <link>http://localhost:1313/en/welcome-to-lean-mind-community/</link>
       <pubDate>Mon, 06 Jul 2020 13:38:00 +0000</pubDate>
-      <guid>https://www.airanschez.tech/en/welcome-to-lean-mind-community/</guid>
+      <guid>http://localhost:1313/en/welcome-to-lean-mind-community/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;We have all wanted at some point in our career to be in contact with people who know a lot to follow them as mentors on our professional development, right? Well, I&amp;rsquo;m glad to report that you&amp;rsquo;ve found it.&lt;/p&gt;&#xA;&lt;p&gt;Professionals and students are gather together in this community to do different activities I&amp;rsquo;m sure you&amp;rsquo;re interested in.&lt;/p&gt;&#xA;&lt;h2 id=&#34;coding-dojo&#34;&gt;Coding dojo&lt;/h2&gt;&#xA;&lt;p&gt;Activity in which we meet to practice programming methodologies to solve a specific paradigm. We always get together in pairs to start &lt;strong&gt;practicing TDD&lt;/strong&gt; with the established rules. After 30-40 minutes we get together as a group and discuss the approach that each couple has had. Then we change partners and start over from scratch and, if possible, with a different approach. What is the purpose? To see ** different ways ** to do the same exercise and ** to learn ** from others as much as possible. It does not matter what level you have and the technology you use as long as you learn something new with each session.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>About FeelIt</title>
-      <link>https://www.airanschez.tech/en/about/</link>
+      <title>About Me</title>
+      <link>http://localhost:1313/en/about/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
-      <guid>https://www.airanschez.tech/en/about/</guid>
-      <description>&lt;h1 id=&#34;who-am-i&#34;&gt;Who am I?&lt;/h1&gt;&#xA;&lt;p&gt;I am a &lt;strong&gt;junior web developer&lt;/strong&gt;  who has always been in direct contact with new technologies. Currently I develop web applications in both Front and Back making use of popular and widespread tools in the business field. I consider myself as a hard-working, applied and enthusiastic about new technologies and always focused on results.&lt;/p&gt;&#xA;&lt;p&gt;I have a Certificate of Higher Education (HNC) in &lt;strong&gt;web application development&lt;/strong&gt; at &lt;strong&gt;CIFP César Manrique&lt;/strong&gt;, which I accessed through high school in its technological modality. But it doesn&amp;rsquo;t end there, I took a couple of turns through life in college until I found what I really enjoy. For which I have also taken courses (HTML, CSS3 and JS)&lt;/p&gt;</description>
+      <guid>http://localhost:1313/en/about/</guid>
+      <description>&lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;&#xA;&lt;p&gt;Hi, I’m Airán 👋&lt;/p&gt;&#xA;&lt;p&gt;I’ve been passionate about software development for years. I started studying web application development and later did a FullStack bootcamp that broadened my horizons even more in terms of technologies and ways of working.&lt;/p&gt;&#xA;&lt;p&gt;Since then, I’ve been working at LeanMind, where I’ve had the chance to participate in very diverse and enriching projects:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;At Clarity.ai, I dove deep into the world of data, working with Python, Jupyter Notebooks, Docker, AWS, and testing libraries like pytest and Hypothesis. It was an intense period where I learned to handle large volumes of information and to pay great attention to code quality.&lt;/li&gt;&#xA;&lt;li&gt;Later, at the Technology Innovation Institute (TII), I collaborated in creating a web platform that allowed users to access a virtual machine with pre-installed mathematical libraries directly from the browser. This included report generation and cloud storage, using technologies like Next.js, MongoDB, AWS, and deployment tools such as ArgoCD and Jenkins.&lt;/li&gt;&#xA;&lt;li&gt;Recently, I’m working with Voxel (Amadeus), in the billing and invoice signature management area. Day-to-day work involves developing in .NET, working with SQL databases, and using testing libraries and CI/CD tools like NSubstitute, TestContainers, Jenkins, and GitHub Actions.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I like to see my journey as an adventure in which each project has given me new perspectives and learnings. And although technology is at the core of my work, what I enjoy the most is building things that truly make a difference for people.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
