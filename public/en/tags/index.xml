@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Airan Dev</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Sep 2025 17:07:21 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 14 Sep 2025 17:46:29 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BigData</title>
@@ -44,6 +44,27 @@
       <description></description>
     </item>
     <item>
+      <title>Community</title>
+      <link>http://localhost:1313/en/tags/community/</link>
+      <pubDate>Thu, 18 Mar 2021 14:21:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/community/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mob/Pair</title>
+      <link>http://localhost:1313/en/tags/mob/pair/</link>
+      <pubDate>Thu, 18 Mar 2021 14:21:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/mob/pair/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Testing</title>
+      <link>http://localhost:1313/en/tags/testing/</link>
+      <pubDate>Thu, 18 Mar 2021 14:21:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/testing/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Aprendizaje</title>
       <link>http://localhost:1313/en/tags/aprendizaje/</link>
       <pubDate>Mon, 06 Jul 2020 13:38:00 +0000</pubDate>
@@ -76,6 +97,48 @@
       <link>http://localhost:1313/en/tags/kata/</link>
       <pubDate>Mon, 06 Jul 2020 13:38:00 +0000</pubDate>
       <guid>http://localhost:1313/en/tags/kata/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CORS</title>
+      <link>http://localhost:1313/en/tags/cors/</link>
+      <pubDate>Wed, 01 Jul 2020 13:37:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/cors/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CSRF</title>
+      <link>http://localhost:1313/en/tags/csrf/</link>
+      <pubDate>Wed, 01 Jul 2020 13:37:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/csrf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>http://localhost:1313/en/tags/security/</link>
+      <pubDate>Wed, 01 Jul 2020 13:37:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>XSS</title>
+      <link>http://localhost:1313/en/tags/xss/</link>
+      <pubDate>Wed, 01 Jul 2020 13:37:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/xss/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Books</title>
+      <link>http://localhost:1313/en/tags/books/</link>
+      <pubDate>Tue, 05 May 2020 11:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/books/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TDD</title>
+      <link>http://localhost:1313/en/tags/tdd/</link>
+      <pubDate>Tue, 05 May 2020 11:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/tdd/</guid>
       <description></description>
     </item>
   </channel>

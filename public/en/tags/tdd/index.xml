@@ -9,11 +9,11 @@
     <lastBuildDate>Tue, 05 May 2020 11:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/en/tags/tdd/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>He leído Diseño ágil con TDD de Carlos Blé</title>
+      <title>I read &#34;Agile Design with TDD&#34; by Carlos Blé</title>
       <link>http://localhost:1313/en/he-le%C3%ADdo-dise%C3%B1o-%C3%A1gil-con-tdd-de-carlos-bl%C3%A9/</link>
       <pubDate>Tue, 05 May 2020 11:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/he-le%C3%ADdo-dise%C3%B1o-%C3%A1gil-con-tdd-de-carlos-bl%C3%A9/</guid>
-      <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Antes de empezar con el artículo, he de aclarar que durante mis estudios en el ciclo superior hemos tocado muy brevemente la implantación de &lt;strong&gt;test en C#&lt;/strong&gt; con &lt;strong&gt;Visual Studio&lt;/strong&gt;. Dichos test fueron realizados sobre un código ya existente, por eso mismo tenía la percepción de que los test se realizaban de una forma, pero este libro me ha enseñado que hay muchas más formas que desconocía por completo.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Before starting this article, I should clarify that during my studies in the advanced cycle, we briefly touched on &lt;strong&gt;testing in C#&lt;/strong&gt; with &lt;strong&gt;Visual Studio&lt;/strong&gt;. These tests were performed on already existing code, which gave me the perception that tests were done in one way. However, this book taught me that there are many other approaches I was completely unaware of.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-tdd&#34;&gt;WHAT IS TDD?&lt;/h2&gt;&#xA;&lt;p&gt;According to the book, &lt;strong&gt;TDD&lt;/strong&gt; made me understand that most programmers usually start developing code without tests and create them afterward. (At first glance, someone with little experience might assume tests are done after the code is completed to have an automated way to check if changes during refactoring are correct.) However, my interpretation was wrong, as the book explains that &lt;strong&gt;tests should be written first, with the minimal code required to make the test pass&lt;/strong&gt;. Once you have that and start creating multiple tests, you realize many things and can organize them for reusability. That’s the moment to refactor your test code. In this way, we see that &lt;strong&gt;TDD is a continuous cycle of write-test-refactor&lt;/strong&gt; (referred to in the book as red-green-refactor).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -6,7 +6,7 @@
     <description>Recent content in Learning on Airan Dev</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Sep 2025 17:07:21 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 14 Sep 2025 17:46:29 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/en/tags/learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How We Reduced an 11-Hour Process to 37 Minutes</title>
@@ -14,6 +14,27 @@
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/como-pasamos-un-proceso-de-11-horas-a-37-minutos/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This article is very similar to the one Ulises wrote about &lt;a href=&#34;https://ulisesantana.dev/blog/2022/como-pase-un-proceso-en-nodejs-de-5-horas-a-5-minutos/&#34;&gt;how he reduced a 5-hour process to 5 minutes&lt;/a&gt;, but in a different context. Here we are not optimizing NodeJS code, but Python applied to Data Engineering, and in this case we reduced a process from &lt;strong&gt;11 hours to 37 minutes&lt;/strong&gt;. But let me give you some context first:&lt;/p&gt;&#xA;&lt;h3 id=&#34;problems-winter-is-coming&#34;&gt;Problems (Winter is coming)&lt;/h3&gt;&#xA;&lt;p&gt;We currently use a tool called &lt;a href=&#34;https://airflow.apache.org/&#34;&gt;Apache Airflow&lt;/a&gt; to manage process automation. With it, you can schedule processes using a crontab so that they run automatically, executing tasks defined in Python code.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mob and Pair Programming</title>
+      <link>http://localhost:1313/en/mob-and-pair-programming/</link>
+      <pubDate>Thu, 18 Mar 2021 14:21:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/mob-and-pair-programming/</guid>
+      <description>&lt;h2 id=&#34;mob-programming&#34;&gt;Mob Programming&lt;/h2&gt;&#xA;&lt;p&gt;During my short time in the professional world, I’ve had the chance to experience Pair Programming and occasionally Mob Programming. At first, it seems like work would get done faster if each programmer handled their tasks individually. But in reality, you rely on each other’s work to understand how the software everyone is building fits together.&lt;/p&gt;&#xA;&lt;h2 id=&#34;benefits&#34;&gt;Benefits&lt;/h2&gt;&#xA;&lt;p&gt;Bringing multiple team members together &lt;strong&gt;offers more advantages than drawbacks&lt;/strong&gt;. Some of the benefits I’ve found most valuable include:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CSRF, XSS &amp; CORS</title>
+      <link>http://localhost:1313/en/csrf-xss-cors/</link>
+      <pubDate>Wed, 01 Jul 2020 13:37:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/csrf-xss-cors/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;If these terms sound unfamiliar, you’re not alone. A few weeks ago, I found myself asking, “What is that?” while working on a project that required considering them. This led to many questions, which I documented to create a guide explaining these security concepts.&lt;/p&gt;&#xA;&lt;p&gt;Let’s start by defining what they are and how they work.&lt;/p&gt;&#xA;&lt;h2 id=&#34;csrf&#34;&gt;CSRF&lt;/h2&gt;&#xA;&lt;p&gt;CSRF stands for &lt;strong&gt;Cross Site Request Forgery&lt;/strong&gt; and is also known as XSRF. &lt;strong&gt;It’s an attack that forces the browser to send a request to a vulnerable website.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>I read &#34;Agile Design with TDD&#34; by Carlos Blé</title>
+      <link>http://localhost:1313/en/he-le%C3%ADdo-dise%C3%B1o-%C3%A1gil-con-tdd-de-carlos-bl%C3%A9/</link>
+      <pubDate>Tue, 05 May 2020 11:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/he-le%C3%ADdo-dise%C3%B1o-%C3%A1gil-con-tdd-de-carlos-bl%C3%A9/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Before starting this article, I should clarify that during my studies in the advanced cycle, we briefly touched on &lt;strong&gt;testing in C#&lt;/strong&gt; with &lt;strong&gt;Visual Studio&lt;/strong&gt;. These tests were performed on already existing code, which gave me the perception that tests were done in one way. However, this book taught me that there are many other approaches I was completely unaware of.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-tdd&#34;&gt;WHAT IS TDD?&lt;/h2&gt;&#xA;&lt;p&gt;According to the book, &lt;strong&gt;TDD&lt;/strong&gt; made me understand that most programmers usually start developing code without tests and create them afterward. (At first glance, someone with little experience might assume tests are done after the code is completed to have an automated way to check if changes during refactoring are correct.) However, my interpretation was wrong, as the book explains that &lt;strong&gt;tests should be written first, with the minimal code required to make the test pass&lt;/strong&gt;. Once you have that and start creating multiple tests, you realize many things and can organize them for reusability. That’s the moment to refactor your test code. In this way, we see that &lt;strong&gt;TDD is a continuous cycle of write-test-refactor&lt;/strong&gt; (referred to in the book as red-green-refactor).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -6,14 +6,14 @@
     <description>Recent content in CSRF on Airan Dev</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Jul 2020 13:37:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Sep 2025 17:46:29 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/en/tags/csrf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CSRF, XSS &amp; CORS</title>
       <link>http://localhost:1313/en/csrf-xss-cors/</link>
       <pubDate>Wed, 01 Jul 2020 13:37:00 +0000</pubDate>
       <guid>http://localhost:1313/en/csrf-xss-cors/</guid>
-      <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Si no te suenan estos términos estás de suerte porque no eres el único. Hace unas semanas tuve la suerte de preguntarme “¿Qué es eso?” debido a que lo estamos teniendo en cuenta en un proyecto en el que estamos trabajando. Gracias a que me lo pregunté surgieron muchas dudas que no tardé en anotar para realizar una guía de conceptos sobre estos términos de seguridad.&lt;/p&gt;&#xA;&lt;p&gt;Para comenzar vamos a definir lo que son y cómo funcionan&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;If these terms sound unfamiliar, you’re not alone. A few weeks ago, I found myself asking, “What is that?” while working on a project that required considering them. This led to many questions, which I documented to create a guide explaining these security concepts.&lt;/p&gt;&#xA;&lt;p&gt;Let’s start by defining what they are and how they work.&lt;/p&gt;&#xA;&lt;h2 id=&#34;csrf&#34;&gt;CSRF&lt;/h2&gt;&#xA;&lt;p&gt;CSRF stands for &lt;strong&gt;Cross Site Request Forgery&lt;/strong&gt; and is also known as XSRF. &lt;strong&gt;It’s an attack that forces the browser to send a request to a vulnerable website.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

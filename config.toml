@@ -107,7 +107,7 @@ enableEmoji = true
     hasCJKLanguage = false
     title = "アイラン　ソフトウェア開発者"
     languageCode = "jp"
-    languageName = "Japanese"
+    languageName = "日本語"
     [[languages.jp.menu.main]]
       identifier = "posts"
       pre = ""

@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/en/</loc>
-    <lastmod>2025-09-14T17:07:21+09:00</lastmod>
+    <lastmod>2025-09-14T17:46:29+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -38,7 +38,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/tags/blog/</loc>
-    <lastmod>2025-09-14T17:07:21+09:00</lastmod>
+    <lastmod>2025-09-14T17:46:29+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -98,17 +98,22 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="jp"
+                href="http://localhost:1313/jp/tags/leanmind/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/tags/leanmind/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/tags/learning/</loc>
-    <lastmod>2025-09-14T17:07:21+09:00</lastmod>
+    <lastmod>2025-09-14T17:46:29+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/en/posts/</loc>
-    <lastmod>2025-09-14T17:07:21+09:00</lastmod>
+    <lastmod>2025-09-14T17:46:29+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -128,7 +133,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/tags/</loc>
-    <lastmod>2025-09-14T17:07:21+09:00</lastmod>
+    <lastmod>2025-09-14T17:46:29+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -145,6 +150,61 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/community/</loc>
+    <lastmod>2025-09-14T17:46:29+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/en/mob-and-pair-programming/</loc>
+    <lastmod>2025-09-14T17:46:29+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/mob-and-pair-programming/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="http://localhost:1313/jp/mob-and-pair-programming/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/mob-and-pair-programming/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/mob/pair/</loc>
+    <lastmod>2025-09-14T17:46:29+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/tags/mob/pair/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/mob/pair/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/testing/</loc>
+    <lastmod>2025-09-14T17:46:29+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/tags/testing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/testing/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/welcome-to-lean-mind-community/</loc>
@@ -225,6 +285,136 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/tags/kata/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/cors/</loc>
+    <lastmod>2025-09-14T17:46:29+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/tags/cors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="http://localhost:1313/jp/tags/cors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/cors/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/csrf/</loc>
+    <lastmod>2025-09-14T17:46:29+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/tags/csrf/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="http://localhost:1313/jp/tags/csrf/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/csrf/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/csrf-xss-cors/</loc>
+    <lastmod>2025-09-14T17:46:29+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/csrf-xss-cors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="http://localhost:1313/jp/csrf-xss-cors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/csrf-xss-cors/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/security/</loc>
+    <lastmod>2025-09-14T17:46:29+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/xss/</loc>
+    <lastmod>2025-09-14T17:46:29+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/tags/xss/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="http://localhost:1313/jp/tags/xss/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/xss/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/books/</loc>
+    <lastmod>2020-05-05T11:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/en/he-le%C3%ADdo-dise%C3%B1o-%C3%A1gil-con-tdd-de-carlos-bl%C3%A9/</loc>
+    <lastmod>2020-05-05T11:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/he-le%C3%ADdo-dise%C3%B1o-%C3%A1gil-con-tdd-de-carlos-bl%C3%A9/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="http://localhost:1313/jp/he-le%C3%ADdo-dise%C3%B1o-%C3%A1gil-con-tdd-de-carlos-bl%C3%A9/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/he-le%C3%ADdo-dise%C3%B1o-%C3%A1gil-con-tdd-de-carlos-bl%C3%A9/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/tdd/</loc>
+    <lastmod>2020-05-05T11:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/tags/tdd/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="http://localhost:1313/jp/tags/tdd/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/tdd/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/about/</loc>

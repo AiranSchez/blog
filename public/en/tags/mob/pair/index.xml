@@ -6,14 +6,14 @@
     <description>Recent content in Mob/Pair on Airan Dev</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 18 Mar 2021 14:21:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Sep 2025 17:46:29 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/en/tags/mob/pair/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Mob and Pair programming</title>
+      <title>Mob and Pair Programming</title>
       <link>http://localhost:1313/en/mob-and-pair-programming/</link>
       <pubDate>Thu, 18 Mar 2021 14:21:00 +0000</pubDate>
       <guid>http://localhost:1313/en/mob-and-pair-programming/</guid>
-      <description>&lt;h2 id=&#34;mob-programming&#34;&gt;Mob Programming&lt;/h2&gt;&#xA;&lt;p&gt;En mi corto recorrido por el mundo laboral he podido experimentar de primera mano trabajar en Pair programming y en ocasiones en Mob. Lo primero que se te pasa por la mente es &lt;strong&gt;pensar que el trabajo saldría más rápido&lt;/strong&gt; si cada programador hiciese su tarea individualmente. Sin embargo dependes del trabajo de los demás para saber cómo funciona el software que están desarrollando entre todos.&lt;/p&gt;&#xA;&lt;h2 id=&#34;beneficios&#34;&gt;Beneficios&lt;/h2&gt;&#xA;&lt;p&gt;El juntar a varios miembros del equipo &lt;strong&gt;trae más beneficios que inconvenientes&lt;/strong&gt;, dejo a continuación algunas de las más relevantes para mí:&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;mob-programming&#34;&gt;Mob Programming&lt;/h2&gt;&#xA;&lt;p&gt;During my short time in the professional world, I’ve had the chance to experience Pair Programming and occasionally Mob Programming. At first, it seems like work would get done faster if each programmer handled their tasks individually. But in reality, you rely on each other’s work to understand how the software everyone is building fits together.&lt;/p&gt;&#xA;&lt;h2 id=&#34;benefits&#34;&gt;Benefits&lt;/h2&gt;&#xA;&lt;p&gt;Bringing multiple team members together &lt;strong&gt;offers more advantages than drawbacks&lt;/strong&gt;. Some of the benefits I’ve found most valuable include:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
